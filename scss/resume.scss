@@ -1,0 +1,30 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "nav.scss";
+@import "resume-item.scss";
+@import "bootstrap-overrides.scss";
+
+
+
+/*============Custom Sytle=============*/
+.multiselect-native-select{
+    display: block;
+    width: 100% ;
+    .btn-group,.multiselect{ 
+        width: 100% ;
+    }
+    .btn{
+        text-align: left;
+        background: transparent;
+        border: 1px solid #ced4da;
+        color: #495057;
+    }
+    .dropdown-toggle::after{
+        position: absolute;
+        right: 10px;
+        top: 15px;
+    }
+     
+}
+
