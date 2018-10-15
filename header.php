@@ -1,15 +1,22 @@
 <header class="header">
-	<nav class="navbar navbar-default">
-	  <div class="container">
-		<div class="navbar-header">
-		  <a class="navbar-brand" href="#"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt=""></a>
-		</div>
-		<ul class="nav navbar-nav">
-		  <li class="active"><a href="#">Home</a></li>
-		  <li><a href="#">Page 1</a></li>
-		  <li><a href="#">Page 2</a></li>
-		  <li><a href="#">Page 3</a></li>
-		</ul>
-	  </div>
-	</nav>
+	 
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+    <img src="bird.jpg" alt="logo" style="width:40px;">
+  </a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 3</a>
+    </li>
+  </ul>
+</nav>
 </header>
