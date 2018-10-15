@@ -55,11 +55,11 @@
     </head>
     <body class="pd_100">
         <!-- HEADER START -->
-			<!--
+			
 					<header class="header">
 						<?php include 'header.php' ?>
 					</header>
-			-->
+			
         <!-- HEADER END -->
 
         <!-- CONTENT START -->
