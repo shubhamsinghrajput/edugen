@@ -54,25 +54,40 @@
                      <hr class="star-dark mb-5">
                      <div class="row">
                        <div class="col-lg-8 mx-auto">
-                         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                         <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
                            <div class="control-group">
+                           <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                               <label>CID</label>
+                               <input class="form-control" id="cid" type="text" placeholder="CID" disabled="disabled" value="JH-B/002B2018" required="required">
+                               <p class="help-block text-danger"></p>
+                             </div>
+                             <div class="control-group">
+                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                             <label>Admin</label>
+                               <select  name="admin" id="admin"> 
+                               <option value="">Please Chhose admin</option>
+                                 <option value="school">School</option>
+                                 <option value="authorised Person">Authorised Person</option>
+                                 <option value="owner/chairman">Owner/Chairman</option>
+                                 <option value="principal">Principal</option>
+                             </select>   
+                               </div>
+                             </div>
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                <label>School Name</label>
-                               <input class="form-control" id="school-name" type="text" placeholder="School Name" required="required" data-validation-required-message="Please enter your name.">
+                               <input class="form-control" id="school-name" type="text" placeholder="School Name" required="required">
                                <p class="help-block text-danger"></p>
                              </div>
                              <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                <label>School Name</label>
-                               <input class="form-control" id="school-name" type="text" placeholder="School Name" required="required" data-validation-required-message="Please enter your name.">
+                               <input class="form-control" id="school-name" type="text" placeholder="School Name" required="required">
                                <p class="help-block text-danger"></p>
                              </div>
                            </div>
                            <div class="control-group">
                              <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                <label>School Email Address</label>
-                               <input class="form-control" id="school-email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                               <input class="form-control" id="school-email" type="email" placeholder="Email Address" required="required">
                                <p class="help-block text-danger"></p>
                              </div>
                            </div>
@@ -111,8 +126,6 @@
                      <hr class="star-dark mb-5">
                      <div class="row">
                        <div class="col-lg-8 mx-auto">
-                         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                         <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                          <form name="teacher-form" id="teacher-form" novalidate="novalidate">
                            <div class="control-group">
                              <div class="form-group floating-label-form-group controls mb-0 pb-2">
