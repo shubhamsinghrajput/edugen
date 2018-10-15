@@ -93,7 +93,7 @@
                            <br>
                            <div id="success"></div>
                            <div class="form-group">
-                             <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+                             <button type="submit" class="btn btn-xl" id="sendMessageButton">Send</button>
                            </div>
                          </form>
                        </div>
@@ -156,7 +156,7 @@
                            <br>
                            <div id="success"></div>
                            <div class="form-group">
-                             <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+                             <button type="submit" class="btn btn-xl" id="sendMessageButton">Send</button>
                            </div>
                          </form>
                        </div>
@@ -207,7 +207,7 @@
                            <br>
                            <div id="success"></div>
                            <div class="form-group">
-                             <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+                             <button type="submit" class="btn btn-xl" id="sendMessageButton">Send</button>
                            </div>
                          </form>
                        </div>
@@ -258,7 +258,7 @@
                            <br>
                            <div id="success"></div>
                            <div class="form-group">
-                             <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+                             <button type="submit" class="btn btn-xl" id="sendMessageButton">Send</button>
                            </div>
                          </form>
                        </div>
