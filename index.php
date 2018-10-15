@@ -278,7 +278,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="assets/js/site.min.js"></script>
+    <script src="assets/js/site.js"></script>
      <script src="assets/js/select.js"></script>
     <script>
        $(function () {
