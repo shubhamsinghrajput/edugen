@@ -17,7 +17,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
 
-  <body id="page-top">
+  <body id="page-top" class="side-panel">
    <div class="tabs">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top " id="sideNav">
       <a class="navbar-brand " href="#page-top">

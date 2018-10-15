@@ -6,7 +6,7 @@ body {
   color: $gray-600;
 }
 @media (min-width: 992px) {
-  body {
+  body.side-panel {
     padding-top: 0;
     padding-left: $sidebar-base-width;
   }
