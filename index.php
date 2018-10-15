@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="assets/css/resume.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
@@ -278,7 +278,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="assets/js/resume.min.js"></script>
+    <script src="assets/js/site.min.js"></script>
      <script src="assets/js/select.js"></script>
     <script>
        $(function () {
