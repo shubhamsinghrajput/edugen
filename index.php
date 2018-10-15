@@ -32,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav nav">
           <li class="nav-item">
-            <a class="nav-link" href="#school" data-toggle="pill">shubham</a>
+            <a class="nav-link" href="#school" data-toggle="pill">School</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#teacher" data-toggle="pill">Teacher</a>
@@ -297,6 +297,22 @@
          }
     }); 
 });
+    </script>
+
+    <script>
+    (function($) {
+   // Closes responsive menu when a scroll trigger link is clicked
+  $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+  // Activate scrollspy to add active class to navbar items on scroll
+  $('body').scrollspy({
+    target: '#sideNav'
+  });
+
+})(jQuery); // End of use strict
+
     </script>
   </body>
 
