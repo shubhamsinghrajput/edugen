@@ -59,7 +59,7 @@ p.lead {
   .dev-icons .list-inline-item i:hover {
     color: #BD5D38; }
 
-type[submit] {
+[type="submit"] {
   background: #bd5d38; }
 
 .side-panel #sideNav .navbar-nav .nav-item .nav-link {
