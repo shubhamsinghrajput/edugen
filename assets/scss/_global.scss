@@ -89,6 +89,10 @@ body.side-panel {
 	color: #fff;
  	width: 100%;
 }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  	color: rgba(0,0,0,0.2) !important;
+}
+
 button.dt-button:active:not(.disabled):hover:not(.disabled), button.dt-button.active:not(.disabled):hover:not(.disabled), div.dt-button:active:not(.disabled):hover:not(.disabled), div.dt-button.active:not(.disabled):hover:not(.disabled), a.dt-button:active:not(.disabled):hover:not(.disabled), a.dt-button.active:not(.disabled):hover:not(.disabled){
 	background:$bg-orange;
 	border-color: $bg-orange;
