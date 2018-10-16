@@ -32,23 +32,42 @@
 .content{
 	padding-bottom: 45px;
 }
-.h-effcts>li>a{
-	position: relative;
-	&:after{
-		content: '';
-		display: block;
-		width: 0;
-		height: 2px;
-		background: #fff;
-		left: 0;
-		position: absolute;
-		@include transition(0.4s);
-	}
-	&:hover:after{
-		width: 100%;
+@media all and (min-width:768px){
+	.h-effcts>li>a{
+		position: relative;
+		&:after{
+			content: '';
+			display: block;
+			width: 0;
+			height: 2px;
+			background: #fff;
+			left: 0;
+			position: absolute;
+			@include transition(0.4s);
+		}
+		&:hover:after{
+			width: 100%;
+		}
 	}
 }
-
+	.h-effcts>li>a{
+		position: relative;
+		&:after{
+			content: '';
+			display: block;
+			width: 0;
+			height: 2px;
+			background: #fff;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			position: absolute;
+			@include transition(0.4s);
+		}
+		&:hover:after{
+			width: 100%;
+		}
+	}
 /*====================REGULAR CSS====================*/
 
 @media (max-width: 767px){
