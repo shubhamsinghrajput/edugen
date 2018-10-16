@@ -26,7 +26,7 @@
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="">
         </span>
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -54,71 +54,57 @@
                      <hr class="star-dark mb-5">
                      <div class="row">
                        <div class="col-lg-8 mx-auto">
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                           <div class="control-group">
-                           <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                        <form name="school-form" id="school-form" novalidate="novalidate">
+                           <div class="mb-0 pb-2">
                                <label>CID</label>
                                <input class="form-control" id="cid" type="text" placeholder="CID" disabled="disabled" value="JH-B/002B2018" required="required">
-                               <p class="help-block text-danger"></p>
-                             </div>
-                             <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                             <label>Admin</label>
-                               <select  name="admin" id="admin"> 
-                               <option value="">Please Chhose admin</option>
+                                </div>                           
+                             <div class="mb-0 pb-2">
+                             <label>User</label>
+                               <select  name="user" id="user"> 
+                               <option value="">Please choose a user</option>
                                  <option value="school">School</option>
                                  <option value="authorised Person">Authorised Person</option>
                                  <option value="owner/chairman">Owner/Chairman</option>
                                  <option value="principal">Principal</option>
                              </select>   
                                </div>
+                            <div class="mb-0 pb-2">
+                               <label>Name</label>
+                               <input class="form-control" id="user-name" type="text" placeholder="User name" required="required">
                              </div>
-                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>School Name</label>
-                               <input class="form-control" id="school-name" type="text" placeholder="School Name" required="required">
-                               <p class="help-block text-danger"></p>
+                             <div class="mb-0 pb-2">
+                               <label>Phone No.</label>
+                               <input class="form-control" id="user-phone" type="text" placeholder="Phone No." required="required">
                              </div>
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>School Name</label>
-                               <input class="form-control" id="school-name" type="text" placeholder="School Name" required="required">
-                               <p class="help-block text-danger"></p>
-                             </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>School Email Address</label>
+                             <div class="mb-0 pb-2">
+                               <label>Email Address</label>
                                <input class="form-control" id="school-email" type="email" placeholder="Email Address" required="required">
-                               <p class="help-block text-danger"></p>
                              </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>School Phone Number</label>
-                               <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                               <p class="help-block text-danger"></p>
-                             </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>Message</label>
-                               <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                               <p class="help-block text-danger"></p>
-                             </div>
-                           </div>
+                             <div class="mb-0 pb-2">
+                               <label>Address</label>
+                               <textarea class="form-control" id="school-address" rows="5" placeholder="Address" required="required" data-validation-required-message="Please enter address."></textarea>
+                             </div>                         
                            <br>
-                           <div id="success"></div>
-                           <div class="form-group">
-                             <button type="submit" class="btn btn-xl" id="sendMessageButton">Send</button>
-                           </div>
+                           <div id="success"></div>                          
+                             <button type="submit" class="btn btn-xl" id="school-form-submit">Send</button>    
                          </form>
-                       </div>
+                       </div>                       
+                       <div class="col-lg-2 mx-auto"><br> 
+                        <form name="otp-school-form" id="otp-school-form" novalidate="novalidate">
+                           <div class="mb-0 pb-2">
+                               <label>OTP</label>
+                               <input class="form-control" id="otp-school" type="text" placeholder="Please enter OTP" required="required">
+                               <div id="success"></div>   <br>                       
+                             <button type="submit" class="btn btn-xl" id="school-otp-submit">Send</button> 
+                                </div>  
+                           </form>
+                         </div> 
                      </div>
                    </div>
                  </div>
-               </section>
-         
-               <hr class="m-0">
-         
+               </section>         
+               <hr class="m-0">         
                <section class="p-3 p-lg-5 tab-pane" id="teacher">
                  <div class="my-auto">
                    <div class="container">
@@ -127,57 +113,71 @@
                      <div class="row">
                        <div class="col-lg-8 mx-auto">
                          <form name="teacher-form" id="teacher-form" novalidate="novalidate">
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            <div class="mb-0 pb-2">
+                               <label>CID</label>
+                               <input class="form-control" id="teacher-cid" type="text" placeholder="Please enter school CID" required="required">
+                                </div> 
+                             <div class="mb-0 pb-2">
                                <label>Name</label>
-                               <input class="form-control" id="name" type="text" placeholder="Name" required="required" >
-                               <p class="help-block text-danger"></p>
+                               <input class="form-control" id="teacher-name" type="text" placeholder="Name" required="required" >
                              </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                             <div class="mb-0 pb-2">
+                               <label>Phone No.</label>
+                               <input class="form-control" id="teacher-phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                             </div>
+                             <div class="mb-0 pb-2">
                                <label>Email Address</label>
-                               <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" >
-                               <p class="help-block text-danger"></p>
-                             </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>Phone Number</label>
-                               <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                               <p class="help-block text-danger"></p>
-                             </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <select  name="lstStates" multiple="multiple" id="lstStates">
-                                 <option value="NJqqq">New Jersey</option>
-                                 <option value="NYqqqqq">New York</option>
-                                 <option value="OHqqqqqqq">Ohio</option>
-                                 <option value="TXqqqqq">Texas</option>
-                                 <option value="PAqqqqq">Pennsylvania</option>
+                               <input class="form-control" id="teacher-email" type="email" placeholder="Email Address" required="required" >
+                             </div>                             
+                             <div class="mb-0 pb-2">
+                             <label>Subject</label>
+                               <select class="multiselect"  name="teacher-sub" multiple="multiple" id="teacher-sub">
+                                 <option value="math">Math</option>
+                                 <option value="science">Science</option>
+                                 <option value="english">English</option>
+                                 <option value="hindi">Hindi</option>
+                                 <option value="sanskrit">Sanskrit</option>
                              </select>   
                                </div>
-                             </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>Message</label>
-                               <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                               <p class="help-block text-danger"></p>
-                             </div>
-                           </div>
+                            <div class="mb-0 pb-2">
+                             <label>Class</label>
+                               <select class="multiselect"  name="teacher-class" multiple="multiple" id="teacher-class">
+                                 <option value="class-5">Class-5</option>
+                                 <option value="class-6">Class-6</option>
+                                 <option value="class-7">Class-7</option>
+                                 <option value="class-8">Class-8</option>
+                                 <option value="class-9">Class-9</option>
+                             </select>   
+                               </div>
                            <br>
-                           <div id="success"></div>
-                           <div class="form-group">
-                             <button type="submit" class="btn btn-xl" id="sendMessageButton">Send</button>
-                           </div>
+                           <div id="success"></div>                         
+                             <button type="submit" class="btn btn-xl" id="teacher-form-submit">Send</button>  
                          </form>
                        </div>
+                          <div class="col-lg-2 mx-auto"><br> 
+                        <form name="otp-teacher-form" id="otp-teacher-form" novalidate="novalidate">
+                           <div class="mb-0 pb-2">
+                               <label>Teacher OTP</label>
+                               <input class="form-control" id="otp-teacher" type="text" placeholder="Please enter OTP" required="required">
+                               <div id="success"></div>   <br>                       
+                             <button type="submit" class="btn btn-xl" id="otp-teacher-submit">Send</button> 
+                                </div>  
+                           </form>
+                           <br>
+                           <form name="otp-school-teacher-form" id="otp-school-teacher-form" novalidate="novalidate">
+                           <div class="mb-0 pb-2">
+                               <label>OTP From school #</label>
+                               <input class="form-control" id="otp-school-teacher" type="text" placeholder="Please enter OTP" required="required">
+                               <div id="success"></div>   <br>                       
+                             <button type="submit" class="btn btn-xl" id="otp-school-teacher-submit">Send</button> 
+                                </div>  
+                           </form>
+                           <p>#The Service will be stopped within 72 hours, Please submit OTP Provided to the school.</p>
+                         </div>                        
                      </div>
                    </div>
                  </div>
              </section>
-         
              <hr class="m-0">
              <section class="p-3 p-lg-5 tab-pane" id="student">
                  <div class="my-auto">
@@ -186,50 +186,69 @@
                      <hr class="star-dark mb-5">
                      <div class="row">
                        <div class="col-lg-8 mx-auto">
-                         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                         <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                         <form name="student-form" id="student-form" novalidate="novalidate">
+                             <div class="mb-0 pb-2">
                                <label>Name</label>
-                               <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                               <p class="help-block text-danger"></p>
+                               <input class="form-control" name="student-name" id="student-name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
                              </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>Email Address</label>
-                               <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                               <p class="help-block text-danger"></p>
+                             <div class="mb-0 pb-2">
+                               <label>Student ID</label>
+                               <input class="form-control" name="student-id" id="student-id" type="text" placeholder="Student ID" required="required" data-validation-required-message="Please enter your name.">
                              </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>Phone Number</label>
-                               <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                               <p class="help-block text-danger"></p>
+                              <div class="mb-0 pb-2">
+                               <label>Phone No.</label>
+                               <input class="form-control" id="student-phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
                              </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>Message</label>
-                               <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                               <p class="help-block text-danger"></p>
+                             <div class="mb-0 pb-2">
+                               <label>Email</label>
+                               <input class="form-control" id="student-email" type="email" placeholder="Email" required="required" data-validation-required-message="Please enter your email address.">
                              </div>
-                           </div>
+                              <div class="mb-0 pb-2">
+                               <label>Class</label>
+                               <input class="form-control" name="student-class" id="student-class" type="text" placeholder="Section" required="required">
+                             </div>
+                              <div class="mb-0 pb-2">
+                               <label>Section</label>
+                               <input class="form-control" name="student-section" id="student-section" type="text" placeholder="Section" required="required" data-validation-required-message="Please enter your name.">
+                             </div>
+                             <div class="mb-0 pb-2">
+                               <label>Roll No.</label>
+                               <input class="form-control" name="student-roll" id="student-roll" type="text" placeholder="Roll no." required="required" data-validation-required-message="Please enter your name.">
+                             </div>
+                             <div class="mb-0 pb-2">
+                             <label>Subject</label>
+                               <select class="multiselect"  name="stu_subject" multiple="multiple" id="stu_subject">
+                                 <option value="math">Math</option>
+                                 <option value="science">Science</option>
+                                 <option value="english">English</option>
+                                 <option value="hindi">Hindi</option>
+                                 <option value="sanskrit">Sanskrit</option>
+                             </select>   
+                               </div>
+                             <div class="mb-0 pb-2">
+                               <label>Address</label>
+                               <textarea class="form-control" id="stu_address" rows="5" placeholder="Address" required="required"></textarea>
+                             </div>                           
                            <br>
                            <div id="success"></div>
-                           <div class="form-group">
-                             <button type="submit" class="btn btn-xl" id="sendMessageButton">Send</button>
-                           </div>
+                             <button type="submit" class="btn btn-xl" id="student-form-submit">Send</button>
                          </form>
                        </div>
+                        <div class="col-lg-2 mx-auto"><br> 
+                        <form name="otp-student-form" id="otp-student-form" novalidate="novalidate">
+                           <div class="mb-0 pb-2">
+                               <label>OTP</label>
+                               <input class="form-control" id="otp-student" type="text" placeholder="Please enter OTP" required="required">
+                               <div id="success"></div>   <br>                       
+                             <button type="submit" class="btn btn-xl" id="student-otp-submit">Send</button> 
+                                </div>  
+                           </form>
+                         </div> 
                      </div>
                    </div>
                  </div>
                </section>
-               <hr class="m-0">
-         
+               <hr class="m-0">         
                <section class="p-3 p-lg-5 tab-pane" id="parent">
                  <div class="my-auto">
                    <div class="container">
@@ -237,49 +256,45 @@
                      <hr class="star-dark mb-5">
                      <div class="row">
                        <div class="col-lg-8 mx-auto">
-                         <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                         <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>Name</label>
-                               <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                               <p class="help-block text-danger"></p>
+                         <form name="parent-form" id="parent-form" novalidate="novalidate">
+                             <div class="mb-0 pb-2">
+                               <label>Student ID</label>
+                               <input class="form-control" id="parent-student-id" type="text" placeholder="Student ID" required="required">
                              </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                              <div class="mb-0 pb-2">
+                               <label>Parent Name</label>
+                               <input class="form-control" id="parent-name" type="text" placeholder="Parent Name" required="required">
+                             </div>
+                             <div class="mb-0 pb-2">
                                <label>Email Address</label>
-                               <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                               <p class="help-block text-danger"></p>
+                               <input class="form-control" id="parent-email" type="email" placeholder="Email Address" required="required">
                              </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                             <div class="mb-0 pb-2">
                                <label>Phone Number</label>
-                               <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                               <p class="help-block text-danger"></p>
+                               <input class="form-control" id="parent-phone" type="tel" placeholder="Phone Number" required="required">
                              </div>
-                           </div>
-                           <div class="control-group">
-                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                               <label>Message</label>
-                               <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                               <p class="help-block text-danger"></p>
-                             </div>
-                           </div>
                            <br>
                            <div id="success"></div>
-                           <div class="form-group">
-                             <button type="submit" class="btn btn-xl" id="sendMessageButton">Send</button>
+                           <div class="">
+                             <button type="submit" class="btn btn-xl" id="parent-form-submit">Send</button>
                            </div>
                          </form>
                        </div>
+                        <div class="col-lg-2 mx-auto"><br> 
+                        <form name="otp-parent-form" id="otp-parent-form" novalidate="novalidate">
+                           <div class="mb-0 pb-2">
+                               <label>OTP</label>
+                               <input class="form-control" id="otp-parent" type="text" placeholder="Please enter OTP" required="required">
+                               <div id="success"></div>   <br>                       
+                             <button type="submit" class="btn btn-xl" id="parent-otp-submit">Send</button> 
+                                </div>  
+                           </form>
+                         </div> 
                      </div>
                    </div>
                  </div>
                </section>
-     </div>
+                    </div>
        <hr class="m-0">
       </div>
  
@@ -295,10 +310,10 @@
      <script src="assets/js/select.js"></script>
     <script>
        $(function () {
-    $('#lstStates').multiselect({
+    $('.multiselect').multiselect({
         buttonText: function(options){
           if (options.length === 0) {
-              return 'Subjects';
+              return 'Please Choose';
            }
            var labels = [];
            options.each(function() {
