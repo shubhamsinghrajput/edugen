@@ -1,6 +1,7 @@
 // Global styling for this template
 
-body.side-nav {
+body.side-panel {
+  padding-left: $sidebar-base-width;	
   @include body-font;
   padding-top: 54px;
   color: $gray-600;

@@ -1,37 +1,38 @@
-body.side-nav {
+body.side-panel {
+  padding-left: 17rem;
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96; }
   @media (min-width: 992px) {
-    body.side-nav {
+    body.side-panel {
       padding-top: 0;
       padding-left: 17rem; } }
-  body.side-nav h1,
-  body.side-nav h2,
-  body.side-nav h3,
-  body.side-nav h4,
-  body.side-nav h5,
-  body.side-nav h6 {
+  body.side-panel h1,
+  body.side-panel h2,
+  body.side-panel h3,
+  body.side-panel h4,
+  body.side-panel h5,
+  body.side-panel h6 {
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-weight: 700;
     text-transform: uppercase;
     color: #343a40; }
-  body.side-nav h1 {
+  body.side-panel h1 {
     font-size: 6rem;
     line-height: 5.5rem; }
-  body.side-nav h2 {
+  body.side-panel h2 {
     font-size: 3.5rem; }
-  body.side-nav h3 {
+  body.side-panel h3 {
     font-size: 2rem; }
-  body.side-nav p.lead {
+  body.side-panel p.lead {
     font-size: 1.15rem;
     font-weight: 400; }
-  body.side-nav .subheading {
+  body.side-panel .subheading {
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-size: 1.5rem; }
-  body.side-nav .social-icons a {
+  body.side-panel .social-icons a {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
@@ -42,13 +43,13 @@ body.side-nav {
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem; }
-    body.side-nav .social-icons a:last-child {
+    body.side-panel .social-icons a:last-child {
       margin-right: 0; }
-    body.side-nav .social-icons a:hover {
+    body.side-panel .social-icons a:hover {
       background-color: #BD5D38; }
-  body.side-nav .dev-icons {
+  body.side-panel .dev-icons {
     font-size: 3rem; }
-    body.side-nav .dev-icons .list-inline-item i:hover {
+    body.side-panel .dev-icons .list-inline-item i:hover {
       color: #BD5D38; }
 
 /*-----------------------------------*/
