@@ -1,66 +1,71 @@
-body {
+body.side-nav {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #868e96; }
+  @media (min-width: 992px) {
+    body.side-nav {
+      padding-top: 0;
+      padding-left: 17rem; } }
+  body.side-nav h1,
+  body.side-nav h2,
+  body.side-nav h3,
+  body.side-nav h4,
+  body.side-nav h5,
+  body.side-nav h6 {
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40; }
+  body.side-nav h1 {
+    font-size: 6rem;
+    line-height: 5.5rem; }
+  body.side-nav h2 {
+    font-size: 3.5rem; }
+  body.side-nav h3 {
+    font-size: 2rem; }
+  body.side-nav p.lead {
+    font-size: 1.15rem;
+    font-weight: 400; }
+  body.side-nav .subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.5rem; }
+  body.side-nav .social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem; }
+    body.side-nav .social-icons a:last-child {
+      margin-right: 0; }
+    body.side-nav .social-icons a:hover {
+      background-color: #BD5D38; }
+  body.side-nav .dev-icons {
+    font-size: 3rem; }
+    body.side-nav .dev-icons .list-inline-item i:hover {
+      color: #BD5D38; }
 
-@media (min-width: 992px) {
-  body.side-panel {
-    padding-top: 0;
-    padding-left: 17rem; } }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #343a40; }
-
-h1 {
-  font-size: 6rem;
-  line-height: 5.5rem; }
-
-h2 {
-  font-size: 3.5rem; }
-
-h3 {
-  font-size: 2rem; }
-
-p.lead {
-  font-size: 1.15rem;
-  font-weight: 400; }
-
-.subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 1.5rem; }
-
-.social-icons a {
-  display: inline-block;
-  height: 3.5rem;
-  width: 3.5rem;
-  background-color: #495057;
-  color: #fff !important;
-  border-radius: 100%;
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 3.5rem;
-  margin-right: 1rem; }
-  .social-icons a:last-child {
-    margin-right: 0; }
-  .social-icons a:hover {
-    background-color: #BD5D38; }
-
-.dev-icons {
-  font-size: 3rem; }
-  .dev-icons .list-inline-item i:hover {
-    color: #BD5D38; }
-
+/*-----------------------------------*/
 [type="submit"] {
-  background: #bd5d38; }
+  background: #bd5d38;
+  color: #fff;
+  min-width: 150px; }
+
+button.dt-button:active:not(.disabled):hover:not(.disabled), button.dt-button.active:not(.disabled):hover:not(.disabled), div.dt-button:active:not(.disabled):hover:not(.disabled), div.dt-button.active:not(.disabled):hover:not(.disabled), a.dt-button:active:not(.disabled):hover:not(.disabled), a.dt-button.active:not(.disabled):hover:not(.disabled) {
+  background: #bd5d38;
+  border-color: #bd5d38;
+  color: #fff; }
+
+button.dt-button:focus:not(.disabled), div.dt-button:focus:not(.disabled), a.dt-button:focus:not(.disabled) {
+  background: #af380b;
+  color: #fff;
+  border-color: #af380b; }
 
 .side-panel #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
@@ -99,6 +104,36 @@ p.lead {
           display: block; }
           .side-panel #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
             display: block; } }
+
+/*================================CUSTOM HEADER STYLE==========================================*/
+.bg-orange {
+  background: #bd5d38; }
+  .bg-orange *, .bg-orange *:hover {
+    color: #fff; }
+  .bg-orange a:hover {
+    background: #af380b; }
+  .bg-orange .nav-link {
+    text-transform: uppercase; }
+
+.logo {
+  width: 75px;
+  height: 75px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 2px;
+  border: 1px solid #fff; }
+  .logo img {
+    max-width: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: block; }
 
 section.resume-section {
   padding-top: 5rem !important;
@@ -164,5 +199,53 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline; }
+
+/*====================REGULAR CSS====================*/
+@media (max-width: 767px) {
+  .pd_100 {
+    padding-top: 35px; } }
+.c-thead {
+  background: #bd5d38;
+  border-color: #bd5d38;
+  color: #fff; }
+
+.btn-secondary, .btn-secondary:hover {
+  color: #fff;
+  background-color: #bd5d38;
+  border-color: #bd5d38; }
+
+.btn-secondary:active {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important; }
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #bd5d38;
+  border-color: #bd5d38; }
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background: #bd5d38;
+  color: #fff; }
+
+table.dataTable thead th, table.dataTable tfoot th {
+  font-weight: 500; }
+
+#dashboard h2 {
+  text-align: left; }
+
+table.dataTable thead th, table.dataTable thead td, table.dataTable tfoot th, table.dataTable tfoot td {
+  border-bottom: 1px solid #af380b;
+  border-top: 1px solid #af380b; }
+
+@media all and (max-width: 767px) {
+  .table-responsive {
+    padding-top: 40px !important; } }
 
 /*# sourceMappingURL=style.css.map */

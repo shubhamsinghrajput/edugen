@@ -14,45 +14,11 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css"> 
     <link href="assets/css/style.css" rel="stylesheet">
   <style>
-            @media (max-width: 767px){
-                .pd_100 {
-                    padding-top: 35px;
-                }
-            }
-            .c-thead{
-                background: #167397;
-                border-color: #167397;
-                color:#fff;
-            }
-            .btn-secondary ,.btn-secondary:hover{
-                color: #fff;
-                background-color: #167397;
-                border-color: #167397;
-            }
-            .page-item.active .page-link {
-                z-index: 1;
-                color: #fff;
-                background-color: #167397;
-                border-color: #167397;
-            }
-            table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
-                cursor: pointer;
-                background-repeat: no-repeat;
-                background-position: center left;
-                background: #167397;
-            }
-            #dashboard h2 {
-                text-align: left;
-            }
-			@media all and (max-width:767px){
-				.table-responsive{
-					padding-top: 40px !important;
-				}
-			}
+          
         </style>
 
     </head>
-    <body class="pd_100">
+    <body>
         <!-- HEADER START -->
 			
 					 

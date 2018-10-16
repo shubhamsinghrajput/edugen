@@ -57,3 +57,29 @@
 	  }
 	}
 }
+/*================================CUSTOM HEADER STYLE==========================================*/
+.bg-orange{
+	background: $bg-orange;
+	*,*:hover{
+		color: $white;
+	}
+	a:hover{
+		background: $bg-d-orange;	
+	}
+	.nav-link{
+		text-transform: uppercase;
+	}
+}
+.logo{
+	width: 75px;
+	height: 75px;
+	@include radius(50%);
+	overflow: hidden;
+	padding: 2px;
+	border: 1px solid $white;
+	img{
+		max-width: 100%;
+		@include radius(50%);
+		display: block;
+	}
+}
