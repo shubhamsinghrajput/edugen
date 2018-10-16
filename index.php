@@ -89,8 +89,12 @@
                            <div id="success"></div>                          
                              <button type="submit" class="btn btn-xl" id="school-form-submit">Send</button>    
                          </form>
+                          <div class="mb-0 pb-2"><br> 
+                         <p>Before you can login, you must active your account with the link sent to your email address.
+							 
+                     </div>
                        </div>                       
-                       <div class="col-lg-2 mx-auto"><br> 
+                       <div class="col-xl-3 col-sm-4 "><br> 
                         <form name="otp-school-form" id="otp-school-form" novalidate="novalidate">
                            <div class="mb-0 pb-2">
                                <label>OTP</label>
@@ -98,8 +102,9 @@
                                <div id="success"></div>   <br>                       
                              <button type="submit" class="btn btn-xl" id="school-otp-submit">Send</button> 
                                 </div>  
-                           </form>
+                           </form> 
                          </div> 
+                         
                      </div>
                    </div>
                  </div>
@@ -153,6 +158,11 @@
                            <div id="success"></div>                         
                              <button type="submit" class="btn btn-xl" id="teacher-form-submit">Send</button>  
                          </form>
+                         <div class="mb-0 pb-2"><br> 
+                         <p>Before you can login, you must active your account with the link sent to your email address.
+							 
+                     </div>
+                         
                        </div>
                           <div class="col-lg-2 mx-auto"><br> 
                         <form name="otp-teacher-form" id="otp-teacher-form" novalidate="novalidate">
@@ -173,7 +183,7 @@
                                 </div>  
                            </form>
                            <p>#The Service will be stopped within 72 hours, Please submit OTP Provided to the school.</p>
-                         </div>                        
+                         </div>                   
                      </div>
                    </div>
                  </div>
@@ -233,6 +243,11 @@
                            <div id="success"></div>
                              <button type="submit" class="btn btn-xl" id="student-form-submit">Send</button>
                          </form>
+                         <div class="mb-0 pb-2"><br> 
+                         <p>Before you can login, you must active your account with the link sent to your email address.
+							 
+                     </div>
+                        
                        </div>
                         <div class="col-lg-2 mx-auto"><br> 
                         <form name="otp-student-form" id="otp-student-form" novalidate="novalidate">
@@ -243,7 +258,7 @@
                              <button type="submit" class="btn btn-xl" id="student-otp-submit">Send</button> 
                                 </div>  
                            </form>
-                         </div> 
+                         </div>                          
                      </div>
                    </div>
                  </div>
@@ -279,6 +294,10 @@
                              <button type="submit" class="btn btn-xl" id="parent-form-submit">Send</button>
                            </div>
                          </form>
+                         <div class="mb-0 pb-2"><br> 
+                         <p>Before you can login, you must active your account with the link sent to your email address.
+							 
+                     </div>
                        </div>
                         <div class="col-lg-2 mx-auto"><br> 
                         <form name="otp-parent-form" id="otp-parent-form" novalidate="novalidate">
@@ -289,8 +308,8 @@
                              <button type="submit" class="btn btn-xl" id="parent-otp-submit">Send</button> 
                                 </div>  
                            </form>
-                         </div> 
-                     </div>
+                         </div>                          
+					   </div>
                    </div>
                  </div>
                </section>

@@ -7,6 +7,9 @@ body.side-panel {
     body.side-panel {
       padding-top: 0;
       padding-left: 17rem; } }
+  @media (max-width: 991px) {
+    body.side-panel {
+      padding-left: 0; } }
   body.side-panel h1,
   body.side-panel h2,
   body.side-panel h3,
@@ -56,7 +59,7 @@ body.side-panel {
 [type="submit"] {
   background: #bd5d38;
   color: #fff;
-  min-width: 150px; }
+  width: 100%; }
 
 button.dt-button:active:not(.disabled):hover:not(.disabled), button.dt-button.active:not(.disabled):hover:not(.disabled), div.dt-button:active:not(.disabled):hover:not(.disabled), div.dt-button.active:not(.disabled):hover:not(.disabled), a.dt-button:active:not(.disabled):hover:not(.disabled), a.dt-button.active:not(.disabled):hover:not(.disabled) {
   background: #bd5d38;
@@ -201,6 +204,9 @@ ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline; }
 
+input[disabled] {
+  cursor: not-allowed; }
+
 /*====================REGULAR CSS====================*/
 @media (max-width: 767px) {
   .pd_100 {
@@ -248,5 +254,20 @@ table.dataTable thead th, table.dataTable thead td, table.dataTable tfoot th, ta
 @media all and (max-width: 767px) {
   .table-responsive {
     padding-top: 40px !important; } }
+select {
+  width: 100%;
+  display: block;
+  text-align: left;
+  background: transparent;
+  border: 1px solid #ced4da;
+  color: #495057;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  color: #495057; }
 
 /*# sourceMappingURL=style.css.map */

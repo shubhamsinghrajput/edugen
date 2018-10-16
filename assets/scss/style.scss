@@ -51,7 +51,9 @@ ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
 }
-
+input[disabled]{
+	cursor: not-allowed;
+}
 
 
 
@@ -103,4 +105,17 @@ table.dataTable thead th, table.dataTable thead td ,table.dataTable tfoot th, ta
 	.table-responsive{
 		padding-top: 40px !important;
 	}
+}
+select{
+	width: 100%;
+	display: block;
+	text-align: left;
+    background: transparent;
+    border: 1px solid #ced4da;
+    color: #495057;
+	height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+	@include radius(.25rem);
+	color: #495057;
+	
 }

@@ -12,7 +12,9 @@ body.side-panel {
 		padding-left: $sidebar-base-width;
 
 	}
-
+	@media (max-width: 991px) {
+	padding-left: 0;	
+	}
 	h1,
 	h2,
 	h3,
@@ -85,7 +87,7 @@ body.side-panel {
 [type="submit"]{
 	background: $bg-orange;
 	color: #fff;
-	min-width: 150px;
+ 	width: 100%;
 }
 button.dt-button:active:not(.disabled):hover:not(.disabled), button.dt-button.active:not(.disabled):hover:not(.disabled), div.dt-button:active:not(.disabled):hover:not(.disabled), div.dt-button.active:not(.disabled):hover:not(.disabled), a.dt-button:active:not(.disabled):hover:not(.disabled), a.dt-button.active:not(.disabled):hover:not(.disabled){
 	background:$bg-orange;
