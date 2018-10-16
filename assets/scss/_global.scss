@@ -84,13 +84,49 @@ body.side-panel {
 }
 /*-----------------------------------*/
 
+/*--------------footer-----------*/
+.footer {
+  padding: 20px 0 15PX;
+  border-top: 1px solid #ccc;
+  text-align: center;  
+	h6 {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    margin: 0; 
+		font-weight: 400;
+}
+
+.footer-nav {
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #ccc; }
+  .footer-nav li {
+    float: left;
+    padding: 0px 5px; }
+    .footer-nav li a {
+      color: #666; }
+      .footer-nav li a:hover {
+        color: $c-orange; }
+
+}
+
+/*-----------------------------------*/
+ul,ol{
+	list-style-type: none;
+}
 [type="submit"]{
 	background: $bg-orange;
 	color: #fff;
  	width: 100%;
 }
+ 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  	color: rgba(0,0,0,0.2) !important;
+  	color: rgba(0,0,0,0.25) !important;
 }
 
 button.dt-button:active:not(.disabled):hover:not(.disabled), button.dt-button.active:not(.disabled):hover:not(.disabled), div.dt-button:active:not(.disabled):hover:not(.disabled), div.dt-button.active:not(.disabled):hover:not(.disabled), a.dt-button:active:not(.disabled):hover:not(.disabled), a.dt-button.active:not(.disabled):hover:not(.disabled){
@@ -102,4 +138,34 @@ button.dt-button:focus:not(.disabled), div.dt-button:focus:not(.disabled), a.dt-
 	background: $bg-d-orange;
 	color: $white;
 	border-color:$bg-d-orange;
+}
+
+
+//-----------Breadcrumbs-----
+
+.breadcrumb-wrap{
+	background: #3c2727;
+ 
+}
+//-----Breadcrumb
+ul.breadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+	background: transparent;
+ }
+ul.breadcrumb li,ul.breadcrumb li a {
+    display: inline;
+	color: $c-orange;
+	color: #fff;
+	font-size: 15px;
+//    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #fff;
+    content: "/\00a0";
+}
+ 
+input[disabled]{
+	cursor: not-allowed;
 }

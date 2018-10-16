@@ -64,7 +64,7 @@
 		color: $white;
 	}
 	a:hover{
-		background: $bg-d-orange;	
+		//background: $bg-d-orange;	
 	}
 	.nav-link{
 		text-transform: uppercase;
@@ -82,4 +82,15 @@
 		@include radius(50%);
 		display: block;
 	}
+}
+.menu-btn {
+    background-color: transparent;
+	display: none;
+	@media all and (max-width:767px){
+		display: block;
+	}
+    color: #fff;
+    border:0 none;
+    font-size: 22px; 
+	&:focus{outline: 0 none;}
 }

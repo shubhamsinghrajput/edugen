@@ -4,6 +4,7 @@
 @import "nav.scss";
 @import "style-item.scss";
 @import "bootstrap-overrides.scss";
+@import "responsive.scss";
 
 
 
@@ -28,34 +29,25 @@
     }
      
 }
-//-----Breadcrumb
-ul.breadcrumb {
-    padding: 10px 16px;
-    list-style: none;
-    background-color: #eee;
+.content{
+	padding-bottom: 45px;
 }
-ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
+.h-effcts>li>a{
+	position: relative;
+	&:after{
+		content: '';
+		display: block;
+		width: 0;
+		height: 2px;
+		background: #fff;
+		left: 0;
+		position: absolute;
+		@include transition(0.4s);
+	}
+	&:hover:after{
+		width: 100%;
+	}
 }
-ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-}
-ul.breadcrumb li a {
-    color: #0275d8;
-    text-decoration: none;
-}
-ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
-}
-input[disabled]{
-	cursor: not-allowed;
-}
-
-
 
 /*====================REGULAR CSS====================*/
 
