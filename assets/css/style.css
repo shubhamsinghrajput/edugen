@@ -106,6 +106,9 @@ button.dt-button:focus:not(.disabled), div.dt-button:focus:not(.disabled), a.dt-
   color: #fff;
   border-color: #af380b; }
 
+.pdt {
+  padding-top: 100px; }
+
 .breadcrumb-wrap {
   background: #3c2727; }
 
@@ -304,7 +307,7 @@ a {
     content: '';
     display: block;
     width: 0;
-    height: 2px;
+    height: 1px;
     background: #fff;
     left: 0;
     right: 0;

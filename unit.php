@@ -27,7 +27,7 @@
 		  <!-- HEADER END -->
 
         <!-- CONTENT START -->
-        <div class="content">
+        <div class="content pdt">
        		<div class="breadcrumb-wrap">
         		<ul class="breadcrumb container">
         				  <li><a href="#">Home</a></li>
