@@ -43,6 +43,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#parent" data-toggle="pill">Parent</a>
           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="unit.php">Unit</a>
+          </li>
          </ul>
       </div>
     </nav>
@@ -103,8 +106,7 @@
                              <button type="submit" class="btn btn-xl" id="school-otp-submit">Send</button> 
                                 </div>  
                            </form> 
-                         </div> 
-                         
+                         </div>                          
                      </div>
                    </div>
                  </div>
