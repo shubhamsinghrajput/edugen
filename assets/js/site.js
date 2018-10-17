@@ -1,8 +1,18 @@
- $(".menu-btn").click(function(){
+$(document).ready(function(){
+	$(".menu-btn").click(function(){
  		$("#collapsibleNavbar").toggleClass("show");
 		$(this).children("i.fa").removeClass("fa-bars").addClass("fa-close");
 		var l = $("#collapsibleNavbar").offset().left;
  		if(l == 0){
  			$(this).children("i.fa").removeClass("fa-close").addClass("fa-bars");
 		}
+	});
+	 
+	$(document).click(function(event) {
+ 	  if (!$(event.target).closest("#collapsibleNavbar,.menu-btn").length) {
+		$("body").find("#collapsibleNavbar").removeClass("show");
+	  }
+	});
+
 });
+
