@@ -153,7 +153,7 @@ input[type=checkbox]:after {
 	visibility: visible;
 }
 
-input[type=checkbox]:checked:before {
+input[type=checkbox]:checked:before{
     content: '';
 	position: absolute;
 	width: 12px;

@@ -108,6 +108,9 @@ button.dt-button:focus:not(.disabled), div.dt-button:focus:not(.disabled), a.dt-
 .pdt {
   padding-top: 91px; }
 
+.content {
+  min-height: calc(100% -100px); }
+
 .breadcrumb-wrap {
   background: #3c2727; }
 
@@ -167,6 +170,8 @@ input[disabled] {
           display: block; }
           .side-panel #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
             display: block; } }
+.side-panel .tab-content > .tab-pane {
+  display: block; }
 
 /*================================CUSTOM HEADER STYLE==========================================*/
 .bg-orange {
