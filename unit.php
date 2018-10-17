@@ -30,14 +30,13 @@
         <div class="content pdt">
        		<div class="breadcrumb-wrap">
         		<ul class="breadcrumb container">
-        				  <li><a href="#">Home</a></li>
-        				  <li><a href="#">Pictures</a></li>
-        				  <li><a href="#">Summer 15</a></li>
-        				  <li>Italy</li>
-        				</ul>
+				  <li><a href="#">Home</a></li>
+				  <li><a href="#">Pictures</a></li>
+				  <li><a href="#">Summer 15</a></li>
+				  <li>Italy</li>
+				</ul>
         	</div>
-        	
-        	   <div class="content summary-page" id="dashboard">
+            <div class="summary-page" id="dashboard">
         	    <div class="banner_domain">
         	        <div class="b-content container clearfix">
         	            <div class="row">
@@ -51,52 +50,51 @@
         	    <div class="container">
         	    	<div class=" table-responsive" style="padding-top: 30px;">
         	    	    <table id="example" class="display " style="width:100%">
-        	<thead>
-        	    <tr>
-        	        <th width="5%">Page <br/>No.</th>
-        	        <th width="5%">Q No.</th>
-        	        <th width="50%">Questions</th>
-        	        <th width="25%">Answer</th>
-        	        <th  width="5%">Generate<br/>WS</th>
-        	        <th width="5%">Online<br/> Test</th>
-        	        <th width="5%">Marks</th>
-        	    </tr>
-        	</thead>
-        	<tbody>
-        	    <tr>
-        	        <td>1</td>
-        	        <td>1</td>
-        	        <td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-        	        <td>This should be a catch-phrase for Support</td>
-         	        <td> <input type="checkbox" name="" class="c-check"></td>
-         	        <td> <input type="checkbox" name="" class="c-check" > </td>
-         	        <td>8</td>
-         	        
-        	    </tr>
-        	     
-        	</tbody>
-        	<tfoot>
-        	    <tr>
-        	        <th>Page No.</th>
-        	        <th>Q No.</th>
-        	        <th>Questions</th>
-        	        <th>Answer</th>
-        	        <th>Generate WS</th>
-        	        <th>Online Test</th>
-        	        <th>Marks</th>
-        	    </tr>
-        	</tfoot>
-        	    </table>
+							<thead>
+								<tr>
+									<th width="5%">Page <br/>No.</th>
+									<th width="5%">Q No.</th>
+									<th width="50%">Questions</th>
+									<th width="25%">Answer</th>
+									<th  width="5%">Generate<br/>WS</th>
+									<th width="5%">Online<br/> Test</th>
+									<th width="5%">Marks</th>
+								</tr>
+							</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>1</td>
+								<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+								<td>This should be a catch-phrase for Support</td>
+								<td> <input type="checkbox" name="" class="c-check"></td>
+								<td> <input type="checkbox" name="" class="c-check" > </td>
+								<td>8</td>
+
+							</tr>
+
+						</tbody>
+						<tfoot>
+							<tr>
+								<th>Page No.</th>
+								<th>Q No.</th>
+								<th>Questions</th>
+								<th>Answer</th>
+								<th>Generate WS</th>
+								<th>Online Test</th>
+								<th>Marks</th>
+							</tr>
+						</tfoot>
+					</table>
         	    	</div>
         	    </div>
         	</div>
-        	 </div>
-     
- 			<!-- FOOTER START -->
-			
-					 	<?php include 'footer.php' ?>
-				 
-		  <!-- FOOTER END -->
+       </div>
+       <!-- FOOTER START -->
+
+					<?php include 'footer.php' ?>
+
+	   <!-- FOOTER END -->
 		
          <!-- Custom scripts for this template -->
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>

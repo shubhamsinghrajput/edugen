@@ -68,6 +68,10 @@
 			width: 100%;
 		}
 	}
+
+.content{
+	min-height: calc(100vh - 60px);
+}
 /*====================REGULAR CSS====================*/
 
 @media (max-width: 767px){

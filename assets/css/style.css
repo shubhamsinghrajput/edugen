@@ -108,9 +108,6 @@ button.dt-button:focus:not(.disabled), div.dt-button:focus:not(.disabled), a.dt-
 .pdt {
   padding-top: 91px; }
 
-.content {
-  min-height: calc(100% -100px); }
-
 .breadcrumb-wrap {
   background: #3c2727; }
 
@@ -327,6 +324,9 @@ a {
     transition: 0.4s; }
   .h-effcts > li > a:hover:after {
     width: 100%; }
+
+.content {
+  min-height: calc(100vh - 60px); }
 
 /*====================REGULAR CSS====================*/
 @media (max-width: 767px) {
