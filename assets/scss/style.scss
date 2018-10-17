@@ -174,3 +174,28 @@ input[type=checkbox]:checked:before{
 table{
 	text-align: center;
 }
+/*======================Login Page=======================*/
+
+#login-form{
+	padding: 50px 100px 50px;
+	background: rgba(60,39,39,0.7);
+ 	margin-top: 70px;
+	.btn{
+		width: 150px;
+		margin: 0 auto;
+		display: block;
+	}
+	label{
+		color: #fff	;
+	}
+	@media all and (max-width:767px){
+		padding: 505px;
+	}
+	@media all and (max-width:480px){
+		padding:15px;
+	}
+}
+.login-page{
+	background: url(../img/login-bg) no-repeat center bottom;
+	@include  background-size(cover);
+}

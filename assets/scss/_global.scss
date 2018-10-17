@@ -87,7 +87,7 @@ body.side-panel {
 /*--------------footer-----------*/
 .footer {
   padding: 20px 0 15PX;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid $bg-l-black;
   text-align: center;  
 	h6 {
     display: inline-block;
@@ -109,9 +109,8 @@ body.side-panel {
     float: left;
     padding: 0px 5px; }
     .footer-nav li a {
-      color: #666; }
-      .footer-nav li a:hover {
-        color: $c-orange; }
+      color: #fff; }
+       
 
 }
 

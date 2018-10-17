@@ -59,7 +59,7 @@ body.side-panel {
 /*--------------footer-----------*/
 .footer {
   padding: 20px 0 15PX;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #3c2727;
   text-align: center; }
   .footer h6 {
     display: inline-block;
@@ -79,9 +79,7 @@ body.side-panel {
     float: left;
     padding: 0px 5px; }
   .footer .footer-nav li a {
-    color: #666; }
-  .footer .footer-nav li a:hover {
-    color: #bd5d38; }
+    color: #fff; }
 
 /*-----------------------------------*/
 ul, ol {
@@ -429,5 +427,31 @@ input[type=checkbox]:checked:before {
 
 table {
   text-align: center; }
+
+/*======================Login Page=======================*/
+#login-form {
+  padding: 50px 100px 50px;
+  background: rgba(60, 39, 39, 0.7);
+  margin-top: 70px; }
+  #login-form .btn {
+    width: 150px;
+    margin: 0 auto;
+    display: block; }
+  #login-form label {
+    color: #fff; }
+  @media all and (max-width: 767px) {
+    #login-form {
+      padding: 505px; } }
+  @media all and (max-width: 480px) {
+    #login-form {
+      padding: 15px; } }
+
+.login-page {
+  background: url(../img/login-bg) no-repeat center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 /*# sourceMappingURL=style.css.map */
