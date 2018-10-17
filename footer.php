@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer bg-orange">
 	<div class="container">
 	    <ul class="footer-nav clearfix">
 	    	<li><a href="terms.php">Terms</a></li>
