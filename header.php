@@ -26,9 +26,8 @@
 
 
 
-<header class="header bg-orange">
- 
-	<nav class="navbar navbar-expand-md container fixed-top">
+<header class="header bg-orange fixed-top">
+   <nav class="navbar navbar-expand-md container">
 	  <a class="navbar-brand logo" href="#">
 		<img src="assets/img/profile.jpg" alt="logo">
 	  </a>
