@@ -29,7 +29,7 @@
         				</ul>
         	</div>
         	
-        	   <div class="content summary-page" id="dashboard">
+        	   <div class="summary-page" id="dashboard">
         	    <div class="banner_domain">
         	        <div class="b-content container clearfix">
         	            <div class="row">
