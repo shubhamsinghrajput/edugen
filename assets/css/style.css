@@ -422,4 +422,7 @@ input[type=checkbox]:checked:before {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
+table {
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

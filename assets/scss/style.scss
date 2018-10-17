@@ -167,3 +167,6 @@ input[type=checkbox]:checked:before {
 	@include transform(rotate(-45deg));
 	
 }
+table{
+	text-align: center;
+}
