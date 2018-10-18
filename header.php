@@ -1,11 +1,9 @@
- 
-
-<header class="header bg-orange fixed-top">
+ <header class="header bg-orange fixed-top">
    <nav class="navbar navbar-expand-md container">
 	  <a class="navbar-brand logo" href="#">
 		<img src="assets/img/profile.jpg" alt="logo">
 	  </a>
-	  <button class="menu-btn">                                                                                                                                       	<i 			class="fa fa-bars"></i>
+	  <button class="menu-btn">                                                                                                                                       	<i class="fa fa-bars"></i>
       </button>
 	  <div class="navbar-collapse" id="collapsibleNavbar">
 		<ul class="navbar-nav ml-auto h-effcts">
@@ -14,10 +12,8 @@
 		</li>
 		<li class="nav-item">
 		  <a class="nav-link" href="#">Log in</a>
-		</li>
-		 
+		</li>		 
 	  </ul>
 	  </div>  
-	</nav>
- 
+	</nav> 
 </header>
