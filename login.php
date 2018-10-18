@@ -49,7 +49,7 @@
 							   <input class="form-control" id="teacher-name" type="password" placeholder="password" required="required" >
 							</div>
 							<button type="submit" class="btn btn-xl mt-3">Send</button>  
-						 </form>
+						</form>
         		 	</div>
         		 </div>
         	</div>

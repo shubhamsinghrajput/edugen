@@ -441,7 +441,7 @@ table {
     color: #fff; }
   @media all and (max-width: 767px) {
     #login-form {
-      padding: 505px; } }
+      padding: 50px; } }
   @media all and (max-width: 480px) {
     #login-form {
       padding: 15px; } }
