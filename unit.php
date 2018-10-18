@@ -49,7 +49,7 @@
 		</div>
 		<div class="container">
 			<div class=" table-responsive" style="padding-top: 30px;">
-				<table id="example" class="display " style="width:100%">
+				<table id="example" class="display">
 					<thead>
 						<tr>
 							<th width="5%">Page <br />No.</th>
@@ -142,7 +142,7 @@
 			$('#example').DataTable({
 				dom: 'Bfrtip',
 				buttons: [
-					'copy', 'csv', 'excel', 'pdf', 'print'
+					'copy', 'csv', 'excel', 'pdf', 'print' 
 				]
 			});
 		});

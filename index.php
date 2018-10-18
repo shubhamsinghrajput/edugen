@@ -16,7 +16,6 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
-
   <body id="page-top" class="side-panel">
    <div class="tabs">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top " id="sideNav">
@@ -57,7 +56,7 @@
                      <hr class="star-dark mb-5">
                      <div class="row">
                        <div class="col-lg-8 mx-auto">
-                        <form name="school-form" id="school-form" novalidate="novalidate">
+                        <form name="school-form" id="school-form" >
                            <div class="mb-0 pb-2">
                                <label>CID</label>
                                <input class="form-control" id="cid" type="text" placeholder="CID" disabled="disabled" value="JH-B/002B2018" required="required">
@@ -98,7 +97,7 @@
                      </div>
                        </div>                       
                        <div class="col-xl-3 col-sm-4 "><br> 
-                        <form name="otp-school-form" id="otp-school-form" novalidate="novalidate">
+                        <form name="otp-school-form" id="otp-school-form" >
                            <div class="mb-0 pb-2">
                                <label>OTP</label>
                                <input class="form-control" id="otp-school" type="text" placeholder="Please enter OTP" required="required">
@@ -119,7 +118,7 @@
                      <hr class="star-dark mb-5">
                      <div class="row">
                        <div class="col-lg-8 mx-auto">
-                         <form name="teacher-form" id="teacher-form" novalidate="novalidate">
+                         <form name="teacher-form" id="teacher-form" >
                             <div class="mb-0 pb-2">
                                <label>CID</label>
                                <input class="form-control" id="teacher-cid" type="text" placeholder="Please enter school CID" required="required">
@@ -167,7 +166,7 @@
                          
                        </div>
                           <div class="col-lg-2 mx-auto"><br> 
-                        <form name="otp-teacher-form" id="otp-teacher-form" novalidate="novalidate">
+                        <form name="otp-teacher-form" id="otp-teacher-form" >
                            <div class="mb-0 pb-2">
                                <label>Teacher OTP</label>
                                <input class="form-control" id="otp-teacher" type="text" placeholder="Please enter OTP" required="required">
@@ -176,7 +175,7 @@
                                 </div>  
                            </form>
                            <br>
-                           <form name="otp-school-teacher-form" id="otp-school-teacher-form" novalidate="novalidate">
+                           <form name="otp-school-teacher-form" id="otp-school-teacher-form" >
                            <div class="mb-0 pb-2">
                                <label>OTP From school #</label>
                                <input class="form-control" id="otp-school-teacher" type="text" placeholder="Please enter OTP" required="required">
@@ -198,7 +197,7 @@
                      <hr class="star-dark mb-5">
                      <div class="row">
                        <div class="col-lg-8 mx-auto">
-                         <form name="student-form" id="student-form" novalidate="novalidate">
+                         <form name="student-form" id="student-form" >
                              <div class="mb-0 pb-2">
                                <label>Name</label>
                                <input class="form-control" name="student-name" id="student-name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
@@ -252,7 +251,7 @@
                         
                        </div>
                         <div class="col-lg-2 mx-auto"><br> 
-                        <form name="otp-student-form" id="otp-student-form" novalidate="novalidate">
+                        <form name="otp-student-form" id="otp-student-form" >
                            <div class="mb-0 pb-2">
                                <label>OTP</label>
                                <input class="form-control" id="otp-student" type="text" placeholder="Please enter OTP" required="required">
@@ -273,7 +272,7 @@
                      <hr class="star-dark mb-5">
                      <div class="row">
                        <div class="col-lg-8 mx-auto">
-                         <form name="parent-form" id="parent-form" novalidate="novalidate">
+                         <form name="parent-form" id="parent-form" >
                              <div class="mb-0 pb-2">
                                <label>Student ID</label>
                                <input class="form-control" id="parent-student-id" type="text" placeholder="Student ID" required="required">
@@ -302,7 +301,7 @@
                      </div>
                        </div>
                         <div class="col-lg-2 mx-auto"><br> 
-                        <form name="otp-parent-form" id="otp-parent-form" novalidate="novalidate">
+                        <form name="otp-parent-form" id="otp-parent-form" >
                            <div class="mb-0 pb-2">
                                <label>OTP</label>
                                <input class="form-control" id="otp-parent" type="text" placeholder="Please enter OTP" required="required">
