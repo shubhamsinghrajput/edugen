@@ -54,8 +54,8 @@
 						<tr>
 							<th width="5%">Page <br />No.</th>
 							<th width="5%">Q No.</th>
-							<th width="50%">Questions</th>
-							<th width="25%">Answer</th>
+							<th width="40%">Questions</th>
+							<th width="35%">Answer</th>
 							<th width="5%">Generate<br />WS</th>
 							<th width="5%">Online<br /> Test</th>
 							<th width="5%">Marks</th>
