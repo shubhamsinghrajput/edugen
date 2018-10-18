@@ -146,10 +146,17 @@ button.dt-button:focus:not(.disabled), div.dt-button:focus:not(.disabled), a.dt-
 
 .breadcrumb-wrap{
 	background: #3c2727;
+    color: #fff;
+    padding: 8px 16px;
+    p{
+        margin-bottom: 0;
+        line-height: 1.4;
+    }
 }
 //-----Breadcrumb
 ul.breadcrumb {
-    padding: 8px 16px;
+    padding: 0 15px;
+    margin-bottom: 0;
     list-style: none;
 	background: transparent;
  }

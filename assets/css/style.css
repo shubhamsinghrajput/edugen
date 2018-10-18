@@ -136,10 +136,17 @@ button.dt-button:focus:not(.disabled), div.dt-button:focus:not(.disabled), a.dt-
 
 .breadcrumb-wrap {
   background: #3c2727;
+  color: #fff;
+  padding: 8px 16px;
+}
+.breadcrumb-wrap p {
+  margin-bottom: 0;
+  line-height: 1.4;
 }
 
 ul.breadcrumb {
-  padding: 8px 16px;
+  padding: 0 15px;
+  margin-bottom: 0;
   list-style: none;
   background: transparent;
 }
@@ -290,13 +297,6 @@ section.resume-section .resume-item .resume-date {
 
 .text-primary {
   color: #BD5D38 !important;
-}
-
-a {
-  color: #BD5D38;
-}
-a:hover, a:focus, a:active {
-  color: #824027;
 }
 
 @media all and (max-width: 767px) {

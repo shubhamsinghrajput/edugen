@@ -44,7 +44,7 @@
                                                             <div class="card-icon">
                                                                Class
                                                             </div>
-                                                            <h2 class="card-title">3</h2>
+                                                            <h2 class="card-title">6</h2>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -71,7 +71,7 @@
                                                             <div class="card-icon">
                                                                Class
                                                             </div>
-                                                            <h2 class="card-title">3</h2>
+                                                            <h2 class="card-title">7</h2>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -98,7 +98,7 @@
                                                             <div class="card-icon">
                                                                Class
                                                             </div>
-                                                            <h2 class="card-title">3</h2>
+                                                            <h2 class="card-title">8</h2>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -125,7 +125,7 @@
                                                             <div class="card-icon">
                                                                Class
                                                             </div>
-                                                            <h2 class="card-title">3</h2>
+                                                            <h2 class="card-title">9</h2>
                                                         </div>
                                                     </div>
                                                 </div>

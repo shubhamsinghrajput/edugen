@@ -29,12 +29,9 @@
         <!-- CONTENT START -->
         <div class="content pdt ">
        		<div class="breadcrumb-wrap">
-        		<ul class="breadcrumb container">
-				  <li><a href="#">Home</a></li>
-				  <li><a href="#">Pictures</a></li>
-				  <li><a href="#">Summer 15</a></li>
-				  <li>Italy</li>
-				</ul>
+        		 <div class="container">
+        		     <p>Login for teacher</p>
+        		 </div>
         	</div>
         	<div class="container">
         		 <div class="row">
