@@ -21,7 +21,7 @@
 
 </head>
 
-<body class="login-page">
+<body class="content-page">
 	<!-- HEADER START -->
 
 	<?php include 'header.php' ?>
@@ -40,19 +40,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-md-8 col-lg-6 mx-auto">
-					<form name="login-form" method="" action="" id="login-form">
-						<div class="mb-0 pb-2">
-							<label>Email</label>
-							<input class="form-control" id="username" type="text" placeholder="user" required="required">
-						</div>
-						<div class="mb-0 pb-2">
-							<label>password</label>
-							<input class="form-control" id="teacher-name" type="password" placeholder="password" required="required">
-						</div>
-						<button type="submit" class="btn btn-xl mt-3">Send</button>
-					</form>
-				</div>
+				 
 			</div>
 		</div>
 	</div>
@@ -64,7 +52,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/site.js">
-		</script>
+	</script>
 </body>
 
 </html>
