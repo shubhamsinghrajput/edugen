@@ -256,7 +256,7 @@ table{
   font-size: 14px; }
 
 .card .card-header.card-header-icon .card-title, .card .card-header.card-header-text .card-title {
-  color: #3C4858;
+  color: #3c2727;
   line-height: 1.5; }
 
 .card.card-stats .card-header .card-title, .card.card-stats .card-header .card-category {
@@ -333,4 +333,11 @@ table{
     .img-fluid{
         border: 2px solid #fff;
      }
+    .card-title{
+        font-size: 65px;
+        padding: 2px 0 11px;
+    }
+    .card-margin{
+        margin-bottom: 30px;
+    }
 }

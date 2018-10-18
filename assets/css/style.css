@@ -626,7 +626,7 @@ table {
 }
 
 .card .card-header.card-header-icon .card-title, .card .card-header.card-header-text .card-title {
-  color: #3C4858;
+  color: #3c2727;
   line-height: 1.5;
 }
 
@@ -712,6 +712,13 @@ table {
 }
 .wrapper-card .img-fluid {
   border: 2px solid #fff;
+}
+.wrapper-card .card-title {
+  font-size: 65px;
+  padding: 2px 0 11px;
+}
+.wrapper-card .card-margin {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
