@@ -109,8 +109,8 @@
                                                         <div class="col-md-3 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
                                                         <div class="col-md-3 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>  
                                                          <div class="col-md-3 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
-                                                        <div class="col-md-3 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div> 
-                                                        <div class="col-md-3 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div> </div>
+                                                        
+                                                         </div>
                                                 </div>
                                             </div>        	                            
                         </div>
