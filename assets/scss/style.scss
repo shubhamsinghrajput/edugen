@@ -341,3 +341,34 @@ table{
         margin-bottom: 30px;
     }
 }
+
+
+/*============Content Page=============*/
+.content-page{
+//    background: url(../img/login-bg) no-repeat center bottom;
+//    -webkit-background-size: cover;
+//    -moz-background-size: cover;
+//    -ms-background-size: cover;
+//    -o-background-size: cover;
+//    background-size: cover;
+	.unit-wrapper{
+		
+	}
+	.chapter-list{
+		li{
+			margin-bottom: 5px;
+		}
+		a{
+			color:$c-l-black;
+			i.fa{
+				margin-right: 15px;
+			}
+		}
+	}
+}
+.unit-card{
+	padding: 10px;
+	background: $bg-tr-black;
+	@include radius(0);
+	color: #fff;
+}

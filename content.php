@@ -38,16 +38,20 @@
 				<li>Italy</li>
 			</ul>
 		</div>
-		<div class="container">
-			 <h4 class="card unit-card">
-			 	Unit I (Things Around Us)
-			 </h4>
-			 <ul class="chapter-list">
-			 	<li><a href="#"> <i class="fa fa-book"></i> 1. Living and Non-living Things </a></li>
-			 	<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
-			 	<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
-			 	<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
-			 </ul>
+		<div class="container pt-5">
+			 <div class="unit-wrapper">
+			 	<div class="col-8">
+			 		<h4 class="card unit-card">
+			 			Unit I (Things Around Us)
+			 		</h4>
+			 	</div>
+			 	<ul class="chapter-list">
+			 		<li><a href="#"> <i class="fa fa-book"></i> 1. Living and Non-living Things </a></li>
+			 		<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
+			 		<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
+			 		<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
+			 	</ul>
+			 </div>
 			 
 		</div>
 	</div>
