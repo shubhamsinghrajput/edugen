@@ -39,9 +39,16 @@
 			</ul>
 		</div>
 		<div class="container">
-			<div class="row">
-				 
-			</div>
+			 <h4 class="card unit-card">
+			 	Unit I (Things Around Us)
+			 </h4>
+			 <ul class="chapter-list">
+			 	<li><a href="#"> <i class="fa fa-book"></i> 1. Living and Non-living Things </a></li>
+			 	<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
+			 	<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
+			 	<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
+			 </ul>
+			 
 		</div>
 	</div>
 	<!-- FOOTER START -->
