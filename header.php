@@ -8,7 +8,7 @@
 	  <div class="navbar-collapse" id="collapsibleNavbar">
 		<ul class="navbar-nav ml-auto h-effcts">
 		<li class="nav-item">
-		  <a class="nav-link" href="#">Unit</a>
+		  <a class="nav-link" href="teacher-dashboard.php">Dashboard</a>
 		</li>
 		<li class="nav-item">
 		  <a class="nav-link" href="login.php">Log Out</a>
