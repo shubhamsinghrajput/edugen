@@ -21,10 +21,7 @@
 	<div class="content pdt">
 		<div class="breadcrumb-wrap">
 			<ul class="breadcrumb container">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Pictures</a></li>
-				<li><a href="#">Summer 15</a></li>
-				<li>Italy</li>
+				<li><a href="teacher-dashboard.php">Dashboard</a></li>
 			</ul>
 		</div>
 		<div class="summary-page" id="dashboard">

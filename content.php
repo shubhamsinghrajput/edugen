@@ -32,11 +32,9 @@
 	<div class="content pdt ">
 		<div class="breadcrumb-wrap">
 			<ul class="breadcrumb container">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Pictures</a></li>
-				<li><a href="#">Summer 15</a></li>
-				<li>Italy</li>
-			</ul>
+				<li><a href="teacher-dashboard.php">Dashboard</a></li>
+				<li><a href="content.php">Content</a></li>
+ 			</ul>
 		</div>
 		<div class="container pt-5">
 		 	<div class="row">
