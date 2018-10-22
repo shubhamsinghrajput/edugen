@@ -373,6 +373,13 @@ table{
 		border-bottom: 2px solid $bg-l-black;
 		text-align: center;
 	}
+	.col-2{
+		border-right: 2px solid $bg-l-black;
+	}
+	.col-10{
+	    border-bottom: 2px solid $bg-l-black;
+	}
+	
 }
 .unit-card{
 	padding: 10px;
@@ -382,8 +389,5 @@ table{
 	text-align: center;
 	font-size: 18px;
 	border-bottom: 2px solid $bg-tr-black;
-}
-.col-2,.col-9{
-//	padding-left: 35px;
-//	background: rgba(60, 39, 39, 0.4);
+	margin-bottom: 0;
 }
