@@ -116,6 +116,9 @@ table.dataTable thead th, table.dataTable tfoot th{
 #dashboard h2 {
 	text-align: left;
 }
+.dashboard-bg {
+	background: #ccc;
+}
 table.dataTable thead th, table.dataTable thead td ,table.dataTable tfoot th, table.dataTable tfoot td{
     border-bottom: 1px solid $bg-d-orange;
 	border-top: 1px solid $bg-d-orange;
@@ -343,6 +346,9 @@ table{
     }
     .card-margin{
         margin-bottom: 30px;
+    }
+    &+.wrapper-card{
+        border-top: 2px solid #fff;
     }
 }
 
