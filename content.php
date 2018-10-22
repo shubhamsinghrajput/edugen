@@ -47,10 +47,10 @@
 			    <div class="col-8 mx-auto">
 			 		<div class="chapter-list row">
 						 <div class="col-12 hr-style2"><h4 class="unit-card ">Unit I (Things Around Us)	</h4></div> 
-						<div class="col-2 tx-c">Chapter 1.</div><div class="col-10 "><a href="#">  Living and Non-living Things </a></div> 
-						<div class="col-2 tx-c">Chapter 2.</div><div class="col-10 hr-style"><a href="#">  Living and Non-living​ Living and Non-living Non-living Non-livingThings </a></div> 
-						<div class="col-2 tx-c">Chapter 3.</div><div class="col-10 hr-style"><a href="#">  Living Non-living and Non-living Things </a></div> 
-						<div class="col-2 tx-c">Chapter 4.</div><div class="col-10 hr-style"><a href="#">  Living and Non-living  Non-living Things </a> </div> 
+						<div class="col-2 tx-c">Chapter 1.</div><div class="col-10 "><a href="book-content.php">  Living and Non-living Things </a></div> 
+						<div class="col-2 tx-c">Chapter 2.</div><div class="col-10 hr-style"><a href="book-content.php">  Living and Non-living​ Living and Non-living Non-living Non-livingThings </a></div> 
+						<div class="col-2 tx-c">Chapter 3.</div><div class="col-10 hr-style"><a href="book-content.php">  Living Non-living and Non-living Things </a></div> 
+						<div class="col-2 tx-c">Chapter 4.</div><div class="col-10 hr-style"><a href="book-content.php">  Living and Non-living  Non-living Things </a> </div> 
                     </div>
 				</div>
  			 </div>
@@ -58,10 +58,10 @@
 			    <div class="col-8 mx-auto">
 			 		<div class="chapter-list row">
 						 <div class="col-12 hr-style2"><h4 class="unit-card ">Unit II (Things Around Us)	</h4></div> 
-						<div class="col-2 tx-c">Chapter 5.</div><div class="col-10  "><a href="#">  Living and Non-living Things </a></div> 
-						<div class="col-2 tx-c">Chapter 6.</div><div class="col-10   hr-style"><a href="#">  Living and Non-living Non-living Non-livingThings </a></div> 
-						<div class="col-2 tx-c">Chapter 7.</div><div class="col-10 hr-style"><a href="#">  Living Non-living and Non-living Things </a></div> 
-						<div class="col-2 tx-c">Chapter 8.</div><div class="col-10   hr-style"><a href="#">  Living and Non-living  Non-living Things </a> </div> 
+						<div class="col-2 tx-c">Chapter 5.</div><div class="col-10  "><a href="book-content.php">  Living and Non-living Things </a></div> 
+						<div class="col-2 tx-c">Chapter 6.</div><div class="col-10   hr-style"><a href="book-content.php">  Living and Non-living Non-living Non-livingThings </a></div> 
+						<div class="col-2 tx-c">Chapter 7.</div><div class="col-10 hr-style"><a href="book-content.php">  Living Non-living and Non-living Things </a></div> 
+						<div class="col-2 tx-c">Chapter 8.</div><div class="col-10   hr-style"><a href="book-content.php">  Living and Non-living  Non-living Things </a> </div> 
                     </div>
 				</div>
  			 </div>

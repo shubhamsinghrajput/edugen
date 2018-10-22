@@ -7,7 +7,6 @@
 @import "responsive.scss";
 
 
-
 /*============Custom Sytle=============*/
 
 .multiselect-native-select{
@@ -328,10 +327,7 @@ table{
   font-size: 125%; }
 
 /*# sourceMappingURL=style.css.map */
-//{
-//  padding-top: 0; }
-//  .card .card-title {
-//    clear: left; }
+ 
 .wrapper-card{
     background: #ccc;
     margin-bottom:2px;
@@ -372,10 +368,8 @@ table{
              font-weight: 400;
             &:hover{
                 text-decoration: none;
-//                color: #fff;
-//                background: $bg-tr-black;
-                 text-shadow: 0 0 1.5px  $bg-tr-black;
-             }
+                text-shadow: 0 0 1.5px  $bg-tr-black;
+            }
 			i.fa{
 				margin-right: 15px;
 			}
@@ -412,4 +406,93 @@ table{
          position: relative;
     }
 }
- 
+/*=================book-content===============*/
+.book-content{
+    
+}
+.chap-header{
+    .unit{
+        background: $bg-l-black;
+        border: 1px solid $bg-l-black;
+        padding: 5px 35px;
+        color: #fff;
+        text-align: center;
+        font-size: 1rem;
+        width: 250px;
+        margin: 0 auto 10px;
+    }
+    h1{
+        font-size: 22px;
+    }
+}
+.tab-head ul{
+    padding-top: 50px;
+    border-bottom: 3px solid $bg-tr-black;
+    .nav-link{
+        color: $bg-l-black ;
+        padding: 5px 25px;
+        border: 0 none;
+        @include transition(0.4s);
+        &:hover{
+            background:$bg-tr-black ;
+            color: #fff;
+        }
+     }
+    .nav-item{
+        border: 0 none;
+        margin: 0;
+     }
+    .nav-item.active a{
+        background:$bg-tr-black ;
+        color: #fff;
+        margin-right: 1px;
+     }
+    @media all and (max-width:767px){
+        display: block;
+        .nav-link{
+             @include radius(0);
+         }
+        .nav-item{
+           display: inline-block;
+         }
+        
+    }
+}
+.tab-content{
+    border:1px solid $bg-tr-black2;
+    min-height: 325px;
+}
+
+//------------ accordion -------------
+
+#accordion-style-1 .btn-link {
+    font-weight: 400;
+    color: $bg-l-black;
+    background-color: transparent;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-weight: bold;
+	padding-left: 25px;
+}
+
+#accordion-style-1 .card-body {
+    border-top: 2px solid $bg-l-black;
+}
+
+#accordion-style-1 .card-header .btn.collapsed .fa.main{
+	display:none;
+}
+
+#accordion-style-1 .card-header .btn .fa.main{
+	background: $bg-l-black;
+    padding: 13px 11px;
+    color: #ffffff;
+    width: 35px;
+    height: 41px;
+    position: absolute;
+    left: -1px;
+    top: 10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+	display:block;
+}
