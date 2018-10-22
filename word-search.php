@@ -33,25 +33,48 @@
 		<div class="breadcrumb-wrap">
 			<ul class="breadcrumb container">
 				<li><a href="teacher-dashboard.php">Dashboard</a></li>
-				<li><a href="content.php">Content</a></li>
-				<li><a href="book-content.php">Book Content</a></li>
+				<li><a href="content.php">Content</a></li>			
+				<li><a href="lession-plan.php">Chapter 1</a></li>
+				<li><a href="word-search.php">Word Search</a></li>				
  			</ul>
 		</div>
         <div class="container pt-4">
             <div class="chap-header">
-                <h3 class="unit">Unit 2 Thing About Us</h3>
+                <h3 class="unit">Unit 1 Thing About Us</h3>
                 <h1>Chapter 1: Living and Non-living Things</h1>
             </div>
-        </div>
-        <div class="tab-head">
-            <ul>
-                 <li><a href="lession.php">lesson plan</a></li>
-                 <li><a href="question-bank.php"> question bank</a></li>
-                  <li><a href="word-search.php">word search</a></li>
-                   <li><a href="brainstorm.php">brainstorm</a></li>
-                   <li><a href="tell-teacher.php">tell your teacher</a></li>
-                   <li><a href="find-out.php">find out</a></li>
-            </ul>
+            <div class="tab-head">
+              <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link" href="lession-plan.php">Lesson plan</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="question-bank.php">Question bank</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="word-search.php">Word search</a>
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="brainstorm.php">Brainstorm</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="tell-teacher.php">Tell your teacher</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="find-out.php">Find out</a>
+                    </li>                     
+                  </ul>
+            </div>
+            <div class="tab-content p-4">
+               <div class="container">
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </div>
         </div>
     </div>
 	<!-- FOOTER START -->

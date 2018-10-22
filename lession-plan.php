@@ -24,34 +24,35 @@
 		<div class="breadcrumb-wrap">
 			<ul class="breadcrumb container">
 				<li><a href="teacher-dashboard.php">Dashboard</a></li>
-				<li><a href="content.php">Content</a></li>
-				<li><a href="book-content.php">Book Content</a></li>
+				<li><a href="content.php">Content</a></li>			
+				<li><a href="lession-plan.php">Chapter 1</a></li>
+				<li><a href="lession-plan.php">Lession Plan</a></li>				
  			</ul>
 		</div>
         <div class="container pt-4">
             <div class="chap-header">
-                <h3 class="unit">Unit 2 Thing About Us</h3>
+                <h3 class="unit">Unit 1 Thing About Us</h3>
                 <h1>Chapter 1: Living and Non-living Things</h1>
             </div>
             <div class="tab-head">
               <ul class="nav nav-tabs">
                     <li class="nav-item  active">
-                      <a class="nav-link" href="#">Lesson plan</a>
+                      <a class="nav-link" href="lession-plan.php">Lesson plan</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#">Question bank</a>
+                      <a class="nav-link " href="question-bank.php">Question bank</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Word search</a>
+                        <a class="nav-link " href="word-search.php">Word search</a>
                     </li>
                      <li class="nav-item">
-                      <a class="nav-link" href="#">Brainstorm</a>
+                      <a class="nav-link" href="brainstorm.php">Brainstorm</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#">Tell your teacher</a>
+                      <a class="nav-link " href="tell-teacher.php">Tell your teacher</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#">Find out</a>
+                      <a class="nav-link " href="find-out.php">Find out</a>
                     </li>                     
                   </ul>
             </div>
@@ -75,7 +76,9 @@
 
                                                         <div id="collapseOne" class="collapse show fade" aria-labelledby="headingOne" data-parent="#accordionExample">
                                                             <div class="card-body">
-
+                                                            What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    
                                                             </div>
                                                         </div>
                                                     </div>
@@ -89,6 +92,8 @@
                                                         </div>
                                                         <div id="collapseTwo" class="collapse fade" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                                             <div class="card-body">
+                                                            What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
                                                             </div>
                                                         </div>
@@ -103,6 +108,8 @@
                                                         </div>
                                                         <div id="collapseThree" class="collapse fade" aria-labelledby="headingThree" data-parent="#accordionExample">
                                                             <div class="card-body">
+                                                            What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
                                                             </div>
                                                         </div>
@@ -117,6 +124,8 @@
                                                         </div>
                                                         <div id="collapseFour" class="collapse fade" aria-labelledby="headingFour" data-parent="#accordionExample">
                                                             <div class="card-body">
+                                                            What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
                                                             </div>
                                                         </div>
