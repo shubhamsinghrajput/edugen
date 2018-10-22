@@ -14,6 +14,8 @@
 
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
 	<link href="assets/css/style.css" rel="stylesheet">
 	<style>
 
@@ -67,12 +69,128 @@
             </div>
             <div class="tab-content p-4">
                <div class="container">
-                    
-                    
-                    
-                    
-                    
-                    
+                    <div class=" table-responsive" style="padding-top: 30px;">
+				<table id="example" class="display">
+					<thead>
+						<tr>
+							<th width="5%">Page <br />No.</th>
+							<th width="5%">Q No.</th>
+							<th width="40%">Questions</th>
+							<th width="35%">Answer</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
+
+						</tr>
+
+					</tbody>
+					<tfoot>
+						<tr>
+							<th>Page No.</th>
+							<th>Q No.</th>
+							<th>Questions</th>
+							<th>Answer</th>
+							
+						</tr>
+					</tfoot>
+				</table>
+			</div>                      
                 </div>
             </div>
         </div>
@@ -84,7 +202,25 @@
 	<!-- Custom scripts for this template -->
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/site.js">
+	<script src="assets/js/site.js"></script>
+	
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#example').DataTable({
+				dom: 'Bfrtip',
+				buttons: [
+					'copy', 'csv', 'excel', 'pdf', 'print' 
+				]
+			});
+		});
 	</script>
 </body>
 </html>
