@@ -11,7 +11,7 @@
 		  <a class="nav-link" href="#">Unit</a>
 		</li>
 		<li class="nav-item">
-		  <a class="nav-link" href="#">Log Out</a>
+		  <a class="nav-link" href="login.php">Log Out</a>
 		</li>		 
 	  </ul>
 	  </div>  
