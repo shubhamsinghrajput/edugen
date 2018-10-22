@@ -89,7 +89,7 @@
                              </div>                         
                            <br>
                            <div id="success"></div>                          
-                             <button type="submit" class="btn btn-xl" id="school-form-submit">Send</button>    
+                             <button type="submit" class="btn btn-xl" id="school-form-submit" ><a href="login.php">Send</a></button>    
                          </form>
                           <div class="mb-0 pb-2"><br> 
                          <p>Before you can login, you must active your account with the link sent to your email address.
@@ -157,7 +157,7 @@
                                </div>
                            <br>
                            <div id="success"></div>                         
-                             <button type="submit" class="btn btn-xl" id="teacher-form-submit">Send</button>  
+                             <button type="submit" class="btn btn-xl" id="teacher-form-submit"><a href="login.php">Send</a></button>  
                          </form>
                          <div class="mb-0 pb-2"><br> 
                          <p>Before you can login, you must active your account with the link sent to your email address.
@@ -242,7 +242,7 @@
                              </div>                           
                            <br>
                            <div id="success"></div>
-                             <button type="submit" class="btn btn-xl" id="student-form-submit">Send</button>
+                             <button type="submit" class="btn btn-xl" id="student-form-submit"><a href="login.php">Send</a></button>
                          </form>
                          <div class="mb-0 pb-2"><br> 
                          <p>Before you can login, you must active your account with the link sent to your email address.
@@ -292,7 +292,7 @@
                            <br>
                            <div id="success"></div>
                            <div class="">
-                             <button type="submit" class="btn btn-xl" id="parent-form-submit">Send</button>
+                             <button type="submit" class="btn btn-xl" id="parent-form-submit"><a href="login.php">Send</a></button>
                            </div>
                          </form>
                          <div class="mb-0 pb-2"><br> 

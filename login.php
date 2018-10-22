@@ -15,7 +15,18 @@
 </head>
 <body class="login-page">
 <!-- HEADER START -->
-<?php include 'header.php' ?>
+
+	 <header class="header bg-orange fixed-top">
+	   <nav class="navbar navbar-expand-md container">
+		  <a class="navbar-brand logo" href="#">
+			<img src="assets/img/profile.jpg" alt="logo">
+		  </a>
+		  <button class="menu-btn">                                                                                                                                       	<i class="fa fa-bars"></i>
+		  </button>
+		   
+		</nav> 
+	</header>
+	
 
 <!-- HEADER END -->
 
@@ -38,7 +49,7 @@
                         <label>password</label>
                         <input class="form-control" id="teacher-name" type="password" placeholder="password" required="required">
                     </div>
-                    <button type="submit" class="btn btn-xl mt-3">Send</button>
+                    <button type="submit" class="btn btn-xl mt-3"><a href="teacher-dashboard.php">Log in</a></button>
                 </form>
             </div>
         </div>

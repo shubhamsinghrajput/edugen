@@ -39,20 +39,65 @@
 			</ul>
 		</div>
 		<div class="container pt-5">
+		 	<div class="row">
+		 	 	<div class="col-6 mx-auto">
+		 	 		 <h1>Content</h1>
+		 	 	</div>
+		 	 </div>
 			 <div class="unit-wrapper">
-			 	<div class="col-8">
+			 	<div class="col-12">
 			 		<h4 class="card unit-card">
 			 			Unit I (Things Around Us)
 			 		</h4>
 			 	</div>
-			 	<ul class="chapter-list">
-			 		<li><a href="#"> <i class="fa fa-book"></i> 1. Living and Non-living Things </a></li>
-			 		<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
-			 		<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
-			 		<li><a href="#"> <i class="fa fa-book"></i>1. Living and Non-living Things </a></li>
-			 	</ul>
+			 	<div class="col-12">
+			 		<div class="chapter-list row">
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+				 
+			 			 
+					</div>
+			 	</div>
 			 </div>
-			 
+			  <div class="unit-wrapper">
+			 	<div class="col-12">
+			 		<h4 class="card unit-card">
+			 			Unit I (Things Around Us)
+			 		</h4>
+			 	</div>
+			 	<div class="col-12">
+			 		<div class="chapter-list row">
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+				 
+			 			 
+					</div>
+			 	</div>
+			 </div>
+			  <div class="unit-wrapper">
+			 	<div class="col-12">
+			 		<h4 class="card unit-card">
+			 			Unit I (Things Around Us)
+			 		</h4>
+			 	</div>
+			 	<div class="col-12">
+			 		<div class="chapter-list row">
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-10"><a href="#">  Living and Non-living Things </a></div> 
+						<div class="col-2">Chapter 1.</div><div class="col-9"><a href="#">  Living and Non-living Things </a></div> 
+				 
+			 			 
+					</div>
+			 	</div>
+			 </div>
 		</div>
 	</div>
 	<!-- FOOTER START -->
@@ -65,5 +110,4 @@
 	<script src="assets/js/site.js">
 	</script>
 </body>
-
 </html>

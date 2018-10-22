@@ -72,6 +72,10 @@
 .content{
 	min-height: calc(100vh - 60px);
 }
+[type="submit"] a{
+	color: #fff;
+	display: block;
+}
 /*====================REGULAR CSS====================*/
 
 @media (max-width: 767px){
@@ -365,10 +369,21 @@ table{
 			}
 		}
 	}
+	h1{
+		border-bottom: 2px solid $bg-l-black;
+		text-align: center;
+	}
 }
 .unit-card{
 	padding: 10px;
-	background: $bg-tr-black;
+//	background: $bg-tr-black;
 	@include radius(0);
-	color: #fff;
+//	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	border-bottom: 2px solid $bg-tr-black;
+}
+.col-2,.col-9{
+//	padding-left: 35px;
+//	background: rgba(60, 39, 39, 0.4);
 }
