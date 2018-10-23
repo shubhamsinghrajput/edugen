@@ -10,13 +10,13 @@
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
-	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
 	<link href="assets/css/style.css" rel="stylesheet">
 </head>
-
+<style>
+    h3{
+    color: #333;
+    }
+    </style>
 <body class="content-page">
 	<!-- HEADER START -->
 
@@ -63,128 +63,55 @@
             </div>
             <div class="tab-content p-4">
                 <section class=" bg-gray" id="question-bank">
-                    <div class=" table-responsive" style="padding-top: 10px;">
-				<table id="example" class="display">
-					<thead>
-						<tr>
-							<th width="5%">Page <br />No.</th>
-							<th width="5%">Q No.</th>
-							<th width="40%">Questions</th>
-							<th width="35%">Answer</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-
-					</tbody>
-					<tfoot>
-						<tr>
-							<th>Page No.</th>
-							<th>Q No.</th>
-							<th>Questions</th>
-							<th>Answer</th>
-							
-						</tr>
-					</tfoot>
-				</table>
-                    </div>     
+                    
+                        <div class="wrapper-card pt-5 pb-3">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 my-auto">
+							<div class="card card-stats">
+								<div class="card-header card-header-success card-header-icon">
+									<div class="card-icon">
+										Category
+									</div>
+									<h3>Intext</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-10 mx-auto">
+							<div class="row ">
+								<div class="col-md-3 card-margin"><a class="nav-link" href="intext-oral.php">Oral Questions</a> </div>
+								<div class="col-md-3 card-margin"><a class="nav-link" href="intext-name.php">Name of the following </a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper-card pt-5 pb-3">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 my-auto">
+							<div class="card card-stats">
+								<div class="card-header card-header-info card-header-icon">
+									<div class="card-icon">
+										Category
+									</div>
+									<h3>Textbook Exercise</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-10 mx-auto">
+							<div class="row ">
+							<div class="col-md-3 card-margin"><a class="nav-link" href="textbook-oral.php">Oral Questions</a> </div>
+								<div class="col-md-3 card-margin"><a class="nav-link" href="textbook-name.php">Name of the following </a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+                            
+                                
+                                    
+                                            
                 </section>                 
                 </div>
             </div>
@@ -198,23 +125,6 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/site.js"></script>
 	
-	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-	<script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
-	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
-	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
-	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			$('#example').DataTable({
-				dom: 'Bfrtip',
-				buttons: [
-					'copy', 'csv', 'excel', 'pdf', 'print' 
-				]
-			});
-		});
-	</script>
+	
 </body>
 </html>
