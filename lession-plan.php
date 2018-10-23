@@ -15,7 +15,7 @@
 	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body class="content-page">
+<body>
 	<!-- HEADER START -->
 	<?php include 'header.php' ?>
 	<!-- HEADER END -->

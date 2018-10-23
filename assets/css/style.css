@@ -68,6 +68,9 @@ h3 {
 h4 {
   font-size: 1.2rem; }
 
+body {
+  color: #333; }
+
 /*--------------footer-----------*/
 .footer {
   padding: 20px 0 15PX;
@@ -229,6 +232,9 @@ input[disabled] {
             display: block; } }
 .side-panel .tab-content > .tab-pane {
   display: block; }
+
+.header.fixed-top {
+  width: 100%; }
 
 /*================================CUSTOM HEADER STYLE==========================================*/
 .bg-orange {
@@ -781,7 +787,37 @@ table {
   border-bottom-right-radius: 7px;
   display: block; }
 
+#accordion-style-1 .btn-link {
+  padding-left: 0; }
+
+.card-header .collapsed.btn i.fa {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s; }
+.card-header .btn i.fa {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
+/*===================768px====================*/
+@media all and (max-width: 1023px) {
+  .tab-head ul .nav-link {
+    padding: 5px 10px; } }
 @media all and (max-width: 767px) {
   .content {
     padding-bottom: 35px; }
@@ -842,6 +878,11 @@ table {
     line-height: 1.5; }
     .footer h6 {
       font-size: 13px;
-      line-height: 1.4; } }
+      line-height: 1.4; }
+
+  .tab-head ul {
+    padding-top: 30px; }
+    .tab-head ul .nav-link {
+      padding: 3px 7px; } }
 
 /*# sourceMappingURL=style.css.map */

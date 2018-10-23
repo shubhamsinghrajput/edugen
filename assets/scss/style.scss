@@ -601,6 +601,20 @@ table {
 	border-bottom-right-radius: 7px;
 	display: block;
 }
+#accordion-style-1 .btn-link{
+	padding-left: 0;
+}
+
+.card-header{
+	.collapsed.btn i.fa{
+		@include transform(rotate(0));
+		@include transition(0.4s);
+	}
+	.btn i.fa{
+		@include transition(0.4s);
+		@include transform(rotate(90deg));
+	}
+}
 
 
 /*=============================IMPORT RESPONSIVE CSS===============================*/
