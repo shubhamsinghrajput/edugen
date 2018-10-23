@@ -419,9 +419,6 @@ table.dataTable tfoot td {
   border-bottom: 1px solid #af380b;
   border-top: 1px solid #af380b; }
 
-@media all and (max-width: 767px) {
-  .table-responsive {
-    padding-top: 40px !important; } }
 select {
   width: 100%;
   display: block;

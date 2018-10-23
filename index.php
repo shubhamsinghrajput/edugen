@@ -42,9 +42,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#parent" data-toggle="pill">Parent</a>
           </li>
-           <li class="nav-item">
-            <a class="nav-link" href="unit.php">Unit</a>
-          </li>
+            
          </ul>
       </div>
     </nav>
