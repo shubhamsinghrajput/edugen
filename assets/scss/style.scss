@@ -419,7 +419,7 @@ table {
 /*# sourceMappingURL=style.css.map */
 
 .wrapper-card {
-	background: #ccc;
+	background:  $bg-l-gray;
 	margin-bottom: 2px;
 
 	* {
@@ -447,9 +447,7 @@ table {
 
 /*============Content Page=============*/
 .content-page {
-	.unit-wrapper {}
-
-	.chapter-list {
+     .chapter-list {
 		 
 		margin-bottom: 10px;
 
@@ -489,7 +487,7 @@ table {
 		margin-bottom: 0;
 	}
 
-	.col-md-2 {
+    .chapter-list .col-md-2 {
 		border-right: 2px solid $bg-tr-black;
 	}
 }
@@ -624,7 +622,7 @@ table {
 	}
 	
 }
-.card .card-header{@include shadow(0 0 3px .5px rgba(0,0,0,0.3))}
+.accordion .card .card-header{@include shadow(0 0 3px .5px rgba(0,0,0,0.3))}
 #brainstrom,#tell-teacher,#find-out{
 	ul,ol{
 		list-style:disc;

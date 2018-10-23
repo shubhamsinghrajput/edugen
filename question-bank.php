@@ -13,10 +13,11 @@
 	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 <style>
-    h3{
-    color: #333;
-    }
-    </style>
+	h3 {
+		color: #333;
+	}
+</style>
+
 <body class="content-page">
 	<!-- HEADER START -->
 
@@ -29,94 +30,94 @@
 		<div class="breadcrumb-wrap">
 			<ul class="breadcrumb container">
 				<li><a href="teacher-dashboard.php">Dashboard</a></li>
-				<li><a href="content.php">Content</a></li>			
+				<li><a href="content.php">Content</a></li>
 				<li><a href="lession-plan.php">Chapter 1</a></li>
-				<li><a href="question-bank.php">Question Bank</a></li>				
- 			</ul>
+				<li><a href="question-bank.php">Question Bank</a></li>
+			</ul>
 		</div>
-        <div class="container pt-4">
-            <div class="chap-header">
-                <h3 class="unit">Unit 1 Thing About Us</h3>
-                <h1>Chapter 1: Living and Non-living Things</h1>
-            </div>
-            <div class="tab-head">
-              <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link" href="lession-plan.php">Lesson plan</a>
-                    </li>
-                    <li class="nav-item active">
-                      <a class="nav-link " href="question-bank.php">Question bank</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="word-search.php">Word search</a>
-                    </li>
-                     <li class="nav-item">
-                      <a class="nav-link" href="brainstorm.php">Brainstorm</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="tell-teacher.php">Tell your teacher</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="find-out.php">Find out</a>
-                    </li>                     
-                  </ul>
-            </div>
-            <div class="tab-content p-4">
-                <section class=" bg-gray" id="question-bank">
-                    
-                        <div class="wrapper-card pt-5 pb-3">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-2 my-auto">
-							<div class="card card-stats">
-								<div class="card-header card-header-success card-header-icon">
-									<div class="card-icon">
-										Category
+		<div class="container pt-4">
+			<div class="chap-header">
+				<h3 class="unit"><span class="bg-set">Unit 1 Thing About Us</span></h3>
+				<h1>Chapter 1: Living and Non-living Things</h1>
+			</div>
+			<div class="tab-head">
+				<ul class="nav nav-tabs">
+					<li class="nav-item">
+						<a class="nav-link" href="lession-plan.php">Lesson plan</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link " href="question-bank.php">Question bank</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="word-search.php">Word search</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="brainstorm.php">Brainstorm</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="tell-teacher.php">Tell your teacher</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="find-out.php">Find out</a>
+					</li>
+				</ul>
+			</div>
+			<div class="tab-content p-4">
+				<section class=" bg-gray" id="question-bank">
+
+					<div class="wrapper-card pt-5 pb-3">
+						<div class="container">
+							<div class="row">
+								<div class="col-xl-2 col-lg-3 col-sm-4 my-auto">
+									<div class="card card-stats">
+										<div class="card-header card-header-success card-header-icon">
+											<div class="card-icon">
+												Category
+											</div>
+											<h3>Intext</h3>
+										</div>
 									</div>
-									<h3>Intext</h3>
+								</div>
+								<div class="col-xl-10 col-lg-9 col-sm-8  mx-auto">
+									<div class="row ">
+										<div class="col-md-3 card-margin"><a class="nav-link" href="intext-oral.php">Oral Questions</a> </div>
+										<div class="col-md-3 card-margin"><a class="nav-link" href="intext-name.php">Name of the following </a></div>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-10 mx-auto">
-							<div class="row ">
-								<div class="col-md-3 card-margin"><a class="nav-link" href="intext-oral.php">Oral Questions</a> </div>
-								<div class="col-md-3 card-margin"><a class="nav-link" href="intext-name.php">Name of the following </a></div>
-							</div>
-						</div>
 					</div>
-				</div>
-			</div>
-			<div class="wrapper-card pt-5 pb-3">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-2 my-auto">
-							<div class="card card-stats">
-								<div class="card-header card-header-info card-header-icon">
-									<div class="card-icon">
-										Category
+					<div class="wrapper-card pt-5 pb-3">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-2 col-3 my-auto">
+									<div class="card card-stats">
+										<div class="card-header card-header-info card-header-icon">
+											<div class="card-icon">
+												Category
+											</div>
+											<h3>Textbook Exercise</h3>
+										</div>
 									</div>
-									<h3>Textbook Exercise</h3>
+								</div>
+								<div class="col-lg-10 col-9 mx-auto">
+									<div class="row ">
+										<div class="col-md-3 card-margin"><a class="nav-link" href="textbook-oral.php">Oral Questions</a> </div>
+										<div class="col-md-3 card-margin"><a class="nav-link" href="textbook-name.php">Name of the following </a></div>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-10 mx-auto">
-							<div class="row ">
-							<div class="col-md-3 card-margin"><a class="nav-link" href="textbook-oral.php">Oral Questions</a> </div>
-								<div class="col-md-3 card-margin"><a class="nav-link" href="textbook-name.php">Name of the following </a></div>
-							</div>
-						</div>
 					</div>
-				</div>
+
+
+
+
+				</section>
 			</div>
-                            
-                                
-                                    
-                                            
-                </section>                 
-                </div>
-            </div>
-        </div>
- 	<!-- FOOTER START -->
+		</div>
+	</div>
+	<!-- FOOTER START -->
 	<?php include 'footer.php' ?>
 	<!-- FOOTER END -->
 
@@ -124,7 +125,8 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/site.js"></script>
-	
-	
+
+
 </body>
+
 </html>

@@ -36,7 +36,7 @@
 		</div>
         <div class="container pt-4">
             <div class="chap-header">
-                <h3 class="unit">Unit 1 Thing About Us</h3>
+				<h3 class="unit"><span class="bg-set">Unit 1 Thing About Us</span></h3>
                 <h1>Chapter 1: Living and Non-living Things</h1>
             </div>
             <div class="tab-head">

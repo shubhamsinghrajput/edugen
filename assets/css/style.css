@@ -653,7 +653,7 @@ table {
 
 /*# sourceMappingURL=style.css.map */
 .wrapper-card {
-  background: #ccc;
+  background: #ddd;
   margin-bottom: 2px; }
   .wrapper-card * {
     text-align: center !important; }
@@ -694,7 +694,7 @@ table {
 .content-page h1 {
   text-align: center;
   margin-bottom: 0; }
-.content-page .col-md-2 {
+.content-page .chapter-list .col-md-2 {
   border-right: 2px solid rgba(60, 39, 39, 0.7); }
 
 .unit-card {
@@ -818,7 +818,7 @@ table {
   -o-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-.card .card-header {
+.accordion .card .card-header {
   -webkit-box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.3);
   -ms-box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.3);
