@@ -62,8 +62,8 @@
                   </ul>
             </div>
             <div class="tab-content p-4">
-               <div class="container">
-                    <div class=" table-responsive" style="padding-top: 30px;">
+                <section class=" bg-gray" id="question-bank">
+                    <div class=" table-responsive" style="padding-top: 10px;">
 				<table id="example" class="display">
 					<thead>
 						<tr>
@@ -184,12 +184,12 @@
 						</tr>
 					</tfoot>
 				</table>
-			</div>                      
+                    </div>     
+                </section>                 
                 </div>
             </div>
         </div>
-    </div>
-	<!-- FOOTER START -->
+ 	<!-- FOOTER START -->
 	<?php include 'footer.php' ?>
 	<!-- FOOTER END -->
 
