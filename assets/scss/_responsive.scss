@@ -7,6 +7,10 @@
 }
 
 @media all and (max-width:767px){
+	.container{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 	.content {
 		padding-bottom: 35px;
 	}
@@ -72,5 +76,16 @@
 			.nav-link{
 			padding: 3px 7px;
 		}
+	}
+	.tab-content{
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+	#accordion-style-1 .card-body{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.dataTable{
+		font-size: 13px;
 	}
 }

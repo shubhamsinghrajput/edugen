@@ -813,12 +813,26 @@ table {
   -o-transform: rotate(90deg);
   transform: rotate(90deg); }
 
+.card .card-header {
+  -webkit-box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.3); }
+
+#brainstrom ul, #brainstrom ol, #tell-teacher ul, #tell-teacher ol, #find-out ul, #find-out ol {
+  list-style: disc; }
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================768px====================*/
 @media all and (max-width: 1023px) {
   .tab-head ul .nav-link {
     padding: 5px 10px; } }
 @media all and (max-width: 767px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px; }
+
   .content {
     padding-bottom: 35px; }
 
@@ -883,6 +897,17 @@ table {
   .tab-head ul {
     padding-top: 30px; }
     .tab-head ul .nav-link {
-      padding: 3px 7px; } }
+      padding: 3px 7px; }
+
+  .tab-content {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+
+  #accordion-style-1 .card-body {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  .dataTable {
+    font-size: 13px; } }
 
 /*# sourceMappingURL=style.css.map */

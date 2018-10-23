@@ -614,6 +614,13 @@ table {
 		@include transition(0.4s);
 		@include transform(rotate(90deg));
 	}
+	
+}
+.card .card-header{@include shadow(0 0 3px .5px rgba(0,0,0,0.3))}
+#brainstrom,#tell-teacher,#find-out{
+	ul,ol{
+		list-style:disc;
+	}
 }
 
 

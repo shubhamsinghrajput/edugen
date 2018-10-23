@@ -57,7 +57,7 @@
             <div class="tab-content p-5">
                <section id="word-search">
                     <div class="col-md-6 mx-auto">
-                    <img src="assets/img/word-search.jpg"/>
+                   		 <img src="assets/img/word-search.jpg" class="img-fluid"/>
                     </div>
                </section>
             </div>
