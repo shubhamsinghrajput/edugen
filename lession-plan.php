@@ -70,7 +70,7 @@
 													<div class="card-header" id="headingOne">
 														<h5 class="mb-0">
 															<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-																<i class="fa fa-minus main"></i><i class="fa fa-angle-double-right mr-3"></i>Goal
+																 <i class="fa fa-angle-double-right mr-3"></i>Goal
 															</button>
 														</h5>
 													</div>
@@ -87,7 +87,7 @@
 													<div class="card-header" id="headingTwo">
 														<h5 class="mb-0">
 															<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-																<i class="fa fa-minus main"></i><i class="fa fa-angle-double-right mr-3"></i>Objectives
+																 <i class="fa fa-angle-double-right mr-3"></i>Objectives
 															</button>
 														</h5>
 													</div>
@@ -103,7 +103,7 @@
 													<div class="card-header" id="headingThree">
 														<h5 class="mb-0">
 															<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-																<i class="fa fa-minus main"></i><i class="fa fa-angle-double-right mr-3"></i>Teaching Aids
+															     <i class="fa fa-angle-double-right mr-3"></i>Teaching Aids
 															</button>
 														</h5>
 													</div>
@@ -119,7 +119,7 @@
 													<div class="card-header" id="headingFour">
 														<h5 class="mb-0">
 															<button class="btn btn-link collapsed btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-																<i class="fa fa-minus main"></i><i class="fa fa-angle-double-right mr-3"></i>Teaching Suggestions
+																 <i class="fa fa-angle-double-right mr-3"></i>Teaching Suggestions
 															</button>
 														</h5>
 													</div>

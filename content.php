@@ -10,9 +10,7 @@
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
 	<link href="assets/css/style.css" rel="stylesheet">
 	<style>
@@ -38,7 +36,7 @@
 		</div>
 		<div class="container pt-4">
 			<div class="row">
-				<div class="col-4 mx-auto mb-2">
+				<div class="col-10 col-sm-8 col-lg-4 mx-auto mb-2">
 					<h1>Content</h1>
 					<hr class="hr-style hr-style2">
 				</div>
@@ -48,14 +46,14 @@
 					<div class="col-12 hr-style2 unit-card ">
 						<h4>Unit I (Things Around Us) </h4>
 					</div>
-					<div class="col-2 tx-c">Chapter 1.</div>
-					<div class="col-10 "><a href="lession-plan.php"> Living and Non-living Things </a></div>
-					<div class="col-2 tx-c">Chapter 2.</div>
-					<div class="col-10 hr-style"><a href="lession-plan.php"> Living and Non-living Living and Non-living Non-living Non-livingThings </a></div>
-					<div class="col-2 tx-c">Chapter 3.</div>
-					<div class="col-10 hr-style"><a href="lession-plan.php"> Living Non-living and Non-living Things </a></div>
-					<div class="col-2 tx-c">Chapter 4.</div>
-					<div class="col-10 hr-style"><a href="lession-plan.php"> Living and Non-living Non-living Things </a> </div>
+					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 1.</div>
+					<div class="col-11 col-md-10"><a href="lession-plan.php"> Living and Non-living Things </a></div>
+					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 2.</div>
+					<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Living and Non-living Non-living Non-livingThings </a></div>
+					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 3.</div>
+					<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living Non-living and Non-living Things </a></div>
+					<div class="col-1 col-md-2 tx-c"><span class="hidden-xs ">Chapter</span> 4.</div>
+					<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Non-living Things </a> </div>
 				</div>
 
 				<div class="chapter-list row">

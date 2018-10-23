@@ -4,7 +4,7 @@
 @import "nav.scss";
 @import "style-item.scss";
 @import "bootstrap-overrides.scss";
-@import "responsive.scss";
+
 
 
 /*============Custom Sytle=============*/
@@ -30,13 +30,10 @@
 		right: 10px;
 		top: 15px;
 	}
-
 }
-
 .content {
 	padding-bottom: 45px;
 }
-
 @media all and (min-width:768px) {
 	.h-effcts > li > a {
 		position: relative;
@@ -429,7 +426,7 @@ table {
 	}
 
 	.card-title {
-		font-size: 65px;
+		font-size: 60px;
 		padding: 2px 0 11px;
 	}
 
@@ -471,22 +468,23 @@ table {
 				margin-right: 15px;
 			}
 		}
-//		>[class^="col-"]:not(.hr-style){
-//			padding-top: 10px;
-//			padding-bottom: 10px;	
-//		}
-		>[class^="col-"]{
+        >[class^="col-"]{
 			padding-top: 10px;
-			padding-bottom: 10px;	
+			padding-bottom: 10px;
+			@media all and (max-width:767px){
+				padding-left: 5px;
+				padding-right: 3px;
+				font-size: 13px;
+			}
 		}
-	}
+	 }
 
 	h1 {
 		text-align: center;
 		margin-bottom: 0;
 	}
 
-	.col-2 {
+	.col-md-2 {
 		border-right: 2px solid $bg-tr-black;
 	}
 }
@@ -500,8 +498,7 @@ table {
 	border-bottom: 3px solid $bg-tr-black;
 
 	h4 {
-		font-size: 18px;
-		margin-bottom: 0;
+ 		margin-bottom: 0;
 	}
 }
 
@@ -604,3 +601,8 @@ table {
 	border-bottom-right-radius: 7px;
 	display: block;
 }
+
+
+/*=============================IMPORT RESPONSIVE CSS===============================*/
+
+@import "responsive.scss";

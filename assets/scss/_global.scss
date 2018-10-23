@@ -89,7 +89,18 @@ body.side-panel {
 }
 
 /*-----------------------------------*/
-
+h1{
+	font-size: 2.5rem;
+}
+h2{
+	font-size: 2rem;
+}
+h3{
+	font-size: 1.5rem;
+}
+h4{
+	font-size: 1.2rem;
+}
 /*--------------footer-----------*/
 .footer {
 	padding: 20px 0 15PX;
@@ -244,4 +255,9 @@ input[disabled] {
 
 .tx-c {
 	text-align: center;
+}
+.hidden-xs{
+	@media all and (max-width:767px){
+		display: none;
+	}
 }
