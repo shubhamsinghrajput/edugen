@@ -192,6 +192,10 @@ input[disabled] {
   .hidden-xs {
     display: none; } }
 
+/*-----------------Table responsive--------------*/
+.dataTables_wrapper {
+  min-width: 800px; }
+
 .side-panel #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -828,6 +832,23 @@ table {
 #brainstrom ul, #brainstrom ol, #tell-teacher ul, #tell-teacher ol, #find-out ul, #find-out ol {
   list-style: disc; }
 
+#question-bank .card-header {
+  padding: 50px 5px 10px; }
+  #question-bank .card-header .card-icon {
+    padding: 10px 5px;
+    margin-top: -60px; }
+#question-bank .nav-link.btn {
+  background: rgba(60, 39, 39, 0.7);
+  padding: 15px 25px;
+  border: 1px solid #3c2727;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+  display: inline-block;
+  min-width: 200px; }
+  #question-bank .nav-link.btn + .nav-link.btn {
+    margin-left: 30px; }
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================992px====================*/
 @media all and (max-width: 1023px) {
@@ -844,7 +865,13 @@ table {
   .wrapper-card .card-title {
     font-size: 40px; }
   .wrapper-card .card [class*="card-header-"] .card-icon, .wrapper-card .card [class*="card-header-"] .card-text {
-    padding: 10px; } }
+    padding: 10px; }
+
+  #question-bank .nav-link.btn {
+    padding: 7px 25px;
+    min-width: 225px; }
+    #question-bank .nav-link.btn + .nav-link.btn {
+      margin-left: 0; } }
 @media all and (max-width: 767px) {
   /*==========GLOBAL STYLE=========*/
   body {

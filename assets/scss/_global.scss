@@ -263,3 +263,7 @@ input[disabled] {
 		display: none;
 	}
 }
+/*-----------------Table responsive--------------*/
+.dataTables_wrapper{
+	min-width: 800px;
+}

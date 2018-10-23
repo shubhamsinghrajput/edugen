@@ -630,6 +630,29 @@ table {
 }
 
 
+#question-bank{
+	.card-header{
+		padding: 50px 5px 10px;
+		.card-icon{
+			padding: 10px 5px;
+			margin-top: -60px;
+		}
+	}
+	.nav-link.btn{
+		background: $bg-tr-black;
+		padding: 15px 25px;
+		border: 1px solid $bg-l-black;
+		color: #fff;
+		font-weight: 500;
+		margin-bottom: 15px;
+		display: inline-block;
+		min-width: 200px;
+		&+.nav-link.btn{
+			margin-left: 30px;
+		}
+	}
+}
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 
 @import "responsive.scss";

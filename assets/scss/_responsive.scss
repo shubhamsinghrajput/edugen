@@ -20,6 +20,15 @@
 			padding: 10px; 	
 		}
 	}
+	#question-bank{
+		.nav-link.btn{
+			padding: 7px 25px;
+			min-width: 225px;
+			&+.nav-link.btn{
+				margin-left: 0;
+ 			}
+		}
+	}
 }
 
 

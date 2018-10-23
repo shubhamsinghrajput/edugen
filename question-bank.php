@@ -78,11 +78,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-xl-10 col-lg-9 col-sm-8  mx-auto">
-									<div class="row ">
-										<div class="col-md-3 card-margin"><a class="nav-link" href="intext-oral.php">Oral Questions</a> </div>
-										<div class="col-md-3 card-margin"><a class="nav-link" href="intext-name.php">Name of the following </a></div>
-									</div>
+								<div class="col-sm-8 my-auto">
+									<a class="nav-link btn" href="intext-oral.php">Oral Questions</a>
+									<a class="nav-link btn" href="intext-name.php">Name of the following </a>
 								</div>
 							</div>
 						</div>
@@ -90,30 +88,24 @@
 					<div class="wrapper-card pt-5 pb-3">
 						<div class="container">
 							<div class="row">
-								<div class="col-lg-2 col-3 my-auto">
+								<div class="col-xl-2 col-lg-3 col-sm-4 my-auto">
 									<div class="card card-stats">
-										<div class="card-header card-header-info card-header-icon">
+										<div class="card-header card-header-success card-header-icon">
 											<div class="card-icon">
 												Category
 											</div>
-											<h3>Textbook Exercise</h3>
+											<h3>Intext</h3>
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-10 col-9 mx-auto">
-									<div class="row ">
-										<div class="col-md-3 card-margin"><a class="nav-link" href="textbook-oral.php">Oral Questions</a> </div>
-										<div class="col-md-3 card-margin"><a class="nav-link" href="textbook-name.php">Name of the following </a></div>
-									</div>
+								<div class="col-sm-8  my-auto">
+									<a class="nav-link btn"  href="textbook-oral.php">Oral Questions</a>
+									<a class="nav-link btn" href="textbook-name.php">Name of the following </a>
 								</div>
 							</div>
 						</div>
 					</div>
-
-
-
-
-				</section>
+				 </section>
 			</div>
 		</div>
 	</div>
