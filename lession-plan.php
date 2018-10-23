@@ -43,7 +43,7 @@
 					<li class="nav-item">
 						<a class="nav-link " href="question-bank.php">Question bank</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item">  
 						<a class="nav-link " href="word-search.php">Word search</a>
 					</li>
 					<li class="nav-item">
