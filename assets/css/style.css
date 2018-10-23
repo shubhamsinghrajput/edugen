@@ -293,7 +293,8 @@ section.resume-section {
 .multiselect-native-select {
   display: block;
   width: 100%; }
-  .multiselect-native-select .btn-group, .multiselect-native-select .multiselect {
+  .multiselect-native-select .btn-group,
+  .multiselect-native-select .multiselect {
     width: 100%; }
   .multiselect-native-select .btn {
     text-align: left;
@@ -362,7 +363,8 @@ section.resume-section {
   border-color: #bd5d38;
   color: #fff; }
 
-.btn-secondary, .btn-secondary:hover {
+.btn-secondary,
+.btn-secondary:hover {
   color: #fff;
   background-color: #bd5d38;
   border-color: #bd5d38; }
@@ -380,14 +382,19 @@ section.resume-section {
   background-color: #bd5d38;
   border-color: #bd5d38; }
 
-table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: center left;
   background: #bd5d38;
   color: #fff; }
 
-table.dataTable thead th, table.dataTable tfoot th {
+table.dataTable thead th,
+table.dataTable tfoot th {
   font-weight: 500; }
 
 #dashboard h2 {
@@ -396,7 +403,10 @@ table.dataTable thead th, table.dataTable tfoot th {
 .dashboard-bg {
   background: #ccc; }
 
-table.dataTable thead th, table.dataTable thead td, table.dataTable tfoot th, table.dataTable tfoot td {
+table.dataTable thead th,
+table.dataTable thead td,
+table.dataTable tfoot th,
+table.dataTable tfoot td {
   border-bottom: 1px solid #af380b;
   border-top: 1px solid #af380b; }
 
@@ -496,7 +506,8 @@ table {
   -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14); }
 
-.card [class*="card-header-"] .card-icon, .card [class*="card-header-"] .card-text {
+.card [class*="card-header-"] .card-icon,
+.card [class*="card-header-"] .card-text {
   background-color: #999999;
   padding: 15px;
   margin-top: -20px;
@@ -527,7 +538,8 @@ table {
 .card .card-header {
   z-index: 3 !important; }
 
-.card [class*="card-header-"], .card[class*="bg-"] {
+.card [class*="card-header-"],
+.card[class*="bg-"] {
   color: #fff; }
 
 .card .card-header {
@@ -538,20 +550,25 @@ table {
   color: #999999;
   font-size: 14px; }
 
-.card .card-header.card-header-icon .card-title, .card .card-header.card-header-text .card-title {
+.card .card-header.card-header-icon .card-title,
+.card .card-header.card-header-text .card-title {
   color: #3c2727;
   line-height: 1.5; }
 
-.card.card-stats .card-header .card-title, .card.card-stats .card-header .card-category {
+.card.card-stats .card-header .card-title,
+.card.card-stats .card-header .card-category {
   margin: 0; }
 
-.card.card-stats .card-header .card-icon + .card-title, .card.card-stats .card-header .card-icon + .card-category {
+.card.card-stats .card-header .card-icon + .card-title,
+.card.card-stats .card-header .card-icon + .card-category {
   padding-top: 3px; }
 
-.card.card-stats .card-header.card-header-icon, .card.card-stats .card-header.card-header-text {
+.card.card-stats .card-header.card-header-icon,
+.card.card-stats .card-header.card-header-text {
   text-align: right; }
 
-.card-body, .card-footer {
+.card-body,
+.card-footer {
   border: 0 none;
   background: #fff;
   margin-bottom: 0; }
@@ -560,7 +577,8 @@ table {
   border-top: 1px solid #eee;
   margin-top: 4px; }
 
-.card .card-body + .card-footer, .card .card-footer {
+.card .card-body + .card-footer,
+.card .card-footer {
   padding: 0;
   padding-top: 10px;
   margin: 0 15px 10px;
@@ -572,16 +590,36 @@ table {
   -ms-flex-align: center;
   align-items: center; }
 
-.card .card-header-warning .card-icon, .card .card-header-warning .card-text, .card .card-header-warning:not(.card-header-icon):not(.card-header-text), .card.bg-warning, .card.card-rotate.bg-warning .front, .card.card-rotate.bg-warning .back {
+.card .card-header-warning .card-icon,
+.card .card-header-warning .card-text,
+.card .card-header-warning:not(.card-header-icon):not(.card-header-text),
+.card.bg-warning,
+.card.card-rotate.bg-warning .front,
+.card.card-rotate.bg-warning .back {
   background: linear-gradient(60deg, #ffa726, #fb8c00); }
 
-.card .card-header-success .card-icon, .card .card-header-success .card-text, .card .card-header-success:not(.card-header-icon):not(.card-header-text), .card.bg-success, .card.card-rotate.bg-success .front, .card.card-rotate.bg-success .back {
+.card .card-header-success .card-icon,
+.card .card-header-success .card-text,
+.card .card-header-success:not(.card-header-icon):not(.card-header-text),
+.card.bg-success,
+.card.card-rotate.bg-success .front,
+.card.card-rotate.bg-success .back {
   background: linear-gradient(60deg, #66bb6a, #43a047); }
 
-.card .card-header-danger .card-icon, .card .card-header-danger .card-text, .card .card-header-danger:not(.card-header-icon):not(.card-header-text), .card.bg-danger, .card.card-rotate.bg-danger .front, .card.card-rotate.bg-danger .back {
+.card .card-header-danger .card-icon,
+.card .card-header-danger .card-text,
+.card .card-header-danger:not(.card-header-icon):not(.card-header-text),
+.card.bg-danger,
+.card.card-rotate.bg-danger .front,
+.card.card-rotate.bg-danger .back {
   background: linear-gradient(60deg, #ef5350, #e53935); }
 
-.card .card-header-info .card-icon, .card .card-header-info .card-text, .card .card-header-info:not(.card-header-icon):not(.card-header-text), .card.bg-info, .card.card-rotate.bg-info .front, .card.card-rotate.bg-info .back {
+.card .card-header-info .card-icon,
+.card .card-header-info .card-text,
+.card .card-header-info:not(.card-header-icon):not(.card-header-text),
+.card.bg-info,
+.card.card-rotate.bg-info .front,
+.card.card-rotate.bg-info .back {
   background: linear-gradient(60deg, #26c6da, #00acc1); }
 
 .card-footer .stats {
@@ -621,7 +659,7 @@ table {
 /*============Content Page=============*/
 .content-page .chapter-list {
   line-height: 2.25;
-  margin-bottom: 5px; }
+  margin-bottom: 10px; }
   .content-page .chapter-list li {
     margin-bottom: 5px; }
   .content-page .chapter-list a {
@@ -639,7 +677,7 @@ table {
   text-align: center;
   margin-bottom: 0; }
 .content-page .col-2 {
-  border-right: 3px solid rgba(60, 39, 39, 0.7); }
+  border-right: 2px solid rgba(60, 39, 39, 0.7); }
 
 .unit-card {
   padding: 10px;
