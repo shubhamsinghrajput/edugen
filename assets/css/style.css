@@ -505,7 +505,7 @@ table {
       padding: 15px; } }
 
 .login-page {
-  background: url(../img/login-bg) no-repeat center bottom;
+  background: url(../img/login-bg.jpg) no-repeat center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
