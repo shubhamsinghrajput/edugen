@@ -143,7 +143,6 @@ ul.breadcrumb {
   list-style: none;
   background: transparent; }
 
-ul.breadcrumb li,
 ul.breadcrumb li a {
   display: inline;
   color: #bd5d38;
@@ -411,6 +410,13 @@ table.dataTable tfoot th {
 
 .dashboard-bg {
   background: #ccc; }
+
+#dashboard .card-header {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none; }
 
 table.dataTable thead th,
 table.dataTable thead td,
@@ -707,14 +713,17 @@ table {
 
 /*=================book-content===============*/
 .chap-header .unit {
-  background: #3c2727;
-  border: 1px solid #3c2727;
-  padding: 5px 35px;
-  color: #fff;
-  text-align: center;
-  font-size: 1rem;
-  width: 250px;
-  margin: 0 auto 10px; }
+  margin: 0 auto 10px;
+  text-align: center; }
+  .chap-header .unit .bg-set {
+    display: inline-block;
+    background: #3c2727;
+    border: 1px solid #3c2727;
+    padding: 5px 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    width: 250px; }
 .chap-header h1 {
   font-size: 22px; }
 
@@ -824,8 +833,15 @@ table {
 /*===================768px====================*/
 @media all and (max-width: 1023px) {
   .tab-head ul .nav-link {
-    padding: 5px 10px; } }
+    padding: 5px 10px; }
+
+  ul.breadcrumb li a {
+    font-size: inherit; } }
 @media all and (max-width: 767px) {
+  /*==========GLOBAL STYLE=========*/
+  body {
+    font-size: 13px; }
+
   .container {
     padding-left: 10px;
     padding-right: 10px; }
@@ -834,20 +850,21 @@ table {
     padding-bottom: 35px; }
 
   h1 {
-    font-size: 1.8rem; }
-
-  h2 {
     font-size: 1.5rem; }
 
-  h3 {
+  h2 {
     font-size: 1.2rem; }
 
-  h4 {
+  h3 {
     font-size: 1rem; }
+
+  h4 {
+    font-size: .95rem; }
 
   .pdt {
     padding-top: 66px; }
 
+  /*===========================*/
   .logo {
     width: 50px;
     height: 50px; }
@@ -898,13 +915,18 @@ table {
 
   .tab-content {
     padding-left: 10px !important;
-    padding-right: 10px !important; }
+    padding-right: 10px !important;
+    font-size: 13px; }
 
   #accordion-style-1 .card-body {
     padding-left: 10px;
     padding-right: 10px; }
 
   .dataTable {
-    font-size: 13px; } }
+    font-size: 13px; }
+
+  #brainstrom ul, #brainstrom ol, #tell-teacher ul, #tell-teacher ol, #find-out ul, #find-out ol {
+    list-style: disc;
+    padding-left: 10px; } }
 
 /*# sourceMappingURL=style.css.map */

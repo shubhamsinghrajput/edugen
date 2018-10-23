@@ -200,14 +200,13 @@ ul.breadcrumb {
 	background: transparent;
 }
 
-ul.breadcrumb li,
+ 
 ul.breadcrumb li a {
 	display: inline;
 	color: $c-orange;
 	color: #fff;
 	font-size: 15px;
-	//    font-size: 18px;
-}
+ }
 
 ul.breadcrumb li + li:before {
 	padding: 8px;

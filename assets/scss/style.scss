@@ -142,6 +142,11 @@ table.dataTable tfoot th {
 .dashboard-bg {
 	background: #ccc;
 }
+#dashboard{
+	.card-header{
+		@include shadow(none);
+	}
+}
 
 table.dataTable thead th,
 table.dataTable thead td,
@@ -507,14 +512,18 @@ table {
 
 .chap-header {
 	.unit {
-		background: $bg-l-black;
-		border: 1px solid $bg-l-black;
-		padding: 5px 35px;
-		color: #fff;
-		text-align: center;
-		font-size: 1rem;
-		width: 250px;
 		margin: 0 auto 10px;
+		text-align: center;
+		.bg-set{
+			display: inline-block;
+			background: $bg-l-black;
+			border: 1px solid $bg-l-black;
+			padding: 5px 35px;
+			color: #fff;
+			text-align: center;
+			font-size: 1rem;
+			width: 250px;
+		}
 	}
 
 	h1 {
