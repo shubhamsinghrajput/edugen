@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Edugen - Regestration Form</title>
+    <title>Edugen</title>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/select.css" rel="stylesheet">
@@ -31,16 +31,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav nav">
           <li class="nav-item">
-            <a class="nav-link" href="#school" data-toggle="pill">School</a>
+            <a class="nav-link" href="#school">School</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#teacher" data-toggle="pill">Teacher</a>
+            <a class="nav-link" href="#teacher">Teacher</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#student" data-toggle="pill">Student</a>
+            <a class="nav-link" href="#student">Student</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#parent" data-toggle="pill">Parent</a>
+            <a class="nav-link" href="#parent">Parent</a>
           </li>
             
          </ul>

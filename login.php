@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Edugen - Regestration Form</title>
+<title>Edugen</title>
 <!-- Bootstrap core CSS -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,21 +15,14 @@
 </head>
 <body class="login-page">
 <!-- HEADER START -->
-
 	 <header class="header bg-orange fixed-top">
 	   <nav class="navbar navbar-expand-md container">
 		  <a class="navbar-brand logo" href="#">
 			<img src="assets/img/profile.jpg" alt="logo">
 		  </a>
-		  <button class="menu-btn">                                                                                                                                       	<i class="fa fa-bars"></i>
-		  </button>
-		   
 		</nav> 
 	</header>
-	
-
 <!-- HEADER END -->
-
 <!-- CONTENT START -->
 <div class="content pdt ">
     <div class="breadcrumb-wrap">

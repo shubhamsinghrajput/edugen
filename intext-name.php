@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>Edugen - Regestration Form</title>
+	<title>Edugen</title>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -80,7 +80,12 @@
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>1</td>
+							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>This should be a catch-phrase for Support</td>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -94,94 +99,74 @@
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-
 					</tbody>
 					<tfoot>
 						<tr>
 							<th>Page No.</th>
 							<th>Q No.</th>
 							<th>Questions</th>
-							<th>Answer</th>
-							
+							<th>Answer</th>							
 						</tr>
 					</tfoot>
 				</table>
@@ -193,12 +178,10 @@
  	<!-- FOOTER START -->
 	<?php include 'footer.php' ?>
 	<!-- FOOTER END -->
-
 	<!-- Custom scripts for this template -->
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/site.js"></script>
-	
+	<script src="assets/js/site.js"></script>	
 	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 	<script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
 	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>

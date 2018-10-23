@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>Edugen - Regestration Form</title>
+	<title>Edugen</title>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -90,11 +90,11 @@
 							<div class="row">
 								<div class="col-xl-2 col-lg-3 col-sm-4 my-auto">
 									<div class="card card-stats">
-										<div class="card-header card-header-success card-header-icon">
+										<div class="card-header card-header-danger card-header-icon">
 											<div class="card-icon">
 												Category
 											</div>
-											<h3>Intext</h3>
+											<h3>Textbook Exercise</h3>
 										</div>
 									</div>
 								</div>
