@@ -353,10 +353,11 @@ table{
 /*============Content Page=============*/
 .content-page{
     .unit-wrapper{
-		margin-bottom: 10px;
+		
 	}
 	.chapter-list{
         line-height: 2.25;
+		margin-bottom: 5px;
 		li{
 			margin-bottom: 5px;
 		}
@@ -389,9 +390,11 @@ table{
 	@include radius(0);
 	color: #fff;
 	text-align: center;
-	font-size: 18px;
-	border-bottom: 3px solid $bg-tr-black;
-	margin-bottom: 0;
+ 	border-bottom: 3px solid $bg-tr-black;
+	h4{
+		font-size: 18px;
+		margin-bottom: 0;
+	}
 }
 
 .hr-style { 
