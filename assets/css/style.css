@@ -784,6 +784,9 @@ table {
 
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 @media all and (max-width: 767px) {
+  .content {
+    padding-bottom: 35px; }
+
   h1 {
     font-size: 1.8rem; }
 
@@ -829,6 +832,17 @@ table {
 
   .content-page .chapter-list a {
     padding-left: 10px;
-    padding-right: 10px; } }
+    padding-right: 10px; }
+
+  .content-page .chapter-list > [class^="col-"] {
+    padding-top: 7px;
+    padding-bottom: 7px; }
+
+  .footer {
+    font-size: 13px;
+    line-height: 1.5; }
+    .footer h6 {
+      font-size: 13px;
+      line-height: 1.4; } }
 
 /*# sourceMappingURL=style.css.map */
