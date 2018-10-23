@@ -15,11 +15,7 @@
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
 	<link href="assets/css/style.css" rel="stylesheet">
-	<style>
-
-	</style>
-
-</head>
+	</head>
 
 <body class="content-page">
 	<!-- HEADER START -->
@@ -66,14 +62,18 @@
                   </ul>
             </div>
             <div class="tab-content p-4">
-               <div class="container">
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
+                     <section id="find-out" class="p-2">  	  
+		        <h3>Find out</h3>
+                       <ul>
+                        <li> Tissue culture is a way to grow cells in a laboratory. This is done by
+taking the cells in an early stage of development and getting them
+to divide in a flask.</li>
+                        <li>Spores are the single-celled reproductive unit of non-flowering
+plants. Spores-producing plants include plants such as mosses and
+ferns. Spores are very tiny and light. They can be dispersed by wind
+to new locations where they can grow.</li>
+                        </ul>
+                </section>
             </div>
         </div>
     </div>

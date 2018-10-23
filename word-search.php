@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,24 +9,14 @@
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
 	<link href="assets/css/style.css" rel="stylesheet">
-	<style>
-
-	</style>
-
 </head>
-
 <body class="content-page">
 	<!-- HEADER START -->
-
 	<?php include 'header.php' ?>
-
 	<!-- HEADER END -->
-
 	<!-- CONTENT START -->
 	<div class="content pdt book-content">
 		<div class="breadcrumb-wrap">
@@ -65,15 +54,12 @@
                     </li>                     
                   </ul>
             </div>
-            <div class="tab-content p-4">
-               <div class="container">
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
+            <div class="tab-content p-5">
+               <section id="word-search">
+                    <div class="col-md-6 mx-auto">
+                    <img src="assets/img/word-search.jpg"/>
+                    </div>
+               </section>
             </div>
         </div>
     </div>

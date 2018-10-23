@@ -15,11 +15,7 @@
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
 	<link href="assets/css/style.css" rel="stylesheet">
-	<style>
-
-	</style>
-
-</head>
+	</head>
 
 <body class="content-page">
 	<!-- HEADER START -->
@@ -65,17 +61,18 @@
                     </li>                     
                   </ul>
             </div>
-            <div class="tab-content p-4">
-               <div class="container">
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
-            </div>
+            <div class="tab-content p-3">
+               <section id="brainstrom" class="p-2">  	  
+		        <h3>Brainstorm (Page 14)</h3>	
+                    <ul>			
+                            <li>Due to various reasons, all the seeds of all fruits do not germinate and
+                            grow into plants. Human tending is necessary for the growth of plants and
+                            fruits in an abundant measure. The quantity of crops is a human choice.
+                            </li>
+                    </ul>                       
+                </section>
         </div>
+    </div>
     </div>
 	<!-- FOOTER START -->
 	<?php include 'footer.php' ?>

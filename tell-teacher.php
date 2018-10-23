@@ -66,14 +66,19 @@
                   </ul>
             </div>
             <div class="tab-content p-4">
-               <div class="container">
-                    
-                    
-                    
-                    
-                    
-                    
-                </div>
+              <section id="tell-teacher" class="p-2">  	  
+		        <h3>Tell your teacher (Page 22)</h3>
+                       <ul>
+                        <li>The first person can be compared to leaves as leaves make food for
+                            the plant.</li>
+                        <li>The second person can be compared to the stem as the stem carries
+                            food to different parts of a plant.</li>
+                        <li>The third person is a lady who can be compared to a flower as a
+                            flower is the most beautiful and colourful part of a plant.</li>
+                        <li>The last person is a lady who can be compared to roots as roots
+                            provide water to the plant.</li>
+                  </ul>
+                </section>
             </div>
         </div>
     </div>
