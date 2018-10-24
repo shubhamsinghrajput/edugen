@@ -31,12 +31,14 @@
 			</ul>
 		</div>
 		<div class="container pt-4">
+<!--
 			<div class="row">
 				<div class="col-10 col-sm-8 col-lg-4 mx-auto mb-2">
 					<h1>Content</h1>
 					<hr class="hr-style hr-style2">
 				</div>
 			</div>
+-->
 			<div class="col-12 col-lg-10 col-xl-8 mx-auto">
 				<div class="chapter-list row">
 					<div class="col-12 hr-style2 unit-card ">

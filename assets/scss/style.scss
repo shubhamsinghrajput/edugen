@@ -652,7 +652,9 @@ table {
 		}
 	}
 }
-
+.card-header h3{
+	color: #333; 	
+}
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 
 @import "responsive.scss";

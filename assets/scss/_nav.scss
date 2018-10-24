@@ -55,11 +55,15 @@
 	  }
 	}
 	.tab-content>.tab-pane {
+		display: none;
+	}
+	.tab-content>.active {
 		display: block;
 	}
 }
 .header.fixed-top{
 	width: 100%;
+	right: auto;
  }
 /*================================CUSTOM HEADER STYLE==========================================*/
 .bg-orange{

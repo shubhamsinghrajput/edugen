@@ -101,8 +101,9 @@ h3{
 h4{
 	font-size: 1.2rem;
 }
-body{
+body,html{
 	color: #333;
+	overflow-x: hidden;
 }
 /*--------------footer-----------*/
 .footer {
@@ -252,7 +253,6 @@ input[disabled] {
     &.hr-style2:before {
 		height: 2px;
   	}
- 
 }
 
 .tx-c {
