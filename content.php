@@ -31,53 +31,53 @@
 			</ul>
 		</div>
 		<div class="container pt-4">
-<!--
 			<div class="row">
 				<div class="col-10 col-sm-8 col-lg-4 mx-auto mb-2">
 					<h1>Content</h1>
 					<hr class="hr-style hr-style2">
 				</div>
 			</div>
--->
-			<div class="col-12 col-lg-10 col-xl-8 mx-auto">
-				<div class="chapter-list row">
-					<div class="col-12 hr-style2 unit-card ">
-						<h4>Unit I (Things Around Us) </h4>
+			<div class="row">
+				<div class="col-12 col-lg-10 col-xl-8 mx-auto">
+					<div class="chapter-list row">
+						<div class="col-12 hr-style2 unit-card ">
+							<h4>Unit I (Things Around Us) </h4>
+						</div>
+						<div class="col-1 col-md-2 tx-c chap-count">Chapter 1.</div>
+						<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Things </a></div>
+						<div class="col-1 col-md-2 tx-c chap-count">Chapter 2.</div>
+						<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Living and Non-living Non-living Non-livingThings </a></div>
+						<div class="col-1 col-md-2 tx-c chap-count">Chapter 3.</div>
+						<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living Non-living and Non-living Things </a></div>
+						<div class="col-1 col-md-2 tx-c"><span class="hidden-xs ">Chapter</span> 4.</div>
+						<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Non-living Things </a> </div>
 					</div>
-					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 1.</div>
-					<div class="col-11 col-md-10"><a href="lession-plan.php"> Living and Non-living Things </a></div>
-					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 2.</div>
-					<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Living and Non-living Non-living Non-livingThings </a></div>
-					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 3.</div>
-					<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living Non-living and Non-living Things </a></div>
-					<div class="col-1 col-md-2 tx-c"><span class="hidden-xs ">Chapter</span> 4.</div>
-					<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Non-living Things </a> </div>
-				</div>
-				
-				<div class="chapter-list row">
-					<div class="col-12 hr-style2 unit-card ">
-						<h4>Unit I (Things Around Us) </h4>
+					
+					<div class="chapter-list row">
+						<div class="col-12 hr-style2 unit-card ">
+							<h4>Unit I (Things Around Us) </h4>
+						</div>
+						<div class="col-1 col-md-2 tx-c chap-count">Chapter 5.</div>
+						<div class="col-11 col-md-10"><a href="lession-plan.php"> Living and Non-living Things </a></div>
+						<div class="col-1 col-md-2 tx-c chap-count">Chapter 6.</div>
+						<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Living and Non-living Non-living Non-livingThings </a></div>
+						<div class="col-1 col-md-2 tx-c chap-count">Chapter 7.</div>
+						<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living Non-living and Non-living Things </a></div>
+						<div class="col-1 col-md-2 tx-c"><span class="hidden-xs ">Chapter</span> 8.</div>
+						<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Non-living Things </a> </div>
 					</div>
-					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 5.</div>
-					<div class="col-11 col-md-10"><a href="lession-plan.php"> Living and Non-living Things </a></div>
-					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 6.</div>
-					<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Living and Non-living Non-living Non-livingThings </a></div>
-					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 7.</div>
-					<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living Non-living and Non-living Things </a></div>
-					<div class="col-1 col-md-2 tx-c"><span class="hidden-xs ">Chapter</span> 8.</div>
-					<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Non-living Things </a> </div>
-				</div>
-				
-				<div class="chapter-list row">
-					<div class="col-12 hr-style2 unit-card ">
-						<h4>Unit I (Things Around Us) </h4>
+					
+					<div class="chapter-list row">
+						<div class="col-12 hr-style2 unit-card ">
+							<h4>Unit I (Things Around Us) </h4>
+						</div>
+						<div class="col-1 col-md-2 tx-c chap-count">Chapter 9.</div>
+						<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Things </a></div>
+						<div class="col-1 col-md-2 tx-c chap-count">Chapter 10.</div>
+						<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Living and Non-living Non-living Non-livingThings </a></div>
 					</div>
-					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 9.</div>
-					<div class="col-11 col-md-10"><a href="lession-plan.php"> Living and Non-living Things </a></div>
-					<div class="col-1 col-md-2 tx-c"><span class=" hidden-xs">Chapter</span> 10.</div>
-					<div class="col-11 col-md-10 hr-style"><a href="lession-plan.php"> Living and Non-living Living and Non-living Non-living Non-livingThings </a></div>
-				</div>
-			 </div>
+				 </div>
+			</div>
 		</div>
 	</div>
 	<!-- FOOTER START -->

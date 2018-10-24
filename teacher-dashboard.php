@@ -40,7 +40,7 @@
 						</div>
 						<div class="col-10 mx-auto">
 							<div class="row ">
-								<div class="col-md-3 col-sm-6 card-margin"><a href="content.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>
+								<div class="col-md-3 col-sm-6 mx-auto card-margin"><a href="content.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>
 								<div class="col-md-3 col-sm-6 card-margin"><a href="content.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>
 								<div class="col-md-3 col-sm-6 card-margin"><a href="content.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>
 								<div class="col-md-3 col-sm-6 card-margin"><a href="content.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>								 

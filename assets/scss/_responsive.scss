@@ -37,10 +37,9 @@
 	body{
 		font-size: 13px;
 	}
-	.container{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
+   .header .container{
+ 		max-width: auto;
+ 	}
 	.content {
 		padding-bottom: 35px;
 	}
