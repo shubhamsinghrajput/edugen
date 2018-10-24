@@ -264,6 +264,12 @@ input[disabled] {
 		display: none;
 	}
 }
+.a_submit{
+	padding: 0;
+	a{
+		padding: .375rem .75rem;
+	}
+}
 /*-----------------Table responsive--------------*/
 .dataTables_wrapper{
 	min-width: 800px;

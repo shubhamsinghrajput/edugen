@@ -193,6 +193,11 @@ input[disabled] {
   .hidden-xs {
     display: none; } }
 
+.a_submit {
+  padding: 0; }
+  .a_submit a {
+    padding: .375rem .75rem; }
+
 /*-----------------Table responsive--------------*/
 .dataTables_wrapper {
   min-width: 800px; }
@@ -975,6 +980,13 @@ table.dataTable thead .sorting_asc {
 
   #brainstrom ul, #brainstrom ol, #tell-teacher ul, #tell-teacher ol, #find-out ul, #find-out ol {
     list-style: disc;
-    padding-left: 10px; } }
+    padding-left: 10px; }
+
+  .breadcrumb-wrap {
+    padding: 4px 10px; }
+    .breadcrumb-wrap ul.breadcrumb {
+      padding: 0; }
+      .breadcrumb-wrap ul.breadcrumb li + li:before {
+        padding: 5px; } }
 
 /*# sourceMappingURL=style.css.map */
