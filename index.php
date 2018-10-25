@@ -312,7 +312,7 @@
                  </div>
                </section>
                     </div>
-       <hr class="m-0">
+<!--       <hr class="m-0">-->
       </div>
  
     <!-- Bootstrap core JavaScript -->

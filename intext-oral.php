@@ -76,105 +76,27 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>10</td>
+							<td>5</td>
 							<td>This should be a catch-phrase for Support</td>
+							<td>This should be a catch</td>
 
 						</tr>
 						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>10</td>
+							<td>7</td>
 							<td>This should be a catch-phrase for Support</td>
+							<td>This should be a catch</td>
 
 						</tr>
 						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
+							<td>12</td>
+							<td>10</td>
 							<td>This should be a catch-phrase for Support</td>
+							<td>This should be a catch</td>
 
 						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-
-					</tbody>
+						</tbody>
 					<tfoot>
 						<tr>
 							<th>Page No.</th>
