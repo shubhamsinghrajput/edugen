@@ -152,8 +152,8 @@ table.dataTable thead th,
 table.dataTable thead td,
 table.dataTable tfoot th,
 table.dataTable tfoot td {
-	border-bottom: 1px solid $bg-d-orange;
-	border-top: 1px solid $bg-d-orange;
+	border-bottom: 1px solid $bg-tr-black;
+	border-top: 1px solid $bg-tr-black;
 }
 
 @media all and (max-width:767px) {
@@ -651,11 +651,15 @@ table {
 .card-header h3{
 	color: #333; 	
 }
-//table.dataTable thead .sorting_asc{
-//	background: transparent;
-//}
+.dataTables_wrapper{
+	border:1px solid $bg-l-gray;
+	padding:5px 0;
+	.dt-buttons,.dataTables_filter{
+		margin:0 5px;
+	}
+}
 #myform{
-	margin: 0;
+	margin: 0 !important;
 }
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 

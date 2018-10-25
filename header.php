@@ -1,9 +1,9 @@
  <header class="header bg-orange fixed-top">
    <nav class="navbar navbar-expand-md container">
-	  <a class="navbar-brand logo" href="#">
-		<img src="assets/img/profile.jpg" alt="logo">
-	  </a>
-	  <button class="menu-btn">                                                                                                                                       	<i class="fa fa-bars"></i>
+	  <a class="navbar-brand logo" href="teacher-dashboard.php">
+			<img src="assets/img/profile.jpg" alt="Edugen logo">
+		  </a>
+	  <button class="menu-btn">                                                                                                                                                 <i class="fa fa-bars"></i>
       </button>
 	  <div class="navbar-collapse" id="collapsibleNavbar">
 		<ul class="navbar-nav ml-auto h-effcts">
