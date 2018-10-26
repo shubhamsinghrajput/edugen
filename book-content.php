@@ -45,7 +45,7 @@
         </div>
         <div class="tab-head">
             <ul>
-                 <li><a href="lession.php">lesson plan</a></li>
+                 <li><a href="lesson.php">lesson plan</a></li>
                  <li><a href="question-bank.php"> question bank</a></li>
                   <li><a href="word-search.php">word search</a></li>
                    <li><a href="brainstorm.php">brainstorm</a></li>

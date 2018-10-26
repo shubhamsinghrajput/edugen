@@ -30,7 +30,7 @@
 			<ul class="breadcrumb container">
 				<li><a href="teacher-dashboard.php">Dashboard</a></li>
 				<li><a href="content.php">Content</a></li>			
-				<li><a href="lession-plan.php">Chapter 1</a></li>
+				<li><a href="lesson-plan.php">Chapter 1</a></li>
 				<li><a href="question-bank.php">Question Bank</a></li>	
 				<li><a href="intext-name.php">Intext - Name of following</a></li>			
  			</ul>
@@ -43,7 +43,7 @@
             <div class="tab-head">
               <ul class="nav nav-tabs">
                     <li class="nav-item">
-                      <a class="nav-link" href="lession-plan.php">Lesson plan</a>
+                      <a class="nav-link" href="lesson-plan.php">Lesson plan</a>
                     </li>
                     <li class="nav-item active">
                       <a class="nav-link " href="question-bank.php">Question bank</a>
