@@ -92,7 +92,6 @@
 							<td>1</td>
 							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
 							<td>This should be a catch-phrase for Support</td>
-
 						</tr>
 						<tr>
 							<td>1</td>

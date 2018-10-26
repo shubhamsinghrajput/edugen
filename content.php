@@ -51,8 +51,7 @@
 						<div class="col-11 col-md-10 hr-style"><a href="lesson-plan.php"> Living Non-living and Non-living Things </a></div>
 						<div class="col-1 col-md-2 tx-c"><span class="hidden-xs ">Chapter</span> 4.</div>
 						<div class="col-11 col-md-10 hr-style"><a href="lesson-plan.php"> Living and Non-living Non-living Things </a> </div>
-					</div>
-					
+					</div>					
 					<div class="chapter-list row">
 						<div class="col-12 hr-style2 unit-card ">
 							<h4>Unit I (Things Around Us) </h4>
@@ -65,8 +64,7 @@
 						<div class="col-11 col-md-10 hr-style"><a href="lesson-plan.php"> Living Non-living and Non-living Things </a></div>
 						<div class="col-1 col-md-2 tx-c"><span class="hidden-xs ">Chapter</span> 8.</div>
 						<div class="col-11 col-md-10 hr-style"><a href="lesson-plan.php"> Living and Non-living Non-living Things </a> </div>
-					</div>
-					
+					</div>					
 					<div class="chapter-list row">
 						<div class="col-12 hr-style2 unit-card ">
 							<h4>Unit I (Things Around Us) </h4>
@@ -90,5 +88,4 @@
 	<script src="assets/js/site.js">
 	</script>
 </body>
-
 </html>

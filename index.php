@@ -18,7 +18,6 @@
 <body class="content-page">
 <!-- HEADER START -->
 <?php include 'header.php' ?>
-
 <!-- HEADER END -->
 
 <!-- CONTENT START -->

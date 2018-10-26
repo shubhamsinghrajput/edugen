@@ -64,7 +64,6 @@
 			</div>
 			<div class="tab-content p-4">
 				<section class=" bg-gray" id="question-bank">
-
 					<div class="wrapper-card pt-5 pb-3">
 						<div class="container">
 							<div class="row">
@@ -112,13 +111,9 @@
 	<!-- FOOTER START -->
 	<?php include 'footer.php' ?>
 	<!-- FOOTER END -->
-
 	<!-- Custom scripts for this template -->
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/site.js"></script>
-
-
 </body>
-
 </html>

@@ -75,21 +75,18 @@
                         <td>5</td>
                         <td>This should be a catch-phrase for Support</td>
                         <td>This should be a catch</td>
-
                     </tr>
                     <tr>
                         <td>10</td>
                         <td>7</td>
                         <td>This should be a catch-phrase for Support</td>
                         <td>This should be a catch</td>
-
                     </tr>
                     <tr>
                         <td>12</td>
                         <td>10</td>
                         <td>This should be a catch-phrase for Support</td>
                         <td>This should be a catch</td>
-
                     </tr>
                     </tbody>
                 <tfoot>
@@ -98,7 +95,6 @@
                         <th>Q No.</th>
                         <th>Questions</th>
                         <th>Answer</th>
-
                     </tr>
                 </tfoot>
             </table>

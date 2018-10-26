@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
 	<link href="assets/css/style.css" rel="stylesheet">
 </head>
-
 <body class="content-page">
 	<!-- HEADER START -->
 	<?php include 'header.php' ?>
@@ -68,12 +67,10 @@
 									</button>
 								</h5>
 							</div>
-
 							<div id="collapseOne" class="collapse show fade" aria-labelledby="headingOne" data-parent="#accordionExample">
 								<div class="card-body">
 									What is Lorem Ipsum?
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
 								</div>
 							</div>
 						</div>
@@ -89,7 +86,6 @@
 								<div class="card-body">
 									What is Lorem Ipsum?
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
 								</div>
 							</div>
 						</div>
@@ -105,7 +101,6 @@
 								<div class="card-body">
 									What is Lorem Ipsum?
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
 								</div>
 							</div>
 						</div>
@@ -121,10 +116,8 @@
 								<div class="card-body">
 									What is Lorem Ipsum?
 									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
 								</div>
 							</div>
-
 						</div>
 					</div>
                  </section>
@@ -134,12 +127,10 @@
 	<!-- FOOTER START -->
 	<?php include 'footer.php' ?>
 	<!-- FOOTER END -->
-
 	<!-- Custom scripts for this template -->
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/site.js">
 	</script>
 </body>
-
 </html>
