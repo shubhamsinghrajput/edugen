@@ -18,9 +18,7 @@
 <body class="content-page">
 <!-- HEADER START -->
 <?php include 'header.php' ?>
-
 <!-- HEADER END -->
-
 <!-- CONTENT START -->
 <div class="content pdt book-content">
     <div class="breadcrumb-wrap">
@@ -112,12 +110,10 @@
  <!-- FOOTER START -->
 <?php include 'footer.php' ?>
 <!-- FOOTER END -->
-
 <!-- Custom scripts for this template -->
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/site.js"></script>
-
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
