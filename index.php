@@ -74,7 +74,7 @@
                     <tr>
                         <td>10</td>
                         <td>5</td>
-                        <td>This should be a catch-phrase for Support</td>
+                        <td>This should be a catch-phrase</td>
                         <td>This should be a catch</td>
 
                     </tr>
@@ -89,7 +89,7 @@
                         <td>12</td>
                         <td>10</td>
                         <td>This should be a catch-phrase for Support</td>
-                        <td>This should be a catch</td>
+                        <td>This should be a</td>
 
                     </tr>
                     </tbody>
