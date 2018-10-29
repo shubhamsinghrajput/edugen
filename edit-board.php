@@ -14,6 +14,14 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
 <link href="assets/css/style.css" rel="stylesheet">
+<style>
+    select.models{
+  display:none;
+}
+select.models.active{
+  display:inline-block;
+}
+    </style>
 </head>
 <body class="content-page">
 <!-- HEADER START -->
@@ -23,15 +31,42 @@
 <div class="content pdt book-content">
     <div class="breadcrumb-wrap">
         <ul class="breadcrumb container">
-            <li><a href="teacher-dashboard.php">Dashboard</a></li>
-            <li><a href="content.php">Content</a></li>            
-            <li><a href="lesson-plan.php">Chapter 1</a></li>
-            <li><a href="question-bank.php">Question Bank</a></li>    
-            <li><a href="intext-oral.php">Intext - Oral Questions</a></li>            
+            <li><a href="edit-board.php">Edit-Board</a></li>                     
          </ul>
     </div>
     <div class="container pt-4">
-        <div class="chap-header">
+        <div class="chap-header">           
+           
+<!--           __--------------->
+           
+         <select id="test1" class='main'> 
+   <option value='none'> --</option>
+  <option value='worksheet'> Worksheet</option>
+  <option value='question-paper'> Question paper </option>
+ </select>
+<!-- 
+define each sublist as you wish,
+ undefined ones wont show, 
+-->
+<select id="test" class='models worksheet'>
+  <option  value='whole-class'> Whole class</option>
+  <option value='1'> Individual</option>
+</select>
+<!--<div onchange="showDiv()">show</div>-->
+
+
+
+<!--
+<select id="test" name="form_select">
+   <option value="0">No</option>
+   <option value ="1">Yes</option>
+</select>
+-->
+
+<div id="hidden_div" style="display: none;">Students Name</div>
+<!--<input type="button" name="answer" value="Show Div" onclick="showDiv()" />-->
+<!--           -------------------------->
+           
             <h3 class="unit"><span class="bg-set">Unit 1 Thing About Us</span></h3>
             <h1>Chapter 1: Living and Non-living Things</h1>
         </div>
@@ -116,6 +151,7 @@
 <?php include 'footer.php' ?>
 <!-- FOOTER END -->
 <!-- Custom scripts for this template -->
+
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/site.js"></script>
@@ -132,11 +168,41 @@
         $('#example').DataTable({
             dom: 'Bfrtip',
             buttons: [
-                'copy', 'csv', 'excel', 'pdf', 'print'
+                'copy', 'excel', 'pdf', 'print'
                 
             ]
         });
     });
+</script>
+
+<script>
+    $(function(){  
+  $("select.main").on("change", function(){
+    //remove active
+    $("select.models.active").removeClass("active");
+    //check if select vlass exists..if it does show it
+    var subList = $("select.models."+$(this).val());
+    if (subList.length){
+      //it does! show it by adding active class to it
+      subList.addClass("active");
+    }
+  });
+  
+});
+</script>
+   
+<script>
+   document.getElementById('test').addEventListener('change', function () {
+    var style = this.value == 1 ? 'block' : 'none';
+    document.getElementById('hidden_div').style.display = style;
+});
+</script>
+    
+<script>
+   document.getElementById('test1').addEventListener('change', function () {
+    var style = this.value == 1 ? 'block' : 'none';
+    document.getElementById('hidden_div').style.display = style;
+});
 </script>
 </body>
 </html>
