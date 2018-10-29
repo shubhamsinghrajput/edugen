@@ -105,8 +105,10 @@
 								</tr>
 							</tfoot>
 						</table>
-						<div class="tx-c pt-3 float-right"><input type="button" class="nav-link btn input-btn" value="Add ot Edit-board"> </div>
-						<div class="tx-c float-right" style="clear:both"><a type="button" class="nav-link btn input-btn" >Edit board </a></div> 
+						<div class="text-right">
+						    <div class="col-12 pt-3 pr-0"><input type="button" class=" ml-auto  nav-link btn input-btn" value="Add ot Edit-board"> </div>
+							<div class="col-12 pr-0"><a type="button" class=" ml-auto nav-link btn input-btn" >Edit board </a></div> 
+						</div> 
 					</form>
 				  </div>     
                           
