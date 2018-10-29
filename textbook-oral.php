@@ -63,130 +63,59 @@
                   </ul>
             </div>
             <div class="tab-content p-4">
-                <section class=" bg-gray" id="question-bank">
-                    <div class=" table-responsive" style="padding-top: 10px;">
-				<table id="example" class="display">
-					<thead>
-						<tr>
-							<th width="5%">Page <br />No.</th>
-							<th width="5%">Q No.</th>
-							<th width="40%">Questions</th>
-							<th width="35%">Answer</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-						<tr>
-							<td>1</td>
-							<td>1</td>
-							<td>This should be a catch-phrase for SupportThis should be a catch-phrase for Support</td>
-							<td>This should be a catch-phrase for Support</td>
-
-						</tr>
-
-					</tbody>
-					<tfoot>
-						<tr>
-							<th>Page No.</th>
-							<th>Q No.</th>
-							<th>Questions</th>
-							<th>Answer</th>
-							
-						</tr>
-					</tfoot>
-				</table>
-                    </div>     
-                </section>                 
+                 <section class=" bg-gray" id="question-bank">
+                <div class=" table-responsive" style="padding-top: 10px;">
+					<form action="" method="" class="form-tabel">
+						<table id="example" class="display">
+							<thead>
+								<tr>
+									<th width="5%">Page <br />No.</th>
+									<th width="5%">Q No.</th>
+									<th width="40%">Questions</th>
+									<th width="35%">Answer</th>
+									<th width="5">WS</th>
+						
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>10</td>
+									<td>5</td>
+									<td>This should be a catch-phrase for Support</td>
+									<td>This should be a catch</td>
+									<td> <input type="checkbox" name="" class="c-check"></td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>7</td>
+									<td>This should be a catch-phrase for Support</td>
+									<td>This should be a catch</td>
+									<td> <input type="checkbox" name="" class="c-check"></td>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>10</td>
+									<td>This should be a catch-phrase for Support</td>
+									<td>This should be a catch</td>
+									<td> <input type="checkbox" name="" class="c-check"></td>
+								</tr>
+								</tbody>
+							<tfoot>
+								<tr>
+									<th>Page No.</th>
+									<th>Q No.</th>
+									<th>Questions</th>
+									<th>Answer</th>
+									<th width="5">WS</th>
+								</tr>
+							</tfoot>
+						</table>
+						<div class="tx-c pt-3 float-right"><input type="button" class="nav-link btn input-btn" value="Add ot Edit-board"> </div>
+						<div class="tx-c float-right" style="clear:both"><a type="button" class="nav-link btn input-btn" >Edit board </a></div> 
+					</form>
+				  </div>     
+                          
+            </section> 
                 </div>
             </div>
         </div>

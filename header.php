@@ -11,6 +11,9 @@
 		  <a class="nav-link" href="teacher-dashboard.php">Dashboard</a>
 		</li>
 		<li class="nav-item">
+		  <a class="nav-link" href="edit-board.php">Edit board</a>
+		</li>
+		<li class="nav-item">
 		  <a class="nav-link" href="login.php">Log Out</a>
 		</li>		 
 	  </ul>

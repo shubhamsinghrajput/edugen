@@ -882,6 +882,9 @@ table.dataTable thead .sorting_desc {
 .dataTables_info {
   padding-left: 5px; }
 
+a.btn {
+  -webkit-appearance: inherit; }
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================992px====================*/
 @media all and (max-width: 1023px) {
