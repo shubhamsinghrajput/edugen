@@ -105,7 +105,7 @@
 								</tr>
 							</tfoot>
 						</table>
-						<div class="tx-c pt-3"><input type="button" class="nav-link btn input-btn" onclick="window.location.href='edit-clipboard.php'" value="Submit"> </div>
+						<div class="float-right"><input type="button" class="nav-link btn" onclick="window.location.hre=''" value="Submit"> </div>
 					</form>
               	 </div>                    
             </section>                 

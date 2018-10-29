@@ -181,7 +181,7 @@ a.dt-button:focus:not(.disabled) {
 	padding-top: 91px;
 }
 
-//-----------Breadcrumbs-----
+//-----------Breadcrumbs---------
 
 .breadcrumb-wrap {
 	background: #3c2727;
@@ -271,6 +271,9 @@ input[disabled] {
 	a{
 		padding: .375rem .75rem;
 	}
+}
+.input-btn{
+	padding: 7px 20px;	
 }
 /*-----------------Table responsive--------------*/
 .dataTables_wrapper{

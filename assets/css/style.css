@@ -198,6 +198,9 @@ input[disabled] {
   .a_submit a {
     padding: .375rem .75rem; }
 
+.input-btn {
+  padding: 7px 20px; }
+
 /*-----------------Table responsive--------------*/
 .dataTables_wrapper {
   min-width: 800px; }
@@ -872,6 +875,9 @@ table.dataTable thead .sorting_asc {
 
 table.dataTable thead .sorting_desc {
   background-image: url(../images/sort_both.png); }
+
+#question-bank .nav-link.input-btn {
+  padding: 7px 20px; }
 
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================992px====================*/
