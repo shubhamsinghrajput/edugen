@@ -60,50 +60,52 @@
         <div class="tab-content p-4">
             <section class=" bg-gray" id="question-bank">
                 <div class=" table-responsive" style="padding-top: 10px;">
-            <table id="example" class="display">
-                <thead>
-                    <tr>
-                        <th width="5%">Page <br />No.</th>
-                        <th width="5%">Q No.</th>
-                        <th width="40%">Questions</th>
-                        <th width="35%">Answer</th>
-                        <th width="5">WS</th>
-                        
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>This should be a catch-phrase for Support</td>
-                        <td>This should be a catch</td>
-                        <td> <input type="checkbox" name="" class="c-check"></td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>7</td>
-                        <td>This should be a catch-phrase for Support</td>
-                        <td>This should be a catch</td>
-                        <td> <input type="checkbox" name="" class="c-check"></td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                        <td>10</td>
-                        <td>This should be a catch-phrase for Support</td>
-                        <td>This should be a catch</td>
-                        <td> <input type="checkbox" name="" class="c-check"></td>
-                    </tr>
-                    </tbody>
-                <tfoot>
-                    <tr>
-                        <th>Page No.</th>
-                        <th>Q No.</th>
-                        <th>Questions</th>
-                        <th>Answer</th>
-                        <th width="5">WS</th>
-                    </tr>
-                </tfoot>
-            </table>
+					<form action="" method="" class="form-tabel">
+						<table id="example" class="display">
+							<thead>
+								<tr>
+									<th width="5%">Page <br />No.</th>
+									<th width="5%">Q No.</th>
+									<th width="40%">Questions</th>
+									<th width="35%">Answer</th>
+									<th width="5">WS</th>
+						
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>10</td>
+									<td>5</td>
+									<td>This should be a catch-phrase for Support</td>
+									<td>This should be a catch</td>
+									<td> <input type="checkbox" name="" class="c-check"></td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>7</td>
+									<td>This should be a catch-phrase for Support</td>
+									<td>This should be a catch</td>
+									<td> <input type="checkbox" name="" class="c-check"></td>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>10</td>
+									<td>This should be a catch-phrase for Support</td>
+									<td>This should be a catch</td>
+									<td> <input type="checkbox" name="" class="c-check"></td>
+								</tr>
+								</tbody>
+							<tfoot>
+								<tr>
+									<th>Page No.</th>
+									<th>Q No.</th>
+									<th>Questions</th>
+									<th>Answer</th>
+									<th width="5">WS</th>
+								</tr>
+							</tfoot>
+						</table>
+					</form>
               <div class="float-right"><a class="nav-link btn" href="intext-oral.php">Oral Questions</a></div>
                
                 </div>                    
