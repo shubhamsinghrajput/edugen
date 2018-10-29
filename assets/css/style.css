@@ -879,6 +879,9 @@ table.dataTable thead .sorting_desc {
 #question-bank .nav-link.input-btn {
   padding: 7px 20px; }
 
+.dataTables_info {
+  padding-left: 5px; }
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================992px====================*/
 @media all and (max-width: 1023px) {
