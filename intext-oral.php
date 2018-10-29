@@ -67,6 +67,8 @@
                         <th width="5%">Q No.</th>
                         <th width="40%">Questions</th>
                         <th width="35%">Answer</th>
+                        <th width="5">WS</th>
+                        
                     </tr>
                 </thead>
                 <tbody>
@@ -75,18 +77,21 @@
                         <td>5</td>
                         <td>This should be a catch-phrase for Support</td>
                         <td>This should be a catch</td>
+                        <td> <input type="checkbox" name="" class="c-check"></td>
                     </tr>
                     <tr>
                         <td>10</td>
                         <td>7</td>
                         <td>This should be a catch-phrase for Support</td>
                         <td>This should be a catch</td>
+                        <td> <input type="checkbox" name="" class="c-check"></td>
                     </tr>
                     <tr>
                         <td>12</td>
                         <td>10</td>
                         <td>This should be a catch-phrase for Support</td>
                         <td>This should be a catch</td>
+                        <td> <input type="checkbox" name="" class="c-check"></td>
                     </tr>
                     </tbody>
                 <tfoot>
@@ -95,10 +100,13 @@
                         <th>Q No.</th>
                         <th>Questions</th>
                         <th>Answer</th>
+                        <th width="5">WS</th>
                     </tr>
                 </tfoot>
             </table>
-                </div>     
+              <div class="float-right"><a class="nav-link btn" href="intext-oral.php">Oral Questions</a></div>
+               
+                </div>                    
             </section>                 
             </div>
         </div>
@@ -123,7 +131,8 @@
         $('#example').DataTable({
             dom: 'Bfrtip',
             buttons: [
-                'copy', 'csv', 'excel', 'pdf', 'print' 
+                'copy', 'csv', 'excel', 'pdf', 'print'
+                
             ]
         });
     });
