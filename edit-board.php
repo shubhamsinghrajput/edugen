@@ -83,8 +83,18 @@
 							<form action="" method="">
 								<div class="row">
 									<div class="col-md-6">
-										 <label for="">Name of the School</label>
-										 <input type="text" name="" class="form-control">
+										 <div class="form-group">
+										 	<label for="">Name of the School</label>
+										 	<input type="text" name="" class="form-control">
+										 </div>
+										 <div class="form-group">
+										 	<label for=""> </label>
+										 	<input type="text" name="" class="form-control">
+										 </div>
+										 <div class="form-group">
+										 	<label for="">Name of the School</label>
+										 	<input type="text" name="" class="form-control">
+										 </div>
 									</div>
 								</div>
 							</form>
@@ -203,10 +213,10 @@
 					'copy', 'excel', 'pdf', 'print'
 				]
 			});
-			if($(".student-list=-wrapper"));
-			
 		});
-	 
+	</script>
+
+	<script>
 		$(function() {
 			$("select.main").on("change", function() {
 				//remove active
@@ -220,14 +230,19 @@
 			});
 
 		});
-	 
+	</script>
+
+	<script>
 		document.getElementById('e-selector').addEventListener('change', function() {
 			var style = this.value == 1 ? 'block' : 'none';
 			document.getElementById('hidden_div').style.display = style;
 		});
- 
+	</script>
+
+	<script>
 		document.getElementById('e-selector1').addEventListener('change', function() {
 			var style = this.value == 1 ? 'block' : 'none';
+			document.getElementById('e-selector').value = 'whole-class';
 			document.getElementById('hidden_div').style.display = style;
 		});
 	</script>
