@@ -48,7 +48,7 @@
                         <h1>Chapter 1: Living and Non-living Things</h1>
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-md-2 e-sel-wrapper">
                         <select id="e-selector1" class='main'>
                             <option value='none'> Select Question Type</option>
                             <option value='worksheet'> Worksheet</option>
