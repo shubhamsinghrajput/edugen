@@ -82,19 +82,46 @@
 						<div class="form-content">
 							<form action="" method="">
 								<div class="row">
-									<div class="col-md-6">
-										 <div class="form-group">
-										 	<label for="">Name of the School</label>
-										 	<input type="text" name="" class="form-control">
-										 </div>
-										 <div class="form-group">
-										 	<label for=""> </label>
-										 	<input type="text" name="" class="form-control">
-										 </div>
-										 <div class="form-group">
-										 	<label for="">Name of the School</label>
-										 	<input type="text" name="" class="form-control">
-										 </div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">Name of the School</label>
+											<input type="text" name="" class="form-control">
+										</div>
+										<div class="form-group">
+											<label for=""> Subject</label>
+											<input type="text" name="" class="form-control">
+										</div>
+
+
+									</div>
+									<div class="col-md-4">
+										<div class="row">
+											<div class="col-6">
+												<div class="form-group">
+													<label for="">Distribution Date</label>
+													<input type="text" name="" class="form-control">
+												</div>
+											</div>
+											<div class="col-6">
+												<div class="form-group">
+													<label for="">Submission Date</label>
+													<input type="text" name="" class="form-control">
+												</div>
+											</div>
+
+										</div>
+										<div class="form-group">
+											<label for="">Name of the chapter</label>
+											<input type="text" name="" class="form-control">
+										</div>
+									</div>
+									<div class="col-md-4">
+
+										<div class="form-group">
+											<label for="">Teacher Remark</label>
+											<textarea type="text" rows="4" name="" class="form-control"></textarea>
+										</div>
+
 									</div>
 								</div>
 							</form>

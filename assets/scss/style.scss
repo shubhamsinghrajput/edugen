@@ -739,7 +739,21 @@ select.models.active {
 .e-sel-header{
 	min-height: 76px;
 }
-
+.form-content{
+//	input:not([type="submit"]),label,textarea,select{
+//		width: 60%;
+//		float: left;
+//	}
+//	input[type="submit"]{
+//		width: 60%;
+//	}
+//	label{
+//		width: 40%;
+//	}
+//	.form-group{
+//		overflow: auto;
+//	}
+}
 
 
 
