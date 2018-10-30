@@ -203,7 +203,7 @@ input[disabled] {
 
 /*-----------------Table responsive--------------*/
 .table-responsive {
-  overflow-x: scroll; }
+  overflow-x: auto; }
   .table-responsive > * {
     min-width: 800px; }
 
@@ -900,6 +900,16 @@ select.models {
 
 select.models.active {
   display: inline-block; }
+
+.student-list li {
+  padding: 3px 10px 1px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2px; }
+  .student-list li input + label {
+    padding-left: 22px; }
+
+.e-sel-header {
+  min-height: 76px; }
 
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================992px====================*/

@@ -277,7 +277,7 @@ input[disabled] {
 }
 /*-----------------Table responsive--------------*/
 .table-responsive{
-	overflow-x: scroll;
+	overflow-x: auto;
 	>*{
 		min-width: 800px;	
 	}

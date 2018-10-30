@@ -29,7 +29,7 @@
             </ul>
         </div>
         <div class="container-fluid pt-4">
-            <div class="chap-header">
+            <div class="chap-header e-sel-header">
 
                 <!----------------->
 
@@ -39,9 +39,9 @@
                         <h1>Chapter 1: Living and Non-living Things</h1>
                     </div>
 
-                    <div class="col-md-2 e-sel-wrapper">
+                    <div class="col-md-2 col-sm-8 col-10 mx-auto e-sel-wrapper">
                         <select id="e-selector1" class='main'>
-                            <option value='none'> Select Question Type</option>
+                            <option value='none'> Select Question</option>
                             <option value='worksheet'> Worksheet</option>
                             <option value='question-paper'> Question paper </option>
                         </select>
@@ -136,19 +136,31 @@
                         </div>
                     </section>
                 </div>
-                <div class="col-md-2 tab-content p-4">
+                <div class="col-md-2 pt-4">
                     <div id="hidden_div" style="display: none;">
-                        <ul>
+                        <ul class="student-list pl-0 pt-1">
                             <li>
-                                <input type="checkbox" name="" class="c-check">&ensp;&ensp; shubham</li>
-                            <li>
-                                <input type="checkbox" name="" class="c-check">&ensp;&ensp; shubham</li>
-                            <li>
-                                <input type="checkbox" name="" class="c-check">&ensp;&ensp; shubham</li>
-                            <li>
-                                <input type="checkbox" name="" class="c-check">&ensp;&ensp; shubham</li>
-                            <li>
-                                <input type="checkbox" name="" class="c-check">&ensp;&ensp; shubham</li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                             <li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+							 <li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+							 <li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+							 <li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+							 <li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+							 <li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+							 <li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li> 
+                                <li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+							 <li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+							 <li>
+                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
                         </ul>
                     </div>
                 </div>

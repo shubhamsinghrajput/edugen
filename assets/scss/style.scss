@@ -722,8 +722,23 @@ select.models.active {
 	display: inline-block;
 }
 
-
-
+//.e-sel-wrapper{
+//	position: absolute;
+//	right: 0;
+//}
+.student-list{
+	li{
+		padding: 3px 10px 1px;
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 2px;
+		input+label{
+			padding-left: 22px;
+		}
+	}
+}
+.e-sel-header{
+	min-height: 76px;
+}
 
 
 
