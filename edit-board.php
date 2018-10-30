@@ -140,27 +140,27 @@
                     <div id="hidden_div" style="display: none;">
                         <ul class="student-list pl-0 pt-1">
                             <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
                              <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
 							 <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
 							 <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
 							 <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
 							 <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
 							 <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
 							 <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li> 
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li> 
                                 <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
 							 <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
 							 <li>
-                                <input type="checkbox" name="" class="c-check"><label>Shubham Kumar</label> </li>
+                                <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
                         </ul>
                     </div>
                 </div>
