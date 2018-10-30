@@ -276,6 +276,9 @@ input[disabled] {
 	padding: 7px 20px;	
 }
 /*-----------------Table responsive--------------*/
-.dataTables_wrapper{
-	min-width: 800px;
+.table-responsive{
+	overflow-x: scroll;
+	>*{
+		min-width: 800px;	
+	}
 }

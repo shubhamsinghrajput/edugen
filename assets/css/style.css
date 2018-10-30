@@ -202,8 +202,10 @@ input[disabled] {
   padding: 7px 20px; }
 
 /*-----------------Table responsive--------------*/
-.dataTables_wrapper {
-  min-width: 800px; }
+.table-responsive {
+  overflow-x: scroll; }
+  .table-responsive > * {
+    min-width: 800px; }
 
 .side-panel #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
