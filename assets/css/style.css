@@ -840,7 +840,12 @@ table {
   -o-box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.3); }
 
-#brainstrom ul, #brainstrom ol, #tell-teacher ul, #tell-teacher ol, #find-out ul, #find-out ol {
+#brainstrom ul,
+#brainstrom ol,
+#tell-teacher ul,
+#tell-teacher ol,
+#find-out ul,
+#find-out ol {
   list-style: disc; }
 
 #question-bank .card-header {
@@ -866,7 +871,8 @@ table {
 .dataTables_wrapper {
   border: 1px solid #ddd;
   padding: 5px 0; }
-  .dataTables_wrapper .dt-buttons, .dataTables_wrapper .dataTables_filter {
+  .dataTables_wrapper .dt-buttons,
+  .dataTables_wrapper .dataTables_filter {
     margin: 0 5px; }
 
 #myform {
@@ -888,6 +894,12 @@ table.dataTable thead .sorting_desc {
 
 a.btn {
   -webkit-appearance: inherit; }
+
+select.models {
+  display: none; }
+
+select.models.active {
+  display: inline-block; }
 
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================992px====================*/
