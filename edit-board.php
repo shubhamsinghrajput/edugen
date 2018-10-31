@@ -39,9 +39,8 @@
                     <div class="form-group">
                         <label for="">Please select question type</label>
                     <select id="e-selector1" class='main'>
-                        <option value='none'>Question Type</option>
-                        <option value='worksheet'> Worksheet</option>
                         <option value='question-paper'> Question paper </option>
+                        <option value='worksheet'> Worksheet</option>                        
                     </select>
                     <select id="e-selector" class='models worksheet'>
                         <option value='whole-class'> Whole class</option>
@@ -123,7 +122,7 @@
                             </form>
                         </div>
                         <div class="table-responsive">
-                            <form action="" method="" class="form-tabel">
+                            <form action="" method="" class="form-tabel" id="edit-form">
                                 <table id="example" class="display">
                                     <thead>
                                         <tr>
@@ -147,7 +146,7 @@
                                             <td>
                                                 <input type="checkbox" name="" class="c-check">
                                             </td>
-                                            <td><input type="text" disabled="disabled" name="" class="form-control"></td>
+                                            <td><input type="text" name="" class="form-control mrak-field"></td>
                                             <td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
                                         </tr>
                                         <tr>
@@ -158,7 +157,7 @@
                                             <td>
                                                 <input type="checkbox" name="" class="c-check">
                                             </td>
-                                            <td><input type="text" disabled="disabled" name="" class="form-control"></td>
+                                            <td><input type="text" name="" class="form-control  mrak-field"></td>
                                             <td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
                                         </tr>
                                         <tr>
@@ -169,7 +168,7 @@
                                             <td>
                                                 <input type="checkbox" name="" class="c-check">
                                             </td>
-                                            <td><input type="text" disabled="disabled" name="" class="form-control"></td>
+                                            <td><input type="text" name="" class="form-control  mrak-field"></td>
                                             <td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
                                         </tr>
                                     </tbody>
@@ -219,6 +218,11 @@
                     'copy', 'excel', 'pdf', 'print'
                 ]
             });
+			
+		
+			
+			
+			
         });
     </script>
     <script>

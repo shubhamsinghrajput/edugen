@@ -25,6 +25,10 @@ $(document).ready(function () {
 			return t.replace('Chapter', '');
 		});
 	}
-	
-
+	/*-------------Edit Board for selection left var option-----------*/
+	$("select#e-selector1" ).change(function () {
+		if($( "select option[value=worksheet]" ).is(':selected')){
+ 		    $("form#edit-form .mrak-field").attr("disabled","disabled");
+		}
+	});
 });
