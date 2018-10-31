@@ -68,7 +68,7 @@
                     <h3>Digi-Content</h3>
                     <section id="find-out" class="p-2">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="assets/video/1.mp4" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" src="assets/video/brain.mp4" allowfullscreen></iframe>
                         </div>
                     </section>
                 </section>
