@@ -30,6 +30,7 @@ $(document).ready(function () {
 		if($( "select option[value=worksheet]" ).is(':selected')){
  		    $("form#edit-form .mrak-field").attr("disabled","true");
 			$("form#edit-form .mrak-field").val("");
+			$(".student-list input").prop("checked", false);
 		 }
 		else if($( "select option[value=question-paper]" ).is(':selected')){
  		    $("form#edit-form .mrak-field").removeAttr("disabled","disabled");
