@@ -948,11 +948,21 @@ select.models.active {
   display: inline-block; }
 
 .student-list li {
-  padding: 3px 10px 1px;
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 2px; }
+  padding: 3px 15px 1px;
+  margin-bottom: 2px;
+  position: relative; }
   .student-list li input + label {
     padding-left: 22px; }
+  .student-list li:after {
+    content: '';
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    background: #ccc;
+    bottom: 0; }
+.student-list input[type=checkbox]:after {
+  left: 3px; }
 
 .e-sel-header {
   min-height: 76px; }

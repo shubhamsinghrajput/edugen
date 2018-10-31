@@ -96,7 +96,7 @@
 											<div class="col-md-6 ">
 												<div class="form-group">
 													<label for="">Distribution Date</label>
-													<input type="date" name="" id="distribution-date" class="form-control">
+													<input type="date" name="" id="distribution-date" class="form-control" required>
 												</div>
 											</div>
 											<div class="col-md-6 ">
@@ -116,10 +116,12 @@
 										<div class="form-group">
 											<label for="">Teacher Remark</label>
 											<textarea type="text" rows="4" name="" class="form-control"></textarea>
+											<input type="submit"  value="submittt" class="form-control">
 										</div>
 
 									</div>
 								</div>
+								
 							</form>
 						</div>
 						<div class="table-responsive">

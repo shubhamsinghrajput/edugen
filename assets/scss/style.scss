@@ -728,12 +728,24 @@ select.models.active {
 //}
 .student-list{
 	li{
-		padding: 3px 10px 1px;
-		border-bottom: 1px solid #ddd;
+		padding: 3px 15px 1px;
 		margin-bottom: 2px;
+		position: relative;
 		input+label{
 			padding-left: 22px;
 		}
+		&:after{
+			content: '';
+			position: absolute;
+			left: 15px;
+			right: 15px;
+			height: 1px;
+			background: #ccc;
+			bottom: 0;
+		}
+	}
+	input[type=checkbox]:after {
+		left: 3px;
 	}
 }
 .e-sel-header{

@@ -46,14 +46,18 @@ $(document).ready(function () {
 		}
 	});
 	/*-----------Date Picker setting---------------*/
-	 
-        var todaysDate = new Date(); // Gets today's date
-		var year = todaysDate.getFullYear(); // YYYY
-		var month = ("0" + (todaysDate.getMonth() + 1)).slice(-2); // MM
-		var day = ("0" + todaysDate.getDate()).slice(-2); // DD
-		var maxDate = (year + "-" + month + "-" + day); // Results in "YYYY-MM-DD" for today's date 
-		$('#distribution-date').attr('max', maxDate);
-	 
+//	 
+//       $(".distribution-date").datepicker();
+//			$(".distribution-date").on('change', function () {
+//				var date = Date.parse($(this).val());
+//				if (date < Date.now()) {
+//					alert('Selected date must be greater than today date');
+//					$(this).val('');
+//			}
+//	   });
+//		 
+// 
+//	 
 
 
 
