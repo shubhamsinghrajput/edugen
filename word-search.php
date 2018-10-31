@@ -51,7 +51,10 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link " href="find-out.php">Find out</a>
-                    </li>                     
+                    </li>   
+                  <li class="nav-item">
+                      <a class="nav-link " href="digi-content.php">Digi-Content</a>
+                  </li>                  
                   </ul>
             </div>
             <div class="tab-content p-5">
