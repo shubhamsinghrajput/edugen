@@ -128,7 +128,7 @@ a.dt-button:focus:not(.disabled) {
   border-color: #af380b; }
 
 .pdt {
-  padding-top: 91px; }
+  padding-top: 130px; }
 
 .breadcrumb-wrap {
   background: #3c2727;
@@ -264,7 +264,8 @@ body {
 /*================================CUSTOM HEADER STYLE==========================================*/
 .bg-orange {
   background: #bd5d38; }
-  .bg-orange *, .bg-orange *:hover {
+  .bg-orange *,
+  .bg-orange *:hover {
     color: #fff; }
   .bg-orange .nav-link {
     text-transform: uppercase; }
@@ -300,6 +301,41 @@ body {
       display: block; } }
   .menu-btn:focus {
     outline: 0 none; }
+
+.header * {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+
+.h-sticky * {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+.h-sticky .logo {
+  width: 45px;
+  height: 45px; }
+.h-sticky .navbar {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+.h-sticky + .content .breadcrumb-wrap {
+  top: 55px;
+  padding-top: 4px;
+  padding-bottom: 4px; }
+
+.breadcrumb-wrap {
+  position: fixed;
+  width: 100%;
+  top: 91px;
+  z-index: 5;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
 
 section.resume-section {
   padding-top: 5rem !important;
