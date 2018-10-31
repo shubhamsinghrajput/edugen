@@ -35,7 +35,7 @@
             </div><hr color="#3c2727">
 
             <div class="row">
-                <div class="col-lg-2 pl-4 pt-4 pr-4 pb-0">
+                <div class="col-xl-2 pl-4 pt-4 pr-4 pb-0">
                     <div class="form-group">
                         <label for="">Please select question type</label>
                     <select id="e-selector1" class='main'>
@@ -74,13 +74,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-10 p-4">
+                <div class="col-xl-10 p-4">
                     <section class="bg-gray" id="question-bank">
 
                         <div class="form-content">
                             <form action="" method="">
                                 <div class="row">
-                                    <div class="col-lg-4 col-sm-6">
+                                    <div class="col-lg-4 col-md-6">
                                         <div class="form-group">
                                             <label for="">Name of the School</label>
                                             <input type="text" name="" class="form-control">
@@ -90,15 +90,15 @@
                                             <input type="text" name="" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-sm-6">
+                                    <div class="col-lg-4 col-md-6">
                                         <div class="row">
-                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                            <div class="col-md-6 ">
                                                 <div class="form-group">
                                                     <label for="">Distribution Date</label>
                                                     <input type="date" name="" class="form-control">
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 col-lg-12 col-xl-6">
+                                            <div class="col-md-6 ">
                                                 <div class="form-group">
                                                     <label for="">Submission Date</label>
                                                     <input type="date" name="" class="form-control">
