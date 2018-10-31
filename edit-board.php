@@ -96,7 +96,7 @@
 											<div class="col-md-6 ">
 												<div class="form-group">
 													<label for="">Distribution Date</label>
-													<input type="date" name="" class="form-control">
+													<input type="date" name="" id="distribution-date" class="form-control">
 												</div>
 											</div>
 											<div class="col-md-6 ">
