@@ -45,6 +45,18 @@ $(document).ready(function () {
 			$(".header").removeClass("h-sticky");
 		}
 	});
+	/*-----------Date Picker setting---------------*/
+	 
+        var todaysDate = new Date(); // Gets today's date
+		var year = todaysDate.getFullYear(); // YYYY
+		var month = ("0" + (todaysDate.getMonth() + 1)).slice(-2); // MM
+		var day = ("0" + todaysDate.getDate()).slice(-2); // DD
+		var maxDate = (year + "-" + month + "-" + day); // Results in "YYYY-MM-DD" for today's date 
+		$('#distribution-date').attr('max', maxDate);
+	 
+
+
+
 
 });
 
