@@ -275,6 +275,12 @@ input[disabled] {
 .input-btn{
 	padding: 7px 20px;	
 }
+input[type="date"].form-control{
+	padding: .375rem .25rem;
+}
+body{
+ @include transition(0.4s);
+}
 /*-----------------Table responsive--------------*/
 .table-responsive{
 	overflow-x: auto;

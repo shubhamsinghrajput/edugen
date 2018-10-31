@@ -35,7 +35,7 @@
             </div><hr color="#3c2727">
 
             <div class="row">
-                <div class="col-md-2 p-4">
+                <div class="col-lg-2 pl-4 pt-4 pr-4 pb-0">
                     <div class="form-group">
                         <label for="">Please select question type</label>
                     <select id="e-selector1" class='main'>
@@ -47,40 +47,40 @@
                         <option value='1'> Individual</option>
                     </select>
                     </div>
-                    <div id="hidden_div" class="student-list=-wrapper" style="display: none;">
-                        <ul class="student-list pl-0 pt-1">
-                            <li>
+                    <div id="hidden_div" class="student-list-wrapper" style="display: none;">
+                        <ul class="student-list pl-0 pt-1 row">
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-                            <li>
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-                            <li>
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-                            <li>
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-                            <li>
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-                            <li>
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-                            <li>
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-                            <li>
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-                            <li>
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-                            <li>
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-                            <li>
+                            <li class="col-sm-6 col-md-4 col-lg-12">
                                 <input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-10 p-4">
+                <div class="col-lg-10 p-4">
                     <section class="bg-gray" id="question-bank">
 
                         <div class="form-content">
                             <form action="" method="">
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-lg-4 col-sm-6">
                                         <div class="form-group">
                                             <label for="">Name of the School</label>
                                             <input type="text" name="" class="form-control">
@@ -90,15 +90,15 @@
                                             <input type="text" name="" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-lg-4 col-sm-6">
                                         <div class="row">
-                                            <div class="col-6">
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="form-group">
                                                     <label for="">Distribution Date</label>
                                                     <input type="date" name="" class="form-control">
                                                 </div>
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-md-6 col-lg-12 col-xl-6">
                                                 <div class="form-group">
                                                     <label for="">Submission Date</label>
                                                     <input type="date" name="" class="form-control">
@@ -110,7 +110,7 @@
                                             <input type="text" name="" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-lg-4 col-md-12">
 
                                         <div class="form-group">
                                             <label for="">Teacher Remark</label>
@@ -184,8 +184,8 @@
                                         </tr>
                                     </tfoot>
                                 </table>
-                                <div class="float-right">
-                                    <input type="button" class="nav-link btn" onclick="window.location.hre=''" value="Submit"> </div>
+                                <div class="float-right pt-3">
+                                    <input type="button" class="ml-auto  nav-link btn input-btn" onclick="window.location.hre=''" value="Submit"> </div>
                             </form>
                         </div>
                     </section>
@@ -225,33 +225,7 @@
 			
         });
     </script>
-    <script>
-        $(function() {
-            $("select.main").on("change", function() {
-                //remove active
-                $("select.models.active").removeClass("active");
-                //check if select vlass exists..if it does show it
-                var subList = $("select.models." + $(this).val());
-                if (subList.length) {
-                    //it does! show it by adding active class to it
-                    subList.addClass("active");
-                }
-            });
-        });
-    </script>
-    <script>
-        document.getElementById('e-selector').addEventListener('change', function() {
-            var style = this.value == 1 ? 'block' : 'none';
-            document.getElementById('hidden_div').style.display = style;
-        });
-    </script>
-    <script>
-        document.getElementById('e-selector1').addEventListener('change', function() {
-            var style = this.value == 1 ? 'block' : 'none';
-            document.getElementById('e-selector').value = 'whole-class';
-            document.getElementById('hidden_div').style.display = style;
-        });
-    </script>
+
     <!--
     <script>
         document.getElementById('e-selector').addEventListener('change', function() {

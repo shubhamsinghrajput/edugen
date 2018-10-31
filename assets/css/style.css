@@ -201,6 +201,16 @@ input[disabled] {
 .input-btn {
   padding: 7px 20px; }
 
+input[type="date"].form-control {
+  padding: .375rem .25rem; }
+
+body {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s; }
+
 /*-----------------Table responsive--------------*/
 .table-responsive {
   overflow-x: auto; }
@@ -449,7 +459,7 @@ select {
   border: 1px solid #ced4da;
   color: #495057;
   height: calc(2.25rem + 2px);
-  padding: .375rem .75rem;
+  padding: .375rem .10px .375rem 5px;
   -webkit-border-radius: 0.25rem;
   -moz-border-radius: 0.25rem;
   -ms-border-radius: 0.25rem;
@@ -912,6 +922,10 @@ select.models.active {
   min-height: 76px; }
 
 /*=============================IMPORT RESPONSIVE CSS===============================*/
+/*===================1024px====================*/
+@media all and (max-width: 1199px) {
+  form {
+    font-size: 13.5px; } }
 /*===================992px====================*/
 @media all and (max-width: 1023px) {
   .tab-head ul .nav-link {
