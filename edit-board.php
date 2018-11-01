@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.css">
 	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 
@@ -96,13 +97,15 @@
 											<div class="col-md-6 ">
 												<div class="form-group">
 													<label for="">Distribution Date</label>
-													<input type="date" name="" id="distribution-date" class="form-control" required>
+													<!--													<input type="date" name="" id="distribution-date" class="form-control" required>-->
+													<input type="text" placeholder="DD-MM-YYYY" id="from" name="from" class="form-control"/>
 												</div>
 											</div>
 											<div class="col-md-6 ">
 												<div class="form-group">
 													<label for="">Submission Date</label>
-													<input type="date" name="" class="form-control">
+													<!--													<input type="date" name="" class="form-control">-->
+													<input type="text" placeholder="DD-MM-YYYY" id="to" name="to" class="form-control"/>
 												</div>
 											</div>
 										</div>
@@ -116,12 +119,11 @@
 										<div class="form-group">
 											<label for="">Teacher Remark</label>
 											<textarea type="text" rows="4" name="" class="form-control"></textarea>
-											<input type="submit"  value="submittt" class="form-control">
+											<input type="submit" value="submittt" class="form-control">
 										</div>
 
 									</div>
 								</div>
-								
 							</form>
 						</div>
 						<div class="table-responsive">
@@ -194,8 +196,10 @@
 					</section>
 				</div>
 
+
 			</div>
 		</div>
+
 	</div>
 	<!-- FOOTER START -->
 	<?php include 'footer.php' ?>
@@ -204,7 +208,7 @@
 
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/site.js"></script>
+
 	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 	<script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
 	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
@@ -213,6 +217,13 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
 	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
 	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+	
+	<script type="text/javascript" src="assets/js/jquery-ui.js"></script>
+	<script src="assets/js/site.js"></script>
+
+
+
+
 	<script>
 		$(document).ready(function() {
 			$('#example').DataTable({
@@ -222,18 +233,32 @@
 				]
 			});
 		});
-
 	</script>
 
-	<!--
-<script>
-document.getElementById('e-selector').addEventListener('change', function() {
-var style = this.value == 2 ? 'block' : 'none';
-document.getElementById("mySelect").disabled = false;
-});
+	<script>
+		$(document).ready(function() {				
+			$(function() {
+				$("#from").datepicker({
+					changeMonth: true,
+					changeYear: true,
+					minDate: 0,
+					onSelect: function(selectedDate) {
+						$("#to").datepicker("option", "minDate", selectedDate);
+					}
+				});
+				$("#to").datepicker({
+					changeMonth: true,
+					changeYear: true,
+					minDate: 0,
+					onSelect: function(selectedDate) {
+						$("#from").datepicker("option", "maxDate", selectedDate);
+					}
+				});
+			});
 
-</script>
--->
+		});
+	</script>
+
 </body>
 
 </html>
