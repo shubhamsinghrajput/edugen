@@ -97,14 +97,12 @@
 											<div class="col-md-6 ">
 												<div class="form-group">
 													<label for="">Distribution Date</label>
-													<!--													<input type="date" name="" id="distribution-date" class="form-control" required>-->
 													<input type="text" placeholder="DD-MM-YYYY" id="from" name="from" class="form-control"/>
 												</div>
 											</div>
 											<div class="col-md-6 ">
 												<div class="form-group">
 													<label for="">Submission Date</label>
-													<!--													<input type="date" name="" class="form-control">-->
 													<input type="text" placeholder="DD-MM-YYYY" id="to" name="to" class="form-control"/>
 												</div>
 											</div>
@@ -119,8 +117,7 @@
 										<div class="form-group">
 											<label for="">Teacher Remark</label>
 											<textarea type="text" rows="4" name="" class="form-control"></textarea>
-											<input type="submit" value="submittt" class="form-control">
-										</div>
+ 										</div>
 
 									</div>
 								</div>
