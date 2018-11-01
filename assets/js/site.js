@@ -26,35 +26,19 @@ $(document).ready(function () {
 		});
 	}
 	/*-------------Edit Board for selection left var option-----------*/
-//	$("select#e-selector1").change(function () {
-//		if ($("select option[value=worksheet]").is(':selected')) {
-//			$("form#edit-form .mrak-field").attr("disabled", "true");
-//			$("form#edit-form .mrak-field").val("");
-//			$(".student-list input").prop("checked", false);
-//		} else if ($("select option[value=question-paper]").is(':selected')) {
-//			$("form#edit-form .mrak-field").removeAttr("disabled", "disabled");
-//		}
-//
-//	});
-	
-	
-	
-//	$(" #example .c-check").click(function () {
-//		 
-//		if ($(this).checked == true){ alert("1")
-//			$("form#edit-form .mrak-field").attr("disabled", "true");
-//			$("form#edit-form .mrak-field").val("");
-//			$(".student-list input").prop("checked", false);
-//		} 
-//		else if ($("select option[value=question-paper]").is(':selected')) {
-//			$("form#edit-form .mrak-field").removeAttr("disabled", "disabled");
-//		}
-//
-//	});
-	 
+	$("select#e-selector1").change(function () {
+		if ($("select option[value=worksheet]").is(':selected')) {
+			$("form#edit-form .mrak-field").attr("disabled", "true");
+			$("form#edit-form .mrak-field").val("");
+			$(".student-list input").prop("checked", false);
+		} else if ($("select option[value=question-paper]").is(':selected')) {
+			$("form#edit-form .mrak-field").removeAttr("disabled", "disabled");
+		}
+
+	});
+ 
 	
     var ckbox = $('#example .c-check');
-
     $(ckbox).on('click',function () {
         if ($(this).is(':checked')) {
             $(this).parent().siblings().children(".mrak-field").removeAttr("disabled", "disabled");
@@ -104,16 +88,16 @@ $(document).ready(function () {
 /*---------------------Edit board choose question type------------*/
 
 
-document.getElementById('e-selector').addEventListener('change', function () {
-	var style = this.value == 1 ? 'block' : 'none';
-	document.getElementById('hidden_div').style.display = style;
-});
-
-document.getElementById('e-selector1').addEventListener('change', function () {
-	var style = this.value == 1 ? 'block' : 'none';
-	document.getElementById('e-selector').value = 'whole-class';
-	document.getElementById('hidden_div').style.display = style;
-});
+//document.getElementById('e-selector').addEventListener('change', function () {
+//	var style = this.value == 1 ? 'block' : 'none';
+//	document.getElementById('hidden_div').style.display = style;
+//});
+//
+//document.getElementById('e-selector1').addEventListener('change', function () {
+//	var style = this.value == 1 ? 'block' : 'none';
+//	document.getElementById('e-selector').value = 'whole-class';
+//	document.getElementById('hidden_div').style.display = style;
+//});
 $(function () {
 	$("select.main").on("change", function () {
 		//remove active
