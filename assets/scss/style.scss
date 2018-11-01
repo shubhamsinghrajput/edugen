@@ -744,8 +744,11 @@ select.models.active {
 			bottom: 0;
 		}
 	}
-	input[type=checkbox]:after {
-		left: 3px;
+	input[type=checkbox]:after,input[type=checkbox]:before {
+		left: 2px;
+	}
+	input[type=checkbox]:before {
+		left: 4px;
 	}
 }
 .e-sel-header{

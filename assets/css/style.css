@@ -1154,8 +1154,10 @@ select.models.active {
     height: 1px;
     background: #ccc;
     bottom: 0; }
-.student-list input[type=checkbox]:after {
-  left: 3px; }
+.student-list input[type=checkbox]:after, .student-list input[type=checkbox]:before {
+  left: 2px; }
+.student-list input[type=checkbox]:before {
+  left: 4px; }
 
 .e-sel-header {
   min-height: 76px; }
