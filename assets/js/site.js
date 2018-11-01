@@ -46,48 +46,28 @@ $(document).ready(function () {
 		}
 	});
 	/*-----------Date Picker setting---------------*/
-	    
-//       $(".distribution-date").datepicker();
-//			$(".distribution-date").blur( function () {
-//				alert('sdfff');
-//				var date = Date.parse($(this).val());
-//				if (date < Date.now()) {
-//					alert('Selected date must be greater than today date');
-//					$(this).val('');
-//				}
-//	   });
-//	 	
-	
-	
+
+	$(function () {
+		$("#from").datepicker({
+			changeMonth: true,
+			changeYear: true,
+			minDate: 0,
+			onSelect: function (selectedDate) {
+				$("#to").datepicker("option", "minDate", selectedDate);
+			}
+		});
+		$("#to").datepicker({
+			changeMonth: true,
+			changeYear: true,
+			minDate: 0,
+			onSelect: function (selectedDate) {
+				$("#from").datepicker("option", "maxDate", selectedDate);
+			}
+		});
+	});
 
 
-    $(window).load(function(){
-      alert("dddddd")
-	$(function() {
-    $( "#from" ).datepicker({
-      changeMonth: true,  
-      changeYear:true,      
-      minDate:0,
-      onSelect: function( selectedDate ) {
-        $( "#to" ).datepicker( "option", "minDate", selectedDate );
-      }
-    });
-    $( "#to" ).datepicker({      
-      changeMonth: true,   
-      changeYear:true,
-      minDate:0,
-      onSelect: function( selectedDate ) {
-        $( "#from" ).datepicker( "option", "maxDate", selectedDate );
-      }
-    });
-  });
 
-    });
-
-
-	
-	
-	
 });
 
 /*---------------------Edit board choose question type------------*/

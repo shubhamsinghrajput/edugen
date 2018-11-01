@@ -233,31 +233,12 @@
 				]
 			});
 		});
+ 
+		
+		
+		
 	</script>
-
-	<script>
-		$(document).ready(function() {				
-			$(function() {
-				$("#from").datepicker({
-					changeMonth: true,
-					changeYear: true,
-					minDate: 0,
-					onSelect: function(selectedDate) {
-						$("#to").datepicker("option", "minDate", selectedDate);
-					}
-				});
-				$("#to").datepicker({
-					changeMonth: true,
-					changeYear: true,
-					minDate: 0,
-					onSelect: function(selectedDate) {
-						$("#from").datepicker("option", "maxDate", selectedDate);
-					}
-				});
-			});
-
-		});
-	</script>
+ 
 
 </body>
 
