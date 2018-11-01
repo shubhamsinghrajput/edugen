@@ -39,20 +39,22 @@
                         <div class="row">
                             <div class="col-md-2 my-auto">
                                 <div class="card card-stats">
-                                    <div class="card-header card-header-warning card-header-icon">
+                                    <div class="card-header card-header-danger card-header-icon">
                                         <div class="card-icon">
-                                            Class
+                                            Question Paper
                                         </div>
-                                        <h3 class="card-title2">Question Paper</h3>
+                                        <figure>
+                                            <img class="img-thumbnail" src="assets/img/question-paper.png" alt="">
+                                        </figure>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-10 mx-auto">
                                 <div class="row ">
-                                    <div class="col-md-3 col-sm-6 mx-auto card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>
-                                    <div class="col-md-3 col-sm-6 card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>
-                                    <div class="col-md-3 col-sm-6 card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>
-                                    <div class="col-md-3 col-sm-6 card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>								 
+                                    <div class="col-md-3 col-sm-6 mx-auto card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 1</h3></div>
+                                    <div class="col-md-3 col-sm-6 card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 2</h3></div>
+                                    <div class="col-md-3 col-sm-6 card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 3</h3></div>
+                                    <div class="col-md-3 col-sm-6 card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 4</h3></div>								 
                                 </div>
                             </div>
                         </div>
@@ -65,17 +67,19 @@
                                 <div class="card card-stats">
                                     <div class="card-header card-header-success card-header-icon">
                                         <div class="card-icon">
-                                            Class
+                                            Worksheet
                                         </div>
-                                        <h3 class="card-title2">Worksheet</h3>
+                                        <figure>
+                                            <img class="img-thumbnail" src="assets/img/worksheet.png" alt="">
+                                        </figure>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-10 mx-auto">
                                 <div class="row ">
-                                    <div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
-                                    <div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
-                                    <div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
+                                    <div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/worksheet1.png" alt="logo"><h3>Worksheet 1</h3></div>
+                                    <div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/worksheet1.png" alt="logo"><h3>Worksheet 2</h3></div>
+                                        <div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/worksheet1.png" alt="logo"><h3>Worksheet 3</h3></div>
                                 </div>
                             </div>
                         </div>
