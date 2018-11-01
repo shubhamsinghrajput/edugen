@@ -7,7 +7,6 @@ $(document).ready(function () {
 			$(this).children("i.fa").removeClass("fa-close").addClass("fa-bars");
 		}
 	});
-
 	$(document).click(function (event) {
 		if (!$(event.target).closest("#collapsibleNavbar,.menu-btn").length) {
 			$("body").find("#collapsibleNavbar").removeClass("show");
@@ -26,32 +25,28 @@ $(document).ready(function () {
 		});
 	}
 	/*-------------Edit Board for selection left var option-----------*/
-	$("select#e-selector1").change(function () {
-		if ($("select option[value=worksheet]").is(':selected')) {
-			$("form#edit-form .mrak-field").attr("disabled", "true");
-			$("form#edit-form .mrak-field").val("");
-			$(".student-list input").prop("checked", false);
-		} else if ($("select option[value=question-paper]").is(':selected')) {
-			$("form#edit-form .mrak-field").removeAttr("disabled", "disabled");
-		}
+//	$("select#e-selector1").change(function () {
+//		if ($("select option[value=worksheet]").is(':selected')) {
+//			$("form#edit-form .mrak-field").attr("disabled", "true");
+//			$("form#edit-form .mrak-field").val("");
+//			$(".student-list input").prop("checked", false);
+//		} else if ($("select option[value=question-paper]").is(':selected')) {
+//			$("form#edit-form .mrak-field").removeAttr("disabled", "disabled");
+//		}
+//
+//	});
+ 
+	var ckbox = $('#example .c-check');
 
-	});
- 
-	
-    var ckbox = $('#example .c-check');
-    $(ckbox).on('click',function () {
-        if ($(this).is(':checked')) {
-            $(this).parent().siblings().children(".mrak-field").removeAttr("disabled", "disabled");
- 		}
-	   else{
-            $(this).parent().siblings().children(".mrak-field").attr("disabled", "disabled");
+	$(ckbox).on('click', function () {
+		if ($(this).is(':checked')) {
+			$(this).parent().siblings().children(".mrak-field").removeAttr("disabled", "disabled");
+		} else {
+			$(this).parent().siblings().children(".mrak-field").attr("disabled", "disabled");
 			$(this).parent().siblings().children(".mrak-field").val("");
-        }
-    });
- 
-	
-	
- /*-----------header flexible---------------*/
+		}
+	});
+	/*-----------header flexible---------------*/
 	var breadcrumb = $(".breadcrumb-wrap").offset().top;
 	$(window).scroll(function () {
 		if (window.pageYOffset > 1) {
@@ -61,7 +56,6 @@ $(document).ready(function () {
 		}
 	});
 	/*-----------Date Picker setting---------------*/
-
 	$(function () {
 		$("#from").datepicker({
 			changeMonth: true,
@@ -80,24 +74,17 @@ $(document).ready(function () {
 			}
 		});
 	});
-
-
-
 });
-
 /*---------------------Edit board choose question type------------*/
-
-
-//document.getElementById('e-selector').addEventListener('change', function () {
-//	var style = this.value == 1 ? 'block' : 'none';
-//	document.getElementById('hidden_div').style.display = style;
-//});
-//
-//document.getElementById('e-selector1').addEventListener('change', function () {
-//	var style = this.value == 1 ? 'block' : 'none';
-//	document.getElementById('e-selector').value = 'whole-class';
-//	document.getElementById('hidden_div').style.display = style;
-//});
+document.getElementById('e-selector').addEventListener('change', function () {
+	var style = this.value == 1 ? 'block' : 'none';
+	document.getElementById('hidden_div').style.display = style;
+});
+document.getElementById('e-selector1').addEventListener('change', function () {
+	var style = this.value == 1 ? 'block' : 'none';
+	document.getElementById('e-selector').value = 'whole-class';
+	document.getElementById('hidden_div').style.display = style;
+});
 $(function () {
 	$("select.main").on("change", function () {
 		//remove active
