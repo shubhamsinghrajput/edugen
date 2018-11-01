@@ -53,19 +53,21 @@ $(document).ready(function () {
 //	});
 	 
 	
-    var ckbox = $('#checkbox');
+    var ckbox = $('#example .c-check');
 
-    $('input').on('click',function () {
-        if (ckbox.is(':checked')) {
-            alert('You have Checked it');
-        } else {
-            alert('You Un-Checked it');
+    $(ckbox).on('click',function () {
+        if ($(this).is(':checked')) {
+            $(this).parent().siblings().children(".mrak-field").removeAttr("disabled", "disabled");
+ 		}
+	   else{
+            $(this).parent().siblings().children(".mrak-field").attr("disabled", "disabled");
+			$(this).parent().siblings().children(".mrak-field").val("");
         }
     });
  
 	
 	
-	/*-----------header flexible---------------*/
+ /*-----------header flexible---------------*/
 	var breadcrumb = $(".breadcrumb-wrap").offset().top;
 	$(window).scroll(function () {
 		if (window.pageYOffset > 1) {

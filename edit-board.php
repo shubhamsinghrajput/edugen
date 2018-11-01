@@ -82,48 +82,35 @@
 						<div class="form-content">
 							<form action="" method="">
 								<div class="row">
-									<div class="col-lg-4 col-md-6">
+									<div class=" col-md-6">
 										<div class="form-group">
 											<label for="">Name of the School</label>
 											<input type="text" name="" class="form-control">
 										</div>
-<!--
-										<div class="form-group">
-											<label for=""> Subject</label>
-											<input type="text" name="" class="form-control">
-										</div>
--->
-									</div>
-									<div class="col-lg-4 col-md-6">
 										<div class="row">
 											<div class="col-md-6 ">
 												<div class="form-group">
 													<label for="">Distribution Date</label>
-													<input type="text" placeholder="DD-MM-YYYY" id="from" name="from" class="form-control"/>
+													<input type="text" placeholder="DD-MM-YYYY" id="from" name="from" class="form-control" />
 												</div>
 											</div>
 											<div class="col-md-6 ">
 												<div class="form-group">
 													<label for="">Submission Date</label>
-													<input type="text" placeholder="DD-MM-YYYY" id="to" name="to" class="form-control"/>
+													<input type="text" placeholder="DD-MM-YYYY" id="to" name="to" class="form-control" />
 												</div>
 											</div>
 										</div>
-<!--
-										<div class="form-group">
-											<label for="">Name of the chapter</label>
-											<input type="text" name="" class="form-control">
-										</div>
--->
 									</div>
-									<div class="col-lg-4 col-md-12">
+									<div class=" col-md-6">
 
 										<div class="form-group">
 											<label for="">Teacher Remark</label>
-											<textarea type="text" rows="4" name="" class="form-control"></textarea>
- 										</div>
+											<textarea type="text" rows="5" name="" class="form-control"></textarea>
+										</div>
 
 									</div>
+
 								</div>
 							</form>
 						</div>
@@ -163,7 +150,7 @@
 											<td>
 												<input type="checkbox" name="" class="c-check">
 											</td>
-											<td><input type="text" name=""  disabled class="form-control  mrak-field"></td>
+											<td><input type="text" name="" disabled class="form-control  mrak-field"></td>
 											<td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
 										</tr>
 										<tr>
@@ -174,7 +161,7 @@
 											<td>
 												<input type="checkbox" name="" class="c-check">
 											</td>
-											<td><input type="text" name=""  disabled class="form-control  mrak-field"></td>
+											<td><input type="text" name="" disabled class="form-control  mrak-field"></td>
 											<td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
 										</tr>
 									</tbody>
@@ -218,7 +205,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
 	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
 	<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
-	
+
 	<script type="text/javascript" src="assets/js/jquery-ui.js"></script>
 	<script src="assets/js/site.js"></script>
 
@@ -234,12 +221,8 @@
 				]
 			});
 		});
- 
-		
-		
-		
 	</script>
- 
+
 
 </body>
 
