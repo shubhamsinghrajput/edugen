@@ -87,10 +87,12 @@
 											<label for="">Name of the School</label>
 											<input type="text" name="" class="form-control">
 										</div>
+<!--
 										<div class="form-group">
 											<label for=""> Subject</label>
 											<input type="text" name="" class="form-control">
 										</div>
+-->
 									</div>
 									<div class="col-lg-4 col-md-6">
 										<div class="row">
@@ -107,10 +109,12 @@
 												</div>
 											</div>
 										</div>
+<!--
 										<div class="form-group">
 											<label for="">Name of the chapter</label>
 											<input type="text" name="" class="form-control">
 										</div>
+-->
 									</div>
 									<div class="col-lg-4 col-md-12">
 
