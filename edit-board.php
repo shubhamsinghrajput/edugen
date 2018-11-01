@@ -152,7 +152,7 @@
 											<td>
 												<input type="checkbox" name="" class="c-check">
 											</td>
-											<td><input type="text" name="" class="form-control mrak-field"></td>
+											<td><input type="text" name="" disabled class="form-control mrak-field"></td>
 											<td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
 										</tr>
 										<tr>
@@ -163,7 +163,7 @@
 											<td>
 												<input type="checkbox" name="" class="c-check">
 											</td>
-											<td><input type="text" name="" class="form-control  mrak-field"></td>
+											<td><input type="text" name=""  disabled class="form-control  mrak-field"></td>
 											<td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
 										</tr>
 										<tr>
@@ -174,7 +174,7 @@
 											<td>
 												<input type="checkbox" name="" class="c-check">
 											</td>
-											<td><input type="text" name="" class="form-control  mrak-field"></td>
+											<td><input type="text" name=""  disabled class="form-control  mrak-field"></td>
 											<td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
 										</tr>
 									</tbody>
