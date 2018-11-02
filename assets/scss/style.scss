@@ -791,17 +791,14 @@ select.models.active {
 		color: #fff;
 		font-size: 25px;
 		text-decoration: none;
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
-		display: flex;
+		@include flex();
 		align-items: center;
 		justify-content: center;
 		overflow: hidden;
 		@include transition(height .3s);
 		flex-direction: column;
 		bottom: 50%;
+		z-index: 1;
 
 		&:last-child {
 			top: 50%;
@@ -881,13 +878,16 @@ select.models.active {
 .card-stats {
 	min-height: 150px;
 }
-.click-here{
- 	font-size: 14px;
+
+.click-here {
+	font-size: 14px;
 	text-align: center;
 	color: #fff;
 }
 
-
+.card-img {
+	max-width: 116px;
+}
 
 
 

@@ -1190,7 +1190,8 @@ select.models.active {
     -o-transition: height 0.3s;
     transition: height 0.3s;
     flex-direction: column;
-    bottom: 50%; }
+    bottom: 50%;
+    z-index: 1; }
     .card-overlay > a:last-child {
       top: 50%;
       border-bottom: 0 none; }
@@ -1265,6 +1266,9 @@ select.models.active {
   font-size: 14px;
   text-align: center;
   color: #fff; }
+
+.card-img {
+  max-width: 116px; }
 
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================1024px====================*/

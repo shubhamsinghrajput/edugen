@@ -28,7 +28,7 @@
 			<div class="wrapper-card pt-5 pb-3">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-2 my-auto">
+						<div class="col-md-3 col-lg-2 my-auto">
 							<div class="card card-stats">
 								<div class="card-header card-header-warning card-header-icon">
 									<div class="card-icon">
@@ -38,9 +38,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-10 mx-auto">
+						<div class="col-10 col-md-9 col-lg-10 mx-auto">
 							<div class="row ">
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-lg-3 col-md-4 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -51,7 +51,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -62,7 +62,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -73,7 +73,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -104,7 +104,7 @@
 						</div>
 						<div class="col-10 mx-auto">
 							<div class="row ">
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -115,7 +115,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -126,7 +126,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -157,7 +157,7 @@
 						</div>
 						<div class="col-10 mx-auto">
 							<div class="row ">
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -188,7 +188,7 @@
 						</div>
 						<div class="col-10 mx-auto">
 							<div class="row">
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -199,7 +199,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -210,7 +210,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -221,7 +221,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -232,7 +232,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -243,7 +243,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
@@ -254,7 +254,7 @@
 										</a>
 									</figure>
 								</div>
-								<div class="col-md-3 col-sm-6 card-margin">
+								<div class="col-md-4 col-lg-3 col-sm-6 card-margin">
 									<figure class="card-overlay">
 										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
 										<a href="content.php" title="Go to Content"><span>Content</span>
