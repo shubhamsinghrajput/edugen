@@ -16,7 +16,6 @@ $(document).ready(function () {
 			}
 		}
 	});
-
 	/*-------------remove "chapter" word form mobile view-----------*/
 	var W = $(window).width();
 	if (W < 768) {
@@ -25,17 +24,16 @@ $(document).ready(function () {
 		});
 	}
 	/*-------------Edit Board for selection left var option-----------*/
-//	$("select#e-selector1").change(function () {
-//		if ($("select option[value=worksheet]").is(':selected')) {
-//			$("form#edit-form .mrak-field").attr("disabled", "true");
-//			$("form#edit-form .mrak-field").val("");
-//			$(".student-list input").prop("checked", false);
-//		} else if ($("select option[value=question-paper]").is(':selected')) {
-//			$("form#edit-form .mrak-field").removeAttr("disabled", "disabled");
-//		}
-//
-//	});
- 
+	// $("select#e-selector1").change(function () {
+	// if ($("select option[value=worksheet]").is(':selected')) {
+	// $("form#edit-form .mrak-field").attr("disabled", "true");
+	// $("form#edit-form .mrak-field").val("");
+	// $(".student-list input").prop("checked", false);
+	// } else if ($("select option[value=question-paper]").is(':selected')) {
+	// $("form#edit-form .mrak-field").removeAttr("disabled", "disabled");
+	// }
+	//
+	// });
 	var ckbox = $('#example .c-check');
 
 	$(ckbox).on('click', function () {
@@ -46,6 +44,7 @@ $(document).ready(function () {
 			$(this).parent().siblings().children(".mrak-field").val("");
 		}
 	});
+
 	/*-----------header flexible---------------*/
 	var breadcrumb = $(".breadcrumb-wrap").offset().top;
 	$(window).scroll(function () {
@@ -58,6 +57,7 @@ $(document).ready(function () {
 	/*-----------Date Picker setting---------------*/
 	$(function () {
 		$("#from").datepicker({
+			dateFormat: 'yy-mm-dd',
 			changeMonth: true,
 			changeYear: true,
 			minDate: 0,
@@ -66,6 +66,7 @@ $(document).ready(function () {
 			}
 		});
 		$("#to").datepicker({
+			dateFormat: 'yy-mm-dd',
 			changeMonth: true,
 			changeYear: true,
 			minDate: 0,
@@ -77,11 +78,16 @@ $(document).ready(function () {
 });
 /*---------------------Edit board choose question type------------*/
 document.getElementById('e-selector').addEventListener('change', function () {
-	var style = this.value == 1 ? 'block' : 'none';
+	var style = this.value == 'individual' ? 'block' : 'none';
 	document.getElementById('hidden_div').style.display = style;
+	if (this.value == 'individual') {
+		$('.mark_hidden').hide();
+		$(".mrak-field").prop("disabled", true);
+		$(".mrak-field").val("");
+	}
 });
 document.getElementById('e-selector1').addEventListener('change', function () {
-	var style = this.value == 1 ? 'block' : 'none';
+	var style = this.value == 'individual' ? 'block' : 'none';
 	document.getElementById('e-selector').value = 'whole-class';
 	document.getElementById('hidden_div').style.display = style;
 });
