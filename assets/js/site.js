@@ -80,14 +80,15 @@ $(document).ready(function () {
 document.getElementById('e-selector').addEventListener('change', function () {
 	var style = this.value == 'individual' ? 'block' : 'none';
 	document.getElementById('hidden_div').style.display = style;
-	if (this.value == 'individual') {
-		$('.mark_hidden').hide();
-		$(".mrak-field").prop("disabled", true);
-		$(".mrak-field").val("");
-	}
+
 });
 document.getElementById('e-selector1').addEventListener('change', function () {
 	var style = this.value == 'individual' ? 'block' : 'none';
+	if (this.value == 'worksheet') {
+    $('.mark_hidden').hide();
+    $(".mrak-field").prop("disabled", true);
+    $(".mrak-field").val("");
+}
 	document.getElementById('e-selector').value = 'whole-class';
 	document.getElementById('hidden_div').style.display = style;
 });
