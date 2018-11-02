@@ -726,15 +726,17 @@ select.models.active {
 //	position: absolute;
 //	right: 0;
 //}
-.student-list{
-	li{
+.student-list {
+	li {
 		padding: 3px 15px 1px;
 		margin-bottom: 2px;
 		position: relative;
-		input+label{
+
+		input + label {
 			padding-left: 22px;
 		}
-		&:after{
+
+		&:after {
 			content: '';
 			position: absolute;
 			left: 15px;
@@ -744,33 +746,146 @@ select.models.active {
 			bottom: 0;
 		}
 	}
-	input[type=checkbox]:after,input[type=checkbox]:before {
+
+	input[type=checkbox]:after,
+	input[type=checkbox]:before {
 		left: 2px;
 	}
+
 	input[type=checkbox]:before {
 		left: 4px;
 	}
 }
-.e-sel-header{
+
+.e-sel-header {
 	min-height: 76px;
 }
-.form-content{
-//	input:not([type="submit"]),label,textarea,select{
-//		width: 60%;
-//		float: left;
-//	}
-//	input[type="submit"]{
-//		width: 60%;
-//	}
-//	label{
-//		width: 40%;
-//	}
-//	.form-group{
-//		overflow: auto;
-//	}
+
+.form-content {
+	//	input:not([type="submit"]),label,textarea,select{
+	//		width: 60%;
+	//		float: left;
+	//	}
+	//	input[type="submit"]{
+	//		width: 60%;
+	//	}
+	//	label{
+	//		width: 40%;
+	//	}
+	//	.form-group{
+	//		overflow: auto;
+	//	}
 }
 
+/*---------------card-overlay------------------*/
+.card-overlay {
+	position: relative;
 
+	> a {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bootom: 100%;
+		background: rgba(60, 39, 39, 0.8);
+		height: 0%;
+		color: #fff;
+		font-size: 25px;
+		text-decoration: none;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+		@include transition(height .3s);
+		flex-direction: column;
+		bottom: 50%;
+
+		&:last-child {
+			top: 50%;
+			border-bottom: 0 none;
+
+			&:after {
+				content: '';
+				position: absolute;
+				width: 0;
+				left: 10%;
+				right: 10%;
+				height: 2px;
+				background: #fff;
+				@include transition(0.5s);
+				top: 0%;
+				margin: 0 auto;
+				pointer-events: none;
+			}
+		}
+	}
+
+	&:hover a:after {
+		width: 80%;
+	}
+
+	&:hover > a {
+		height: 50%;
+	}
+
+
+	&:before {
+		content: '';
+		position: absolute;
+		pointer-events: none;
+		left: 10px;
+		right: 10px;
+		bottom: 10px;
+		top: 50%;
+		margin: 0 auto;
+		height: 0;
+		border-left: 2px solid #fff;
+		z-index: 2;
+		@include transition(0.3s 0.3s);
+		border-right: 2px solid #fff;
+	}
+
+	&:hover:before {
+		top: 10px;
+		height: calc(100% - 20px);
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		border-top: 2px solid #fff;
+		z-index: 2;
+		@include transition(0.3s 0.3s);
+		border-bottom: 2px solid #fff;
+		left: 50%;
+		bottom: 10px;
+		pointer-events: none;
+		top: 10px;
+		width: 0;
+	}
+
+	&:hover:after {
+		left: 10px;
+		width: calc(100% - 20px);
+	}
+}
+
+.card-title2 {
+	padding: 60px 0 0px;
+
+}
+
+.card-stats {
+	min-height: 150px;
+}
+.click-here{
+ 	font-size: 14px;
+	text-align: center;
+	color: #fff;
+}
 
 
 

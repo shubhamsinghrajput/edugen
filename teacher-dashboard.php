@@ -24,7 +24,7 @@
 				<li><a href="teacher-dashboard.php">Dashboard</a></li>
 			</ul>
 		</div>
-		<div class="summary-page" id="dashboard">			
+		<div class="summary-page" id="dashboard">
 			<div class="wrapper-card pt-5 pb-3">
 				<div class="container">
 					<div class="row">
@@ -40,10 +40,50 @@
 						</div>
 						<div class="col-10 mx-auto">
 							<div class="row ">
-								<div class="col-md-3 col-sm-6 mx-auto card-margin"><a href="content.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>
-								<div class="col-md-3 col-sm-6 card-margin"><a href="content.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>
-								<div class="col-md-3 col-sm-6 card-margin"><a href="content.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>
-								<div class="col-md-3 col-sm-6 card-margin"><a href="content.php"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></a></div>								 
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -64,9 +104,39 @@
 						</div>
 						<div class="col-10 mx-auto">
 							<div class="row ">
-								<div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
-								<div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
-								<div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -87,7 +157,17 @@
 						</div>
 						<div class="col-10 mx-auto">
 							<div class="row ">
-								<div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -108,12 +188,83 @@
 						</div>
 						<div class="col-10 mx-auto">
 							<div class="row">
-								<div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
-								<div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
-								<div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
-								<div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
-								<div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
-								<div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/profile.jpg" alt="logo"></div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
+								<div class="col-md-3 col-sm-6 card-margin">
+									<figure class="card-overlay">
+										<img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+										<a href="content.php" title="Go to Content"><span>Content</span>
+											<span class="click-here"> Click here</span>
+										</a>
+										<a href="question.php" title="Go to Worksheet"><span>Question</span>
+											<span class="click-here"> Click here</span>
+										</a>
+									</figure>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -129,4 +280,5 @@
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/site.js"></script>
 </body>
+
 </html>
