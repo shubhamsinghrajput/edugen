@@ -218,6 +218,7 @@
         <div class="breadcrumb-wrap">
             <ul class="breadcrumb container">
                 <li><a href="teacher-dashboard.php">Dashboard</a></li>
+                <li><a href="question.php">Added Questions</a></li> 
             </ul>
         </div>
 
@@ -268,7 +269,7 @@
                                                        
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>  
+                                                    <a href="preview.php" class="btnRegister">Open</a>  
                                                 </div>
                                             </div>
                                         </div>
@@ -291,12 +292,12 @@
 
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a> 
+                                                   <a href="preview.php" class="btnRegister">Open</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-12">
-                                            <div class="offer offer-radius offer-radius offer-primary">
+                                            <div class="offer offer-radius offer-primary">
                                                 <div class="shape">
                                                     <div class="shape-text">
                                                         3
@@ -314,7 +315,7 @@
 
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>                                                 </div>
+                                                   <a href="preview.php" class="btnRegister">Open</a>                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-12">
@@ -335,7 +336,7 @@
                                                         Teacher Remark :
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>                                                 </div>
+                                                   <a href="preview.php" class="btnRegister">Open</a>                                                </div>
                                             </div>
                                         </div>
 
@@ -357,7 +358,7 @@
                                                         Teacher Remark :
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>                                                 </div>
+                                                   <a href="preview.php" class="btnRegister">Open</a>                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-12">
@@ -378,7 +379,7 @@
                                                         Teacher Remark :
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>                                                 </div>
+                                                   <a href="preview.php" class="btnRegister">Open</a>                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -409,7 +410,7 @@
                                                         Teacher Remark :
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>                                                 </div>
+                                                   <a href="preview.php" class="btnRegister">Open</a>                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-12">
@@ -430,11 +431,11 @@
                                                         Teacher Remark :
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>                                                 </div>
+                                                   <a href="preview.php" class="btnRegister">Open</a>                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-12">
-                                            <div class="offer offer-radius offer-radius offer-primary">
+                                            <div class="offer offer-radius offer-primary">
                                                 <div class="shape">
                                                     <div class="shape-text">
                                                         3
@@ -451,7 +452,7 @@
                                                         Teacher Remark :
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>                                                 </div>
+                                                   <a href="preview.php" class="btnRegister">Open</a>                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-12">
@@ -472,7 +473,7 @@
                                                         Teacher Remark :
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>                                                 </div>
+                                                   <a href="preview.php" class="btnRegister">Open</a>                                                </div>
                                             </div>
                                         </div>
 
@@ -494,7 +495,7 @@
                                                         Teacher Remark :
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>                                                 </div>
+                                                   <a href="preview.php" class="btnRegister">Open</a>                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-12">
@@ -515,7 +516,7 @@
                                                         Teacher Remark :
                                                     </h3>
                                                     <a class="btnDelete"  data-title="Delete" data-toggle="modal" data-target="#delete" data-placement="top" rel="tooltip">Delete</a>  
-                                                    <a class="btnRegister">Open</a>                                                 </div>
+                                                   <a href="preview.php" class="btnRegister">Open</a>                                                </div>
                                             </div>
                                         </div>
                                     </div>
