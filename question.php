@@ -11,9 +11,7 @@
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="assets/css/style.css" rel="stylesheet">
-        <style>
-            
-        </style>
+        
     </head>
 
     <body>
@@ -45,10 +43,10 @@
                             </div>
                             <div class="col-10 mx-auto">
                                 <div class="row ">
-                                    <div class="col-md-3 col-sm-6 mx-auto card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 1</h3></div>
-                                    <div class="col-md-3 col-sm-6 card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 2</h3></div>
-                                    <div class="col-md-3 col-sm-6 card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 3</h3></div>
-                                    <div class="col-md-3 col-sm-6 card-margin"><a href="question.php"><img class="img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 4</h3></div>								 
+                                    <div class="col-md-3 col-sm-6 mx-auto card-margin my-auto"><a href="question.php"><img class="card-img img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 1</h3></div>
+                                    <div class="col-md-3 col-sm-6 card-margin my-auto"><a href="question.php"><img class="card-img img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 2</h3></div>
+                                    <div class="col-md-3 col-sm-6 card-margin my-auto"><a href="question.php"><img class="card-img img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 3</h3></div>
+                                    <div class="col-md-3 col-sm-6 card-margi my-auton"><a href="question.php"><img class="card-img img-fluid" src="assets/img/question-paper1.png" alt="logo"></a><h3>Question Paper 4</h3></div>								 
                                 </div>
                             </div>
                         </div>
@@ -71,9 +69,9 @@
                             </div>
                             <div class="col-10 mx-auto">
                                 <div class="row ">
-                                    <div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/worksheet1.png" alt="logo"><h3>Worksheet 1</h3></div>
-                                    <div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/worksheet1.png" alt="logo"><h3>Worksheet 2</h3></div>
-                                        <div class="col-md-3 col-sm-6 card-margin"><img class="img-fluid" src="assets/img/worksheet1.png" alt="logo"><h3>Worksheet 3</h3></div>
+                                    <div class="col-md-3 col-sm-6 card-margin my-auto"><img class="card-img img-fluid" src="assets/img/worksheet1.png" alt="logo"><h3>Worksheet 1</h3></div>
+                                    <div class="col-md-3 col-sm-6 card-margin my-auto"><img class="card-img img-fluid" src="assets/img/worksheet1.png" alt="logo"><h3>Worksheet 2</h3></div>
+                                    <div class="col-md-3 col-sm-6 card-margin my-auto"><img class="card-img img-fluid" src="assets/img/worksheet1.png" alt="logo"><h3>Worksheet 3</h3></div>
                                 </div>
                             </div>
                         </div>

@@ -10,9 +10,6 @@
 				<li class="nav-item">
 					<a class="nav-link" href="teacher-dashboard.php">Dashboard</a>
 				</li>
-                <li class="nav-item">
-                    <a class="nav-link" href="edit-dashboard.php">E-B Dashboard</a>
-                </li>
 				<li class="nav-item">
 					<a class="nav-link" href="edit-board.php">Edit-Board</a>
 				</li>
