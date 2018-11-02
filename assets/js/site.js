@@ -91,7 +91,7 @@ document.getElementById('e-selector1').addEventListener('change', function () {
 	document.getElementById('e-selector').value = 'whole-class';
 	document.getElementById('hidden_div').style.display = style;
 });
-$(function () {
+$(function () { 
 	$("select.main").on("change", function () {
 		//remove active
 		$("select.models.active").removeClass("active");
