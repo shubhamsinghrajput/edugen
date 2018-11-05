@@ -1394,6 +1394,11 @@ select.models.active {
   width: 48%;
   min-width: 280px;
   float: right; }
+  @media all and (max-width: 767px) {
+    .register .nav-tabs {
+      float: none;
+      margin-left: auto;
+      margin-right: auto; } }
 
 .register .nav-tabs .nav-link {
   padding: 2%;
