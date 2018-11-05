@@ -889,6 +889,290 @@ select.models.active {
 	max-width: 116px;
 }
 
+
+/*-------------Question.php--------------*/
+.tab-content {
+	border: none;
+}
+
+
+.register {
+	margin-top: 50px;
+	padding: 10px 3%;
+}
+
+.register-left {
+	text-align: center;
+	color: #fff;
+	margin-top: 4%;
+}
+
+.register-left input {
+	border: none;
+	border-radius: 1.5rem;
+	padding: 2%;
+	width: 60%;
+	background: #f8f9fa;
+	font-weight: bold;
+	color: #383d41;
+	/*
+                margin-top: 30%;
+                margin-bottom: 3%;
+*/
+	cursor: pointer;
+}
+
+.register-right {
+	background: #f8f9fa;
+	border-top-left-radius: 10% 50%;
+	border-bottom-left-radius: 10% 50%;
+}
+
+.register-left img {
+	margin-top: 15%;
+	margin-bottom: 5%;
+	width: 25%;
+	-webkit-animation: mover 2s infinite alternate;
+	animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-20px);
+	}
+}
+
+@keyframes mover {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-20px);
+	}
+}
+
+.register-left p {
+	font-weight: lighter;
+	padding: 12%;
+	margin-top: -9%;
+}
+
+.register .register-form {
+	padding: 0% 15%;
+	margin-top: 10%;
+	height: 550px;
+	overflow-y: auto;
+}
+
+.btnRegister {
+	text-align: center;
+	float: right;
+	margin: 5% 0 2%;
+	 
+	border: none;
+	border-radius: 1.5rem;
+	padding: 0.25%;
+	background: #3c2727;
+	color: #fff !important;
+	font-weight: 600;
+	width: 20%;
+	cursor: pointer;
+}
+
+.btnDelete {
+	text-align: center;
+	float: right;
+	margin: 5% 0 2%;
+	border: none;
+	border-radius: 1.5rem;
+	padding: 0.25%;
+	background: red;
+	color: #fff !important;
+	font-weight: 600;
+	width: 20%;
+	cursor: pointer;
+}
+
+.register .nav-tabs {
+	margin-top: 3%;
+	border: none;
+	background: #0062cc;
+	border-radius: 1.5rem;
+	width: 48%;
+	min-width: 280px;
+	float: right;
+}
+
+.register .nav-tabs .nav-link {
+	padding: 2%;
+	height: 34px;
+	font-weight: 600;
+	color: #fff;
+	border-top-right-radius: 1.5rem;
+	border-bottom-right-radius: 1.5rem;
+}
+
+.register .nav-tabs .nav-link:hover {
+	border: none;
+}
+
+.register .nav-tabs .nav-link.active {
+	width: auto;
+	color: #0062cc;
+	border: 2px solid #0062cc;
+	border-top-left-radius: 1.5rem;
+	border-bottom-left-radius: 1.5rem;
+}
+
+.register-heading {
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: -15%;
+	color: #495057;
+}
+
+/*  ------------------------------------------------------------------------------*/
+
+.shape {
+	border-style: solid;
+	border-width: 0 70px 40px 0;
+	float: right;
+	height: 0px;
+	width: 0px;
+	-ms-transform: rotate(360deg);
+	/* IE 9 */
+	-o-transform: rotate(360deg);
+	/* Opera 10.5 */
+	-webkit-transform: rotate(360deg);
+	/* Safari and Chrome */
+	transform: rotate(360deg);
+}
+
+.offer {
+	background: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	margin: 15px 0;
+	overflow: hidden;
+}
+
+.offer-radius {
+	border-radius: 7px;
+}
+
+.offer-danger {
+	border-color: #d9534f;
+}
+
+.offer-danger .shape {
+	border-color: transparent #d9534f transparent transparent;
+	border-color: rgba(255, 255, 255, 0) #d9534f rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.offer-success {
+	border-color: #5cb85c;
+}
+
+.offer-success .shape {
+	border-color: transparent #5cb85c transparent transparent;
+	border-color: rgba(255, 255, 255, 0) #5cb85c rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.offer-default {
+	border-color: #999999;
+}
+
+.offer-default .shape {
+	border-color: transparent #999999 transparent transparent;
+	border-color: rgba(255, 255, 255, 0) #999999 rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.offer-primary {
+	border-color: #428bca;
+}
+
+.offer-primary .shape {
+	border-color: transparent #428bca transparent transparent;
+	border-color: rgba(255, 255, 255, 0) #428bca rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.offer-info {
+	border-color: #5bc0de;
+}
+
+.offer-info .shape {
+	border-color: transparent #5bc0de transparent transparent;
+	border-color: rgba(255, 255, 255, 0) #5bc0de rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.offer-warning {
+	border-color: #f0ad4e;
+}
+
+.offer-warning .shape {
+	border-color: transparent #f0ad4e transparent transparent;
+	border-color: rgba(255, 255, 255, 0) #f0ad4e rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
+.shape-text {
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	position: relative;
+	right: -40px;
+	top: 2px;
+	white-space: nowrap;
+	-ms-transform: rotate(30deg);
+	/* IE 9 */
+	-o-transform: rotate(360deg);
+	/* Opera 10.5 */
+	-webkit-transform: rotate(30deg);
+	/* Safari and Chrome */
+	transform: rotate(30deg);
+}
+
+.offer-content {
+	padding: 15px;
+}
+
+.que-bg {
+	background: url(assets/img/question-bg.jpg) no-repeat bottom left;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+	padding-top: 75px;
+}
+
+.que-bg:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.3);
+	//z-index: 2;          
+}
+
+
+register-left a {
+	border: none;
+	border-radius: 52.5rem;
+	padding: 2%;
+	width: 60%;
+	background: #f8f9fa;
+	font-weight: bold;
+	color: #383d41;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	cursor: pointer;
+}
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 
 @import "responsive.scss";
