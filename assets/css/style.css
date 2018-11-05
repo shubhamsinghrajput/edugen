@@ -742,7 +742,8 @@ table {
   margin-top: 70px; }
   @media all and (max-width: 767px) {
     #login-form {
-      margin-top: 175px; } }
+      margin-top: 195px;
+      border-top: 1px solid red; } }
   #login-form .btn {
     width: 150px;
     margin: 0 auto;

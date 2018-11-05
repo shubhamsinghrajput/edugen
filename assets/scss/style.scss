@@ -227,7 +227,8 @@ table {
 	background: rgba(60, 39, 39, 0.7);
 	margin-top: 70px;
 	@media all and (max-width:767px){
-		margin-top: 175px;
+		margin-top: 195px;
+		border-top: 1px solid red;
 	}
 
 	.btn {
