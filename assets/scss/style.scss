@@ -579,6 +579,8 @@ table {
 .tab-content {
 	border: 1px solid $bg-tr-black2;
 	min-height: 325px;
+	float: left;
+	width: 100%;
 }
 
 //------------ accordion -------------
@@ -905,6 +907,9 @@ select.models.active {
 	text-align: center;
 	color: #fff;
 	margin-top: 4%;
+	@media all and (max-width:1023px){
+		margin-bottom: 35px;
+	}
 }
 
 .register-left input {
@@ -912,6 +917,7 @@ select.models.active {
 	border-radius: 1.5rem;
 	padding: 2%;
 	width: 60%;
+	min-width: 175px;
 	background: #f8f9fa;
 	font-weight: bold;
 	color: #383d41;
@@ -926,6 +932,10 @@ select.models.active {
 	background: #f8f9fa;
 	border-top-left-radius: 10% 50%;
 	border-bottom-left-radius: 10% 50%;
+	overflow: auto;	
+	@media all and (max-width:1023px){
+ 		@include radius(0);
+	}
 }
 
 .register-left img {
@@ -934,6 +944,11 @@ select.models.active {
 	width: 25%;
 	-webkit-animation: mover 2s infinite alternate;
 	animation: mover 1s infinite alternate;
+ 	@media all and (max-width:1023px){
+		margin-top: 0;
+		max-width: 75px;	
+		margin-bottom: 15px;
+	}
 }
 
 @-webkit-keyframes mover {
@@ -960,13 +975,23 @@ select.models.active {
 	font-weight: lighter;
 	padding: 12%;
 	margin-top: -9%;
+	@media all and (max-width:1023px){
+		padding: 2%;
+		margin-top: 10px;
+	}
 }
 
 .register .register-form {
 	padding: 0% 15%;
-	margin-top: 10%;
-	height: 475px;
+	//margin-top: 25px;
+	height: 500px;
 	overflow-y: auto;
+	margin-top: 5px;
+	@media all and (max-width:1023px){
+		padding: 0% 15px;
+		margin-top: 15px;
+		height: auto;
+ 	}
 }
 
 .btnRegister {
@@ -976,12 +1001,13 @@ select.models.active {
 	 
 	border: none;
 	border-radius: 1.5rem;
-	padding: 0.25%;
+	padding: 0.55%;
 	background: #3c2727;
 	color: #fff !important;
 	font-weight: 600;
 	width: 20%;
 	cursor: pointer;
+	min-width: 100px;
 }
 
 .btnDelete {
@@ -996,6 +1022,7 @@ select.models.active {
 	font-weight: 600;
 	width: 20%;
 	cursor: pointer;
+	min-width: 100px;
 }
 
 .register .nav-tabs {
@@ -1059,6 +1086,9 @@ select.models.active {
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 	margin: 15px 0;
 	overflow: hidden;
+	@media all and (max-width:767px){
+		margin: 0 0 15px ;
+	}
 }
 
 .offer-radius {
@@ -1175,10 +1205,14 @@ register-left a {
 .register-form{
 	h3{
 		font-size: 1.2rem;
+		@media all and (max-width:767px){
+			font-size: 14px;
+		}
 	}
 }
 #edit-form input[type="submit"]{
 	width: auto;
+ 	
 }
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 
