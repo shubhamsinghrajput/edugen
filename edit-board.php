@@ -45,11 +45,17 @@
 						</select>
 						<select id="e-selector" class='models worksheet'>
 							<option value='whole-class'> Whole class</option>
-							<option value='1'> Individual</option>
+							<option value='individual'> Individual</option>
 						</select>
 					</div>
 					<div id="hidden_div" class="student-list-wrapper" style="display: none;">
 						<ul class="student-list pl-0 pt-1 row">
+ 
+							<li class="col-sm-6 col-md-4 col-lg-12">
+								<input type="checkbox" name="stuent_list[]" class="c-check a"><label>Shubham Kumar</label> </li>
+							<li class="col-sm-6 col-md-4 col-lg-12">
+								<input type="checkbox" name="stuent_list[]" class="c-check a"><label>Shubham Kumar</label> </li>
+<!--
 							<li class="col-sm-6 col-md-4 col-lg-12">
 								<input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
 							<li class="col-sm-6 col-md-4 col-lg-12">
@@ -64,14 +70,8 @@
 								<input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
 							<li class="col-sm-6 col-md-4 col-lg-12">
 								<input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-							<li class="col-sm-6 col-md-4 col-lg-12">
-								<input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-							<li class="col-sm-6 col-md-4 col-lg-12">
-								<input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-							<li class="col-sm-6 col-md-4 col-lg-12">
-								<input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
-							<li class="col-sm-6 col-md-4 col-lg-12">
-								<input type="checkbox" name="stuent_list[]" class="c-check"><label>Shubham Kumar</label> </li>
+-->
+ 
 						</ul>
 					</div>
 				</div>
@@ -122,7 +122,7 @@
 											<th width="40%">Questions</th>
 											<th width="35%">Answer</th>
 											<th width="5">WS</th>
-											<th width="5">Mark</th>
+											<th width="5" class="mark_hidden">Mark</th>
 											<th width="5">Delete</th>
 
 										</tr>
@@ -134,11 +134,12 @@
 											<td>This should be a catch-phrase for Support</td>
 											<td>This should be a catch</td>
 											<td>
-												<input type="checkbox" name="" class="c-check">
+												<input type="checkbox" class="c-check">
 											</td>
-											<td><input type="text" name="" disabled class="form-control mrak-field" required></td>
+<!--											<td class="mark_hidden"><input type="text" name="" disabled class="form-control  mrak-field mark_hidden" required></td>-->
 											<td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
 										</tr>
+<!--
 										<tr>
 											<td>10</td>
 											<td>7</td>
@@ -147,7 +148,7 @@
 											<td>
 												<input type="checkbox" name="" class="c-check">
 											</td>
-											<td><input type="text" name="" disabled class="form-control  mrak-field" required></td>
+											<td class="mark_hidden"><input type="text" name="" disabled class="form-control  mrak-field mark_hidden" required></td>
 											<td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
 										</tr>
 										<tr>
@@ -158,9 +159,10 @@
 											<td>
 												<input type="checkbox" name="" class="c-check">
 											</td>
-											<td><input type="text" name="" disabled class="form-control  mrak-field" required></td>
+											<td class="mark_hidden"><input type="text" name="" disabled class="form-control  mrak-field mark_hidden" required></td>
 											<td> <i class="fa fa-trash-o" style="font-size:30px;color:red"></i></td>
 										</tr>
+-->
 									</tbody>
 									<tfoot>
 										<tr>
@@ -169,7 +171,7 @@
 											<th>Questions</th>
 											<th>Answer</th>
 											<th>WS</th>
-											<th>Mark</th>
+											<th class="mark_hidden">Mark</th>
 											<th>Delete</th>
 										</tr>
 									</tfoot>
