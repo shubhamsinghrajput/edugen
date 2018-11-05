@@ -1020,7 +1020,6 @@ table {
 .tab-content {
   border: 1px solid rgba(60, 39, 39, 0.4);
   min-height: 325px;
-  float: left;
   width: 100%; }
 
 #accordion-style-1 .btn-link {
