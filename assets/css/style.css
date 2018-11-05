@@ -1503,6 +1503,12 @@ register-left a {
   margin-bottom: 0%;
   cursor: pointer; }
 
+.register-form h3 {
+  font-size: 1.2rem; }
+
+#edit-form input[type="submit"] {
+  width: auto; }
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================1024px====================*/
 @media all and (max-width: 1199px) {

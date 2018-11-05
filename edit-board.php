@@ -176,7 +176,7 @@
 										</tr>
 									</tfoot>
 								</table>
-								<div class="float-right pt-3">
+								<div class="pt-3">
 									<input type="submit" class="ml-auto  nav-link btn input-btn" onclick="window.location.hre=''" value="Submit"> </div>
 							</div>
 						</form>
