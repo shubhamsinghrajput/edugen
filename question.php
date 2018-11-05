@@ -17,10 +17,10 @@
             }
             
             
-            .register{
-                margin-top: 3%;
-                padding: 3%;
-            }
+        .register {
+            margin-top: 50px;
+            padding: 10px 3%;
+        }
             .register-left{
                 text-align: center;
                 color: #fff;
@@ -34,8 +34,10 @@
                 background: #f8f9fa;
                 font-weight: bold;
                 color: #383d41;
+/*
                 margin-top: 30%;
                 margin-bottom: 3%;
+*/
                 cursor: pointer;
             }
             .register-right{
@@ -64,8 +66,10 @@
                 margin-top: -9%;
             }
             .register .register-form{
-                padding: 10%;
+                padding: 0% 15%;
                 margin-top: 10%;
+                height: 550px;
+                overflow-y: auto;
             }
             .btnRegister{
                 text-align: center;
@@ -205,6 +209,18 @@
             //z-index: 2;          
         }
         
+        
+        register-left a {
+            border: none;
+            border-radius: 52.5rem;
+            padding: 2%;
+            width: 60%;
+            background: #f8f9fa;
+            font-weight: bold;
+            color: #383d41 ;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            cursor: pointer;
       
         </style>
 </head>
@@ -232,7 +248,7 @@
                     <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
                     <h3>Welcome</h3>
                     <p>Question Papers and Worksheets are listed here if you want to edit any of them please choose edit option in preview page. You can delete any of them here.</p>
-                    <input type="submit" name="" value="Login" /><br />
+                    <input type="submit" onClick="document.location.href='content.php'" name="" value="Add New Question" /><br />
                 </div>
                 <div class="col-md-9 register-right">
                     <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
@@ -245,7 +261,7 @@
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                            <h3 class="register-heading">Question Paper</h3>
+<!--                            <h3 class="register-heading">Question Paper</h3>-->
                             <div class="row register-form">
                                 <div class="col-md-12">
 
@@ -388,7 +404,9 @@
                             </div>
                         </div>
                         <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            <h3 class="register-heading">Worksheet</h3>
+<!--
+                            <h3 class="register-heading" >Worksheet</h3>
+-->
                             <div class="row register-form">
                                 <div class="col-md-12">
                                     <div class="row">
