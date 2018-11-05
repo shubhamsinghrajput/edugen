@@ -226,6 +226,9 @@ table {
 	padding: 50px 100px 50px;
 	background: rgba(60, 39, 39, 0.7);
 	margin-top: 70px;
+	@media all and (max-width:767px){
+		margin-top: 175px;
+	}
 
 	.btn {
 		width: 150px;
@@ -1068,7 +1071,7 @@ select.models.active {
 	color: #495057;
 }
 
-/*  ------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
 
 .shape {
 	border-style: solid;

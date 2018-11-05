@@ -740,6 +740,9 @@ table {
   padding: 50px 100px 50px;
   background: rgba(60, 39, 39, 0.7);
   margin-top: 70px; }
+  @media all and (max-width: 767px) {
+    #login-form {
+      margin-top: 175px; } }
   #login-form .btn {
     width: 150px;
     margin: 0 auto;
@@ -1424,7 +1427,7 @@ select.models.active {
   margin-bottom: -15%;
   color: #495057; }
 
-/*  ------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------*/
 .shape {
   border-style: solid;
   border-width: 0 70px 40px 0;
