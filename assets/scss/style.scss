@@ -582,10 +582,12 @@ table {
 .tab-content {
 	border: 1px solid $bg-tr-black2;
 	min-height: 325px;
-	//float: left;
+//	float: left;
 	width: 100%;
 }
-
+.register .tab-content{
+	float: left;
+}
 //------------ accordion -------------
 
 #accordion-style-1 .btn-link {

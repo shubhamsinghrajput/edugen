@@ -1022,6 +1022,9 @@ table {
   min-height: 325px;
   width: 100%; }
 
+.register .tab-content {
+  float: left; }
+
 #accordion-style-1 .btn-link {
   font-weight: 400;
   color: #3c2727;
