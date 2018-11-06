@@ -75,32 +75,103 @@ $(document).ready(function () {
 			}
 		});
 	});
-});
-/*---------------------Edit board choose question type------------*/
-document.getElementById('e-selector').addEventListener('change', function () {
-	var style = this.value == 'individual' ? 'block' : 'none';
-	document.getElementById('hidden_div').style.display = style;
-
-});
-document.getElementById('e-selector1').addEventListener('change', function () {
-	var style = this.value == 'individual' ? 'block' : 'none';
-	if (this.value == 'worksheet') {
-    $('.mark_hidden').hide();
-    $(".mrak-field").prop("disabled", true);
-    $(".mrak-field").val("");
-}
-	document.getElementById('e-selector').value = 'whole-class';
-	document.getElementById('hidden_div').style.display = style;
-});
-$(function () { 
-	$("select.main").on("change", function () {
-		//remove active
-		$("select.models.active").removeClass("active");
-		//check if select vlass exists..if it does show it
-		var subList = $("select.models." + $(this).val());
-		if (subList.length) {
-			//it does! show it by adding active class to it
-			subList.addClass("active");
+	
+	/*-----------------Edit board choose question type----------------*/ 
+	function chooeseQue(){
+		 var eSelector1 = $("#e-selector1 option:selected").val();
+		if( eSelector1 == "worksheet" ){
+			$("#e-selector").css("display","block");
+			var eSelector = $("#e-selector option:selected").val();
+			if(eSelector == "individual" ){
+				$("#hidden_div").removeAttr("style");
+			}
+		}
+	}
+	chooeseQue();
+	$("#e-selector1").on("change",function(){
+		var eSelector1 = $("#e-selector1 option:selected").val();
+		if( eSelector1 == "worksheet" ){
+			$("#e-selector").css("display","block");
+		}
+		else{
+			$("#e-selector").css("display","none");
 		}
 	});
+	$("#e-selector").on("change",function(){ 
+		var eSelector = $("#e-selector option:selected").val();
+		if( eSelector == "individual" ){
+			$("#hidden_div").removeAttr("style");
+		}
+		else{
+			$("#hidden_div").css("display","none");
+		}
+	});
+	
+	
+	
+	/*---------------Edit board choose question type End--------------*/ 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------Edit board choose question type------------*/ 
+//
+//
+//document.getElementById('e-selector').addEventListener('change', function () {
+//	var style = this.value == 'individual' ? 'block' : 'none';
+//	document.getElementById('hidden_div').style.display = style;
+//
+//});
+//document.getElementById('e-selector1').addEventListener('change', function () {
+//	var style = this.value == 'individual' ? 'block' : 'none';
+//	if (this.value == 'worksheet') {
+//    $('.mark_hidden').hide();
+//    $(".mrak-field").prop("disabled", true);
+//    $(".mrak-field").val("");
+//}
+//	document.getElementById('e-selector').value = 'whole-class';
+//	document.getElementById('hidden_div').style.display = style;
+//});
+//$(function () { 
+//	$("select.main").on("change", function () {
+//		//remove active
+//		$("select.models.active").removeClass("active");
+//		//check if select vlass exists..if it does show it
+//		var subList = $("select.models." + $(this).val());
+//		if (subList.length) {
+//			//it does! show it by adding active class to it
+//			subList.addClass("active");
+//		}
+//	});
+//});

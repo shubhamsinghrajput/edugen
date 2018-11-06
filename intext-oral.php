@@ -109,7 +109,7 @@
 							</tfoot>
 						</table>
 						<div class="text-right">
-						    <div class="col-12 pt-3 pr-0"><input type="button" class=" ml-auto  nav-link btn input-btn" value="Add ot Edit-board"> </div>
+						    <div class="col-12 pt-3 pr-0"><input type="button" class=" ml-auto  nav-link btn input-btn" value="Add to Edit-board"> </div>
 							<div class="col-12 pr-0"><a href="edit-board.php" class=" ml-auto nav-link btn input-btn" >Edit board </a></div> 
 						</div> 
 					</form>
