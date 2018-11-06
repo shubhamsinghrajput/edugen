@@ -927,6 +927,9 @@ table {
   .wrapper-card + .wrapper-card {
     border-top: 2px solid #fff; }
 
+.dashboard-bg .wrapper-card {
+  background: transparent; }
+
 /*============Content Page=============*/
 .content-page .chapter-list {
   margin-bottom: 10px; }
