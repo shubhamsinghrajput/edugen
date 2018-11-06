@@ -743,6 +743,9 @@ table {
   @media all and (max-width: 767px) {
     #login-form {
       margin-top: 175px; } }
+  @media all and (max-width: 480px) {
+    #login-form {
+      margin-top: 125px; } }
   #login-form .btn {
     width: 150px;
     margin: 0 auto;
@@ -1019,10 +1022,10 @@ table {
 
 .tab-content {
   border: 1px solid rgba(60, 39, 39, 0.4);
-  min-height: 325px;
-  width: 100%; }
+  min-height: 325px; }
 
 .register .tab-content {
+  clear: both;
   float: left; }
 
 #accordion-style-1 .btn-link {
@@ -1319,7 +1322,12 @@ select.models.active {
       -moz-border-radius: 0;
       -ms-border-radius: 0;
       -o-border-radius: 0;
-      border-radius: 0; } }
+      border-radius: 0;
+      padding-top: 35px; } }
+
+.modal-footer .close {
+  padding: 5px 15px;
+  font-size: 14px; }
 
 .register-left img {
   margin-top: 15%;
