@@ -1566,6 +1566,9 @@ register-left a {
 #edit-form input[type="submit"] {
   width: auto; }
 
+#example_wrapper {
+  margin-bottom: 5px; }
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================1024px====================*/
 @media all and (max-width: 1199px) {
