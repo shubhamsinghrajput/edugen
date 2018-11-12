@@ -37,10 +37,10 @@
 					<img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
 					<h3>Welcome</h3>
 					<p>Question Papers and Worksheets are listed here if you want to edit any of them please choose edit option in preview page. You can delete any of them here.</p>
-					<input type="submit" onClick="document.location.href='content.php'" name="" value="Add New Question" /><br />
+ 					<a href="content.php" class="btn edu-btn" name="">Add New Question</a><br/>
 				</div>
 				<div class="col-lg-9 register-right">
-					<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+					<ul class="nav nav-tabs nav-justified ml-auto" id="myTab" role="tablist">
 						<li class="nav-item">
 							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Question Paper</a>
 						</li>
