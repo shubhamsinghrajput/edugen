@@ -1421,9 +1421,12 @@ select.models.active {
 
 @media all and (max-width: 992px) {
   .register .register-form {
-    padding: 0% 15px;
+    padding: 0% 0;
     margin-top: 15px;
-    height: auto; } }
+    height: auto; }
+  .register .tab-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important; } }
 .btnRegister {
   text-align: center;
   float: right;

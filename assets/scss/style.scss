@@ -1055,10 +1055,16 @@ select.models.active {
 }
 
 @media all and (max-width: 992px) {
-	.register .register-form {
-		padding: 0% 15px;
-		margin-top: 15px;
-		height: auto;
+	.register{
+		.register-form {
+			padding: 0% 0;
+			margin-top: 15px;
+			height: auto;
+		}
+		.tab-content{
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
 	}
 }
 
