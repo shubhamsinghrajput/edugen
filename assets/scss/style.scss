@@ -1311,7 +1311,23 @@ register-left a {
 	display: inline-block;
 	width: auto;
 }
-
+.digi-content .card [class*="card-header-"]{
+    width: 50%;
+    margin: 0 auto;
+}
+.digi-link{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0px 20px;
+    @include transition(0.4s);
+    display: inline-block;
+    &:hover{
+        color: #3c2727;
+        text-decoration: none;
+        background: #fff;
+    } 
+ }
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 
 @import "responsive.scss";

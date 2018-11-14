@@ -23,7 +23,7 @@
     <!-- HEADER END -->
 
     <!-- CONTENT START -->
-    <div class="content pdt book-content">
+    <div class="content dashboard-bg pdt digi-content">
         <div class="breadcrumb-wrap">
             <ul class="breadcrumb container">
                 <li><a href="teacher-dashboard.php">Dashboard</a></li>
@@ -33,45 +33,20 @@
                 <li><a href="digi-content.php">Digi-Content</a></li>
             </ul>
         </div>
-        <div class="container pt-4">
-            <div class="chap-header">
-                <h3 class="unit"><span class="bg-set">Unit 1 Thing About Us</span></h3>
-                <h1>Chapter 1: Living and Non-living Things</h1>
-            </div>
-            <div class="tab-head">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link" href="lesson-plan.php">Lesson plan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="question-bank.php">Question bank</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="word-search.php">Word search</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="brainstorm.php">Brainstorm</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tell-teacher.php">Tell your teacher</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="find-out.php">Find out</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link " href="digi-content.php">Digi-Content</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="tab-content p-4">
-                <section id="find-out" class="p-2">
-                    <h3>Digi-Content</h3>
-                    <section id="find-out" class="p-2">
-                        <div class="embed-responsive embed-responsive-16by9">
+        <div class="container mt-4  pt-4">
+            <div class="card">
+                <div class="row">
+                    <div class="card-header card-header-info card-header-icon">
+                        <h1 class="card-icon ">Digi-Content</h1>
+                    </div>
+                </div>
+                <div class="tab-content card-title pl-3 pr-3">
+                    <section id="find-out">
+                        <div class="embed-responsive  embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="assets/video/1.mp4" allowfullscreen></iframe>
                         </div>
                     </section>
-                </section>
+                </div>
             </div>
         </div>
     </div>
@@ -84,4 +59,5 @@
     <script src="assets/js/site.js">
     </script>
 </body>
+
 </html>

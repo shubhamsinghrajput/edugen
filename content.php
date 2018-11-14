@@ -25,10 +25,13 @@
 	<!-- CONTENT START -->
 	<div class="content pdt ">
 		<div class="breadcrumb-wrap">
-			<ul class="breadcrumb container">
-				<li><a href="teacher-dashboard.php">Dashboard</a></li>
-				<li><a href="content.php">Content</a></li>
-			</ul>
+			<div class="container d-sm-flex justify-content-sm-between">
+			    <ul class="breadcrumb ">
+			        <li><a href="teacher-dashboard.php">Dashboard</a></li>
+			        <li><a href="content.php">Content</a></li>
+			    </ul>
+			    <a href="digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
+			</div>
 		</div>
 		<div class="container pt-4">
 			<div class="row">
