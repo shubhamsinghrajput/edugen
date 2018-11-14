@@ -23,7 +23,7 @@
     <!-- HEADER END -->
 
     <!-- CONTENT START -->
-    <div class="content dashboard-bg pdt digi-content">
+    <div class="content pdt digi-content">
         <div class="breadcrumb-wrap">
             <ul class="breadcrumb container">
                 <li><a href="teacher-dashboard.php">Dashboard</a></li>
@@ -33,21 +33,18 @@
                 <li><a href="digi-content.php">Digi-Content</a></li>
             </ul>
         </div>
-        <div class="container mt-4  pt-4">
-            <div class="card">
-                <div class="row">
-                    <div class="card-header card-header-info card-header-icon">
-                        <h1 class="card-icon ">Digi-Content</h1>
+        <div class="container mt-2  pt-4">
+            <div class="tab-content"  style="border:1px solid #ccc;min-height:auto; padding:10px 0 0!important">
+                <div class="row chap-header">
+                    <h3 class="unit"><span class="bg-set">Digi-content</span></h3>
+                </div>
+                <section class="p-1">
+                    <div class="embed-responsive  embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="assets/video/1.mp4" allowfullscreen></iframe>
                     </div>
-                </div>
-                <div class="tab-content card-title pl-3 pr-3">
-                    <section id="find-out">
-                        <div class="embed-responsive  embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="assets/video/1.mp4" allowfullscreen></iframe>
-                        </div>
-                    </section>
-                </div>
+                </section>
             </div>
+
         </div>
     </div>
     <!-- FOOTER START -->
