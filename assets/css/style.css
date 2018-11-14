@@ -514,7 +514,7 @@ body {
 .h-sticky .navbar {
   padding-top: 5px;
   padding-bottom: 5px; }
-.h-sticky + .content .breadcrumb-wrap {
+.h-sticky ~ .content .breadcrumb-wrap {
   top: 55px;
   padding-top: 4px;
   padding-bottom: 4px; }
