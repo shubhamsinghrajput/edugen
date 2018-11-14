@@ -1328,6 +1328,9 @@ register-left a {
         background: #fff;
     } 
  }
+.tab-content img{
+    max-width: 100%;
+}
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 
 @import "responsive.scss";

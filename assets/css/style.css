@@ -1649,6 +1649,9 @@ register-left a {
     text-decoration: none;
     background: #fff; }
 
+.tab-content img {
+  max-width: 100%; }
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================1024px====================*/
 @media all and (max-width: 1199px) {
