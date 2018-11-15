@@ -10,8 +10,6 @@
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
 	<link href="assets/css/style.css" rel="stylesheet">
@@ -25,15 +23,18 @@
 	<!-- HEADER END -->
 
 	<!-- CONTENT START -->
-	<div class="content pdt book-content">
-		<div class="breadcrumb-wrap">
-			<ul class="breadcrumb container">
-				<li><a href="teacher-dashboard.php">Dashboard</a></li>
-				<li><a href="content.php">Content</a></li>			
-				<li><a href="lesson-plan.php">Chapter 1</a></li>
-				<li><a href="find-out.php">Find out</a></li>				
- 			</ul>
-		</div>
+	<div class="content pdt book-content">	
+        <div class="breadcrumb-wrap">
+            <div class="container d-sm-flex justify-content-sm-between">
+                <ul class="breadcrumb">
+                    <li><a href="teacher-dashboard.php">Dashboard</a></li>
+                    <li><a href="content.php">Content</a></li>			
+                    <li><a href="lesson-plan.php">Chapter 1</a></li>
+                    <li><a href="find-out.php">Find out</a></li>	
+                </ul>
+                <a href="digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
+            </div>
+        </div> 
         <div class="container pt-4">
             <div class="chap-header">
 				<h3 class="unit"><span class="bg-set">Unit 1 Thing About Us</span></h3>

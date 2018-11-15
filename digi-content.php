@@ -23,28 +23,32 @@
     <!-- HEADER END -->
 
     <!-- CONTENT START -->
-    <div class="content pdt digi-content">
+    <div class="content dashboard-bg pdt digi-content">
+       
         <div class="breadcrumb-wrap">
-            <ul class="breadcrumb container">
-                <li><a href="teacher-dashboard.php">Dashboard</a></li>
-                <li><a href="content.php">Content</a></li>
-                <li><a href="lesson-plan.php">Chapter 1</a></li>
-                <li><a href="find-out.php">Find out</a></li>
-                <li><a href="digi-content.php">Digi-Content</a></li>
-            </ul>
-        </div>
-        <div class="container mt-2  pt-4">
-            <div class="tab-content"  style="border:1px solid #ccc;min-height:auto; padding:10px 0 0!important">
-                <div class="row chap-header">
-                    <h3 class="unit"><span class="bg-set">Digi-content</span></h3>
-                </div>
-                <section class="p-1">
-                    <div class="embed-responsive  embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="assets/video/1.mp4" allowfullscreen></iframe>
-                    </div>
-                </section>
+            <div class="container d-sm-flex justify-content-sm-between">
+                <ul class="breadcrumb ">
+                    <li><a href="teacher-dashboard.php">Dashboard</a></li>
+                    <li><a href="digi-content.php">Digi Content</a></li>			
+                </ul>
+                <a href="digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
             </div>
-
+        </div>  
+        <div class="container mt-4  pt-4">
+            <div class="card">
+                <div class="row">
+                    <div class="card-header card-header-info card-header-icon">
+                        <h1 class="card-icon ">Digi-Content</h1>
+                    </div>
+                </div>
+                <div class="tab-content card-title pl-3 pr-3">
+                    <section id="find-out">
+                        <div class="embed-responsive  embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="assets/video/1.mp4" allowfullscreen></iframe>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
     </div>
     <!-- FOOTER START -->
