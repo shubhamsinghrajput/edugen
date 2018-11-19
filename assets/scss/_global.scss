@@ -140,14 +140,15 @@ body,html{
 	.footer-nav li a {
 		color: #fff;
 	}
-
+    ul,ol{
+        list-style: none; 
+    }
 
 }
 
 /*-----------------------------------*/
-ul,
-ol {
-	list-style-type: none;
+img{
+    max-width: 100%;
 }
 
 [type="submit"] {
