@@ -33,12 +33,20 @@
                 <a href="digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
             </div>
         </div>
-        <div class="container">
+        <div class="container p-0">
+<!--
             <section class="smart-content">
-<!--                <embed src="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" style="height:80vh">-->
-           <embed src="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" style="height:80vh">
+                <embed src="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" style="height:80vh">
             </section>  
-        </div>
+            <iframe src="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" style="height:80vh">
+             </iframe>
+-->
+       
+       
+       
+       <object data="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" height="800">
+ </object>
+         </div>
     </div>
     <!-- FOOTER START -->
     <?php include 'footer.php' ?>
