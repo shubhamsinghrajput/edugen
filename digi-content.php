@@ -28,7 +28,10 @@
             <div class="container d-sm-flex justify-content-sm-between">
                 <ul class="breadcrumb ">
                     <li><a href="teacher-dashboard.php">Dashboard</a></li>
-                    <li><a href="digi-content.php">Digi Content</a></li>			
+                    <li><a href="teacher-dashboard.php">Class 7</a></li>		
+                    <li><a href="teacher-dashboard.php">Science</a></li>		
+                    <li><a href="digi-content.php">Digi Content</a></li>
+                    	
                 </ul>
                 <a href="digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
             </div>
@@ -44,10 +47,11 @@
                     </div>
                 </section>
             </div>
+
         </div>
     </div>
     <!-- FOOTER START -->
-    <?php include 'footer.php'?>
+    <?php include 'footer.php' ?>
     <!-- FOOTER END -->
     <!-- Custom scripts for this template -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
