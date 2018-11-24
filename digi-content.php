@@ -44,11 +44,10 @@
                     </div>
                 </section>
             </div>
-
         </div>
     </div>
     <!-- FOOTER START -->
-    <?php include 'footer.php' ?>
+    <?php include 'footer.php'?>
     <!-- FOOTER END -->
     <!-- Custom scripts for this template -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>

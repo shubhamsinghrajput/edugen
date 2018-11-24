@@ -33,7 +33,7 @@
                 <a href="digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <section class="smart-content">
 <!--                <embed src="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" style="height:80vh">-->
            <embed src="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" style="height:80vh">
