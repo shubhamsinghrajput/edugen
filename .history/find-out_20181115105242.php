@@ -74,7 +74,7 @@ taking the cells in an early stage of development and getting them
 to divide in a flask.</li>
                         <li>Spores are the single-celled reproductive unit of non-flowering
 plants. Spores-producing plants include plants such as mosses and
-ferns. Spores are very tiny and light. They can be dispersed by wind wind  
+ferns. Spores are very tiny and light. They can be dispersed by wind
 to new locations where they can grow.</li>
                         </ul>
                 </section>
