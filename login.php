@@ -39,10 +39,10 @@
                         <input class="form-control" id="username" type="text" placeholder="user" required="required">
                     </div>
                     <div class="mb-0 pb-2">
-                        <label>password</label>
+                        <label>Password</label>
                         <input class="form-control" id="teacher-name" type="password" placeholder="password" required="required">
                     </div>
-                    <a class="text-white text-right " style="display:block; font-size:85%"  href="forgot.php">Forgot your password?</a>
+                    <a class="text-white text-right " style="display:block; font-size:85%"  href="forgot.php">Forgot password?</a>
                     <button type="submit" class="btn btn-xl mt-3"><a href="teacher-dashboard.php">Log in</a></button>
                 </form>
             </div>
