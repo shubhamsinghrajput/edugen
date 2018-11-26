@@ -213,7 +213,7 @@
                                         </div>
                                         <div class="mb-0 pb-2">
                                             <label>Class</label>
-                                            <input class="form-control" name="student-class" id="student-class" type="text" placeholder="Section" required="required">
+                                            <input class="form-control" name="student-class" id="student-class" type="text" placeholder="Class" required="required">
                                         </div>
                                         <div class="mb-0 pb-2">
                                             <label>Section</label>
@@ -233,10 +233,7 @@
                                                 <option value="sanskrit">Sanskrit</option>
                                             </select>   
                                         </div>
-                                        <div class="mb-0 pb-2">
-                                            <label>Phone No.</label>
-                                            <input class="form-control" id="student-phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                                        </div>
+                                        
                                         <div class="mb-0 pb-2">
                                             <label>Address</label>
                                             <textarea class="form-control" id="stu_address" rows="5" placeholder="Address" required="required"></textarea>
@@ -251,7 +248,17 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-2 mx-auto"><br> 
-                                    <form name="otp-student-form" id="otp-student-form" >
+                                    <form name="otp-school-form" id="otp-school-form" action="login.php">
+                                        <h4>Otp from School</h4>
+                                        <div class="mb-0 pb-2">
+                                            <label>OTP</label>
+                                            <input class="form-control" id="otp-school" type="text" placeholder="Please enter OTP" required="required">
+                                            <div id="success"></div>   <br>                       
+                                            <button type="submit" class="btn btn-xl" id="student-otp-submit">Send</button> 
+                                        </div>  
+                                    </form>
+                                    <form name="otp-student-form" id="otp-student-form" action="login.php" class="mt-5">
+                                        <h4>Otp from Student</h4>
                                         <div class="mb-0 pb-2">
                                             <label>OTP</label>
                                             <input class="form-control" id="otp-student" type="text" placeholder="Please enter OTP" required="required">
@@ -306,7 +313,7 @@
                                             <label>OTP</label>
                                             <input class="form-control" id="otp-parent" type="text" placeholder="Please enter OTP" required="required">
                                             <div id="success"></div>   <br>                       
-                                            <button type="submit" class="btn btn-xl" id="parent-otp-submit">Send</button> 
+                                            <button type="submit" class="btn btn-xl" id="parent-otp-submit" >Send</button> 
                                         </div>  
                                     </form>
                                 </div>                          
