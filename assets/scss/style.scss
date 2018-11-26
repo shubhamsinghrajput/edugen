@@ -1331,8 +1331,13 @@ register-left a {
 .tab-content img{
     max-width: 100%;
 }
-
-
+.a-style,.a-style:hover,.a-style:active{
+    display:block;
+    font-size:85%;
+    text-align: right;
+    color: #fff;
+    
+}
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 
 @import "responsive.scss";

@@ -38,7 +38,7 @@
                         <label>Email</label>
                         <input class="form-control" id="username" type="text" placeholder="user" required="required">
                     </div>
-                    <a class="text-white text-right " style="display:block;  font-size:85%" href="login.php">Back to login</a>
+                    <a class="a-style" href="login.php">Back to login</a>
                     <button type="submit" class="btn btn-xl mt-3"><a href="teacher-dashboard.php">Submit</a></button>
                 </form>
             </div>

@@ -2001,6 +2001,13 @@ register-left a {
   max-width: 100%;
 }
 
+.a-style, .a-style:hover, .a-style:active {
+  display: block;
+  font-size: 85%;
+  text-align: right;
+  color: #fff;
+}
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================1024px====================*/
 @media all and (max-width: 1199px) {
