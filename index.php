@@ -234,6 +234,10 @@
                                             </select>   
                                         </div>
                                         <div class="mb-0 pb-2">
+                                            <label>Phone No.</label>
+                                            <input class="form-control" id="student-phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                                        </div>
+                                        <div class="mb-0 pb-2">
                                             <label>Address</label>
                                             <textarea class="form-control" id="stu_address" rows="5" placeholder="Address" required="required"></textarea>
                                         </div>                           
@@ -245,7 +249,6 @@
                                         <p>Before you can login, you must active your account with the link sent to your email address.
 
                                     </div>
-
                                 </div>
                                 <div class="col-lg-2 mx-auto"><br> 
                                     <form name="otp-student-form" id="otp-student-form" >
