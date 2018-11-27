@@ -43,7 +43,7 @@
                         <input class="form-control" id="teacher-name" type="password" placeholder="password" required="required">
                     </div>
                     <a class="a-style" href="forgot.php">Forgot password?</a>
-                    <button type="submit" class="btn btn-xl mt-3"><a href="teacher-dashboard.php">Log in</a></button>
+                    <button type="submit" class="btn btn-xl mt-3"><a href="teacher-dashboard.php">Log in</a></button> 
                 </form>
             </div>
         </div>
