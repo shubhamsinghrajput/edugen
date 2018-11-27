@@ -174,7 +174,7 @@
                                     <br>
                                     <form name="otp-school-teacher-form" id="otp-school-teacher-form" action="login.php">
                                         <div class="mb-0 pb-2">
-                                            <label>OTP From school #</label>
+                                            <label>OTP from School #</label>
                                             <input class="form-control" id="otp-school-teacher" type="text" placeholder="Please enter OTP" required="required">
                                             <div id="success"></div>   <br>                       
                                             <button type="submit" class="btn btn-xl" id="otp-school-teacher-submit">Send</button> 
@@ -249,18 +249,16 @@
                                 </div>
                                 <div class="col-lg-2 mx-auto"><br> 
                                     <form name="otp-school-form" id="otp-school-form" action="student-login.php">
-                                        <h4>Otp from School</h4>
-                                        <div class="mb-0 pb-2">
-                                            <label>OTP</label>
+                                         <div class="mb-0 pb-2">
+                                            <label>School Otp</label>
                                             <input class="form-control" id="otp-school" type="text" placeholder="Please enter OTP" required="required">
                                             <div id="success"></div>   <br>                       
                                             <button type="submit" class="btn btn-xl" id="student-otp-submit">Send</button> 
                                         </div>  
                                     </form>
                                     <form name="otp-student-form" id="otp-student-form" action="student-login.php" class="mt-5">
-                                        <h4>Otp from Student</h4>
-                                        <div class="mb-0 pb-2">
-                                            <label>OTP</label>
+                                         <div class="mb-0 pb-2">
+                                            <label>Otp from Student</label>
                                             <input class="form-control" id="otp-student" type="text" placeholder="Please enter OTP" required="required">
                                             <div id="success"></div>   <br>                       
                                             <button type="submit" class="btn btn-xl" id="student-otp-submit">Send</button> 
