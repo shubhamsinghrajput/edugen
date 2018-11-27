@@ -47,25 +47,14 @@
                                 <div class="col-md-4 col-lg-3 mx-auto ml-md-0 mr-md-0 col-sm-6 card-margin">
                                     <figure class="card-overlay">
                                         <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
-                                        <a href="content.php" title="Go to Content"><span>Content</span>
+                                        <a href="student-content.php" title="Go to Content"><span>Content</span>
                                             <span class="click-here"> Click here</span>
                                         </a>
-                                        <a href="question.php" title="Go to Worksheet"><span>Question</span>
-                                            <span class="click-here"> Click here</span>
-                                        </a>
-                                    </figure>
-                                </div>
-                                <div class="col-md-4 col-lg-3 mx-auto ml-md-0 mr-md-0 col-sm-6 card-margin">
-                                    <figure class="card-overlay">
-                                        <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
-                                        <a href="content.php" title="Go to Content"><span>Content</span>
-                                            <span class="click-here"> Click here</span>
-                                        </a>
-                                        <a href="question.php" title="Go to Worksheet"><span>Question</span>
+                                        <a href="stuent-question.php" title="Go to Worksheet"><span>Question</span>
                                             <span class="click-here"> Click here</span>
                                         </a>
                                     </figure>
-                                </div>
+                                </div>                               
                             </div> 
                         </div>
                     </div>
@@ -76,7 +65,7 @@
     <!-- FOOTER START -->
     <?php include 'footer.php' ?>
     <!-- FOOTER END -->
-    <!-- Custom scripts for this template -->
+    <!-- Custom scripts for this templ                                                                                            ate -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/site.js"></script>
