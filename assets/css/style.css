@@ -1645,9 +1645,9 @@ select.models.active {
   color: #383d41;
   max-width: 225px;
   /*
-                   margin-top: 30%;
-                   margin-bottom: 3%;
-   */
+                  margin-top: 30%;
+                  margin-bottom: 3%;
+  */
   cursor: pointer;
 }
 
@@ -2001,11 +2001,28 @@ register-left a {
   max-width: 100%;
 }
 
-.a-style, .a-style:hover, .a-style:active {
+.a-style,
+.a-style:hover,
+.a-style:active {
   display: block;
   font-size: 85%;
   text-align: right;
   color: #fff;
+}
+
+.card-student .card-title {
+  font-size: 42px;
+  padding-top: 45px !important;
+}
+@media all and (max-width: 1199px) {
+  .card-student .card-title {
+    font-size: 35px;
+  }
+}
+@media all and (max-width: 991px) {
+  .card-student .card-title {
+    font-size: 30px;
+  }
 }
 
 /*=============================IMPORT RESPONSIVE CSS===============================*/
@@ -2051,6 +2068,10 @@ register-left a {
 
   ul.breadcrumb li + li:before {
     padding: 5px 4px;
+  }
+
+  .card-student .card-title {
+    font-size: 30px;
   }
 }
 @media all and (max-width: 767px) {
