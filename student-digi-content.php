@@ -18,7 +18,7 @@
 <body class="content-page">
     <!-- HEADER START -->
 
-    <?php include 'header.php' ?>
+    <?php include 'student-header.php' ?>
 
     <!-- HEADER END -->
 
@@ -27,9 +27,9 @@
           <div class="breadcrumb-wrap">
             <div class="container d-sm-flex justify-content-sm-between">
                 <ul class="breadcrumb ">
-                    <li><a href="teacher-dashboard.php">Dashboard</a></li>
-                    <li><a href="teacher-dashboard.php">Class - 5</a></li>
-                    <li><a href="teacher-dashboard.php">Science</a></li>                    
+                    <li><a href="student-dashboard.php">Dashboard</a></li>
+                    <li><a href="student-dashboard.php">Class - 5</a></li>
+                    <li><a href="student-dashboard.php">Science</a></li>                    
                     <li><a href="student-digi-content.php">Digi Content</a></li>			
                 </ul>
                 <a href="student-digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>

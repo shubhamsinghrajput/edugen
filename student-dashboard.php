@@ -15,13 +15,13 @@
 
 <body>
     <!-- HEADER START -->
-    <?php include 'header.php' ?>
+    <?php include 'student-header.php' ?>
     <!-- HEADER END -->
     <!-- CONTENT START -->
     <div class="content pdt dashboard-bg">
         <div class="breadcrumb-wrap">
             <ul class="breadcrumb container">
-                <li><a href="teacher-dashboard.php">Dashboard</a></li>
+                <li><a href="student-dashboard.php">Dashboard</a></li>
             </ul>
         </div>
         <div class="summary-page" id="dashboard">
@@ -50,7 +50,7 @@
                                         <a href="student-content.php" title="Go to Content"><span>Content</span>
                                             <span class="click-here"> Click here</span>
                                         </a>
-                                        <a href="stuent-question.php" title="Go to Worksheet"><span>Question</span>
+                                        <a href="student-question.php" title="Go to Worksheet"><span>Question</span>
                                             <span class="click-here"> Click here</span>
                                         </a>
                                     </figure>

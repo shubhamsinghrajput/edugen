@@ -18,7 +18,7 @@
 <body class="content-page">
     <!-- HEADER START -->
 
-    <?php include 'header.php' ?>
+    <?php include 'student-header.php' ?>
 
     <!-- HEADER END -->
 
@@ -27,10 +27,10 @@
         <div class="breadcrumb-wrap">
             <div class="container d-sm-flex justify-content-sm-between">
                 <ul class="breadcrumb ">
-                    <li><a href="teacher-dashboard.php">Dashboard</a></li>
-                    <li><a href="content.php">Content</a></li>
+                    <li><a href="student-dashboard.php">Dashboard</a></li>
+                    <li><a href="student-content.php">Content</a></li>
                 </ul>
-                <a href="digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
+                <a href="student-digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
             </div>
         </div>
         <div class="container pt-4">
