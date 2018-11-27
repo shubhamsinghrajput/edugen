@@ -194,7 +194,7 @@
                             <hr class="star-dark mb-5">
                             <div class="row">
                                 <div class="col-lg-8 mx-auto">
-                                    <form name="student-form" id="student-form" >
+                                    <form name="student-form" id="student-form" action="student-login.php">
                                         <div class="mb-0 pb-2">
                                             <label>Name</label>
                                             <input class="form-control" name="student-name" id="student-name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
@@ -257,7 +257,7 @@
                                             <button type="submit" class="btn btn-xl" id="student-otp-submit">Send</button> 
                                         </div>  
                                     </form>
-                                    <form name="otp-student-form" id="otp-student-form" action="login.php" class="mt-5">
+                                    <form name="otp-student-form" id="otp-student-form" action="student-login.php" class="mt-5">
                                         <h4>Otp from Student</h4>
                                         <div class="mb-0 pb-2">
                                             <label>OTP</label>
