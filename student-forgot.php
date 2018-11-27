@@ -27,7 +27,7 @@
 <div class="content pdt ">
     <div class="breadcrumb-wrap">
         		 <div class="container">
-        		     <p>Login for teacher</p>
+        		     <p> </p>
         		 </div>
         	</div>
     <div class="container">
@@ -39,7 +39,7 @@
                         <input class="form-control" id="username" type="text" placeholder="user" required="required">
                     </div>
                     <a class="a-style" href="student-login.php">Back to login</a>
-                    <button type="submit" class="btn btn-xl mt-3"><a href="student-dashboard.php">Submit</a></button>
+                    <button type="submit" class="btn btn-xl mt-3"><a href="student-login.php">Submit</a></button>
                 </form>
             </div>
         </div>

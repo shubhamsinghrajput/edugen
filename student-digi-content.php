@@ -28,7 +28,7 @@
             <div class="container d-sm-flex justify-content-sm-between">
                 <ul class="breadcrumb ">
                     <li><a href="student-dashboard.php">Dashboard</a></li>
-                    <li><a href="student-dashboard.php">Class - 5</a></li>
+                    <li><a href="student-dashboard.php">Class - 2</a></li>
                     <li><a href="student-dashboard.php">Science</a></li>                    
                     <li><a href="student-digi-content.php">Digi Content</a></li>			
                 </ul>

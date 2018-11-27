@@ -21,21 +21,20 @@
     <div class="content pdt que-bg">
         <div class="breadcrumb-wrap">
             <ul class="breadcrumb container">
-                <li><a href="teacher-dashboard.php">Dashboard</a></li>
-                <li><a href="question.php">Added Questions</a></li>
+                <li><a href="student-dashboard.php">Dashboard</a></li>
+                <li><a href="student-dashboard.php">Class 2</a></li>
+                <li><a href="student-question.php">Questions Sets</a></li>
             </ul>
         </div>
-        <!--            --------------------------------------------------------------------------------------------------
+        <!----------------------------------------------------------------------------------------------------
        ---------------------------------------------------------------------------------------------------------->
-
-
         <div class="container-fluid register">
             <div class="row">
                 <div class="col-lg-3 register-left">
                     <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
                     <h3>Welcome</h3>
                     <p>Question Papers and Worksheets are listed here if you want to edit any of them please choose edit option in preview page. You can delete any of them here.</p>
-                    <a href="content.php" class="btn edu-btn" name="">Add New Question</a><br />
+                    <a href="student-content.php" class="btn edu-btn" name="">Content</a><br />
                 </div>
                 <div class="col-lg-9 register-right">
                     <ul class="nav nav-tabs nav-justified ml-auto" id="myTab" role="tablist">

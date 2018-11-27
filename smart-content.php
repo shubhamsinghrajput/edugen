@@ -26,6 +26,7 @@
             <div class="container d-sm-flex justify-content-sm-between">
                 <ul class="breadcrumb ">
                     <li><a href="student-dashboard.php">Dashboard</a></li>
+                    <li><a href="student-content.php">Science</a></li>
                     <li><a href="student-content.php">Content</a></li>
                     <li><a href="student-content.php">Chapter 1</a></li>
                     <li><a href="smart-content.php">Smart Content</a></li>
@@ -41,10 +42,7 @@
             <iframe src="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" style="height:80vh">
              </iframe>
 -->
-       
-       
-       
-       <object data="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" height="800">
+          <object data="assets/pdf/Book-1/1_0Inner%20pages.pdf" type="application/pdf" width="100%" height="800">
  </object>
          </div>
     </div>

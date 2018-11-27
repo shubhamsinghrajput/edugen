@@ -27,7 +27,7 @@
 <div class="content pdt ">
     <div class="breadcrumb-wrap">
         		 <div class="container">
-        		     <p>Login for teacher</p>
+        		     <p> </p>
         		 </div>
         	</div>
     <div class="container">
