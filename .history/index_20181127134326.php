@@ -248,7 +248,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-2 mx-auto"><br> 
-                                    <form name="otp-school-form" id="otp-school-form" action="student-login.php">
+                                    <form name="otp-school-form" id="otp-school-form" action="login.php">
                                         <h4>Otp from School</h4>
                                         <div class="mb-0 pb-2">
                                             <label>OTP</label>
