@@ -32,18 +32,14 @@
         	</div>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-8 col-lg-6 mx-auto">
-                <form name="login-form" method="" action="" id="login-form">
+            <div class="col-md-6 pt-5 col-md-8 col-lg-6 mx-auto">
+                <form name="forget-form" method="" action="" id="login-form">
                     <div class="mb-0 pb-2">
                         <label>Email</label>
                         <input class="form-control" id="username" type="text" placeholder="user" required="required">
                     </div>
-                    <div class="mb-0 pb-2">
-                        <label>Password</label>
-                        <input class="form-control" id="teacher-name" type="password" placeholder="password" required="required">
-                    </div>
-                    <a class="a-style" href="student-forgot.php">Forgot password?</a>
-                    <button type="submit" class="btn btn-xl mt-3"><a href="student-dashboard.php">Log in</a></button> 
+                    <a class="a-style" href="student-login.php">Back to login</a>
+                    <button type="submit" class="btn btn-xl mt-3"><a href="student-dashboard.php">Submit</a></button>
                 </form>
             </div>
         </div>
