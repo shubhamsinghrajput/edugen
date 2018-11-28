@@ -14,7 +14,7 @@
     <body>
         <!-- HEADER START -->
 			
-					 	<?php include 'header.php' ?>
+					 	<?php include 'header.php' ?> 
 				 
 		  <!-- HEADER END -->
 
