@@ -48,10 +48,10 @@
                                     <figure class="card-overlay">
                                         <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
                                         <a href="student-content.php" title="Go to Content"><span>Content</span>
-                                            <span class="click-here"> Click here</span>
+                                            <span class="click-here"> Click here </span>
                                         </a>
                                         <a href="student-question.php" title="Go to Worksheet"><span>Question</span>
-                                            <span class="click-here"> Click here</span>
+                                            <span class="click-here"> Click here </span>
                                         </a>
                                     </figure>
                                 </div>                               
