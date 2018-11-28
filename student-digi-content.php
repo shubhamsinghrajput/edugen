@@ -41,9 +41,13 @@
                     <h3 class="unit"><span class="bg-set">Digi-content</span></h3>
                 </div>
                 <section class="p-1">
+
                     <div class="embed-responsive  embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="assets/video/1.mp4" allowfullscreen></iframe>
                     </div>
+
+                   
+
                 </section>
             </div>
         </div>
@@ -54,8 +58,8 @@
     <!-- Custom scripts for this template -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/site.js">
-    </script>
+    <script src="assets/js/site.js"></script>
+
 </body>
 
 </html>
