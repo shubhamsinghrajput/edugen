@@ -30,9 +30,9 @@
                     <li><a href="student-dashboard.php">Dashboard</a></li>
                     <li><a href="student-dashboard.php">Class - 2</a></li>
                     <li><a href="student-dashboard.php">Science</a></li>                    
-                    <li><a href="student-digi-content.php">Digi Content</a></li>			
+                    <li><a href="assets/video/a/index.html">Digi Content</a></li>			
                 </ul>
-                <a href="student-digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
+                <a href="assets/video/a/index.html" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
             </div>
         </div>  
         <div class="container mt-2  pt-4">
@@ -43,7 +43,8 @@
                 <section class="p-1">
 
                     <div class="embed-responsive  embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="assets/video/1.mp4" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="assets/video/Insight%2520Science1/index.swf" allowfullscreen></iframe>
+                        <embed src="assets/video/a/index.swf" height="auto" width="100%">
                     </div>
 
                    
