@@ -31,7 +31,7 @@
                     <li><a href="student-content.php">Chapter 1</a></li>
                     <li><a href="smart-content.php">Smart Content</a></li>
                 </ul>
-                <a href="student-digi-content.php" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
+                <a href="assets/video/class-one/index.html" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
             </div>
         </div>
         <div class="container p-0">
