@@ -32,6 +32,37 @@
                             <div class="row">
                                 <div class="col-lg-10 mx-auto">
                                     <div class="card card-student card-stats">
+                                        <div class="card-header card-header-warning card-header-icon">
+                                            <div class="card-icon">
+                                                Class - 1
+                                            </div>
+                                            <h2 class="card-title">Science</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 mx-auto">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-3 mx-auto ml-md-0 mr-md-0 col-sm-6 card-margin">
+                                    <figure class="card-overlay">
+                                        <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+                                        <a href="student-content.php" title="Go to Content"><span>Content</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                        <a href="student-question.php" title="Go to Worksheet"><span>Question</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                    </figure>
+                                </div>                               
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 my-auto">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto">
+                                    <div class="card card-student card-stats">
                                         <div class="card-header card-header-danger card-header-icon">
                                             <div class="card-icon">
                                                 Class - 2
@@ -47,7 +78,100 @@
                                 <div class="col-md-4 col-lg-3 mx-auto ml-md-0 mr-md-0 col-sm-6 card-margin">
                                     <figure class="card-overlay">
                                         <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
-                                        <a href="student-content.php" title="Go to Content"><span>Content</span>
+                                        <a href="student-content2.php" title="Go to Content"><span>Content</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                        <a href="student-question.php" title="Go to Worksheet"><span>Question</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                    </figure>
+                                </div>                               
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 my-auto">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto">
+                                    <div class="card card-student card-stats">
+                                        <div class="card-header card-header-info card-header-icon">
+                                            <div class="card-icon">
+                                                Class - 3
+                                            </div>
+                                            <h2 class="card-title">Science</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 mx-auto">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-3 mx-auto ml-md-0 mr-md-0 col-sm-6 card-margin">
+                                    <figure class="card-overlay">
+                                        <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+                                        <a href="student-content3.php" title="Go to Content"><span>Content</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                        <a href="student-question.php" title="Go to Worksheet"><span>Question</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                    </figure>
+                                </div>                               
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 my-auto">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto">
+                                    <div class="card card-student card-stats">
+                                        <div class="card-header card-header-success card-header-icon">
+                                            <div class="card-icon">
+                                                Class - 4
+                                            </div>
+                                            <h2 class="card-title">Science</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 mx-auto">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-3 mx-auto ml-md-0 mr-md-0 col-sm-6 card-margin">
+                                    <figure class="card-overlay">
+                                        <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+                                        <a href="student-content4.php" title="Go to Content"><span>Content</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                        <a href="student-question.php" title="Go to Worksheet"><span>Question</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                    </figure>
+                                </div>                               
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 my-auto">
+                            <div class="row">
+                                <div class="col-lg-10 mx-auto">
+                                    <div class="card card-student card-stats">
+                                        <div class="card-header card-header-warning card-header-icon">
+                                            <div class="card-icon">
+                                                Class - 5
+                                            </div>
+                                            <h2 class="card-title">Science</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 mx-auto">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-3 mx-auto ml-md-0 mr-md-0 col-sm-6 card-margin">
+                                    <figure class="card-overlay">
+                                        <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+                                        <a href="student-content5.php" title="Go to Content"><span>Content</span>
                                             <span class="click-here"> Click here </span>
                                         </a>
                                         <a href="student-question.php" title="Go to Worksheet"><span>Question</span>
