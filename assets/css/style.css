@@ -2025,6 +2025,38 @@ register-left a {
   }
 }
 
+.stu-digi-page {
+  width: 100%;
+  overflow-x: hidden;
+}
+.stu-digi-page embed {
+  min-height: 90vh;
+  max-width: 100%;
+}
+@media all and (max-width: 1199px) {
+  .stu-digi-page embed {
+    min-height: 70vh;
+  }
+}
+@media all and (max-width: 991px) {
+  .stu-digi-page embed {
+    min-height: 65vh;
+  }
+}
+@media all and (max-width: 767px) {
+  .stu-digi-page.content.pdt {
+    padding-top: 94px;
+  }
+}
+@media all and (max-width: 480px) {
+  .stu-digi-page.content.pdt {
+    padding-top: 94px;
+  }
+  .stu-digi-page.content.pdt embed {
+    min-height: 55vh;
+  }
+}
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================1024px====================*/
 @media all and (max-width: 1199px) {

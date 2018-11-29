@@ -1349,14 +1349,48 @@ register-left a {
 .card-student {
     .card-title {
         font-size: 42px;
-         padding-top: 45px !important;
+        padding-top: 45px !important;
+
         @media all and (max-width: 1199px) {
             font-size: 35px;
         }
+
         @media all and (max-width:991px) {
             font-size: 30px;
         }
-        
+
+    }
+}
+
+.stu-digi-page {
+    width: 100%;
+    overflow-x: hidden;
+
+    embed {
+        min-height: 90vh;
+        max-width: 100%;
+
+        @media all and (max-width: 1199px) {
+            min-height: 70vh;
+        }
+
+        @media all and (max-width:991px) {
+            min-height: 65vh;
+        }
+    }
+
+    @media all and (max-width:767px) {
+        &.content.pdt{
+            padding-top: 94px;
+        }
+    }
+    @media all and (max-width:480px) {
+        &.content.pdt{
+            padding-top: 94px;
+            embed{
+                min-height: 55vh    ;
+            }
+        }
     }
 }
 
