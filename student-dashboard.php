@@ -40,10 +40,33 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                         <div class="col-9 mx-auto">
                             <div class="row">
+                                <div class="col-md-4 col-lg-3 mx-auto ml-md-0 mr-md-0 col-sm-6 card-margin">
+                                    <figure class="card-overlay">
+                                        <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+                                        <a href="student-content.php" title="Go to Content"><span>Content</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                        <a href="student-question.php" title="Go to Worksheet"><span>Question</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                    </figure>
+                                </div>           
+                                <div class="col-md-4 col-lg-3 mx-auto ml-md-0 mr-md-0 col-sm-6 card-margin">
+                                    <figure class="card-overlay">
+                                        <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
+                                        <a href="student-content.php" title="Go to Content"><span>Content</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                        <a href="student-question.php" title="Go to Worksheet"><span>Question</span>
+                                            <span class="click-here"> Click here </span>
+                                        </a>
+                                    </figure>
+                                </div>           
                                 <div class="col-md-4 col-lg-3 mx-auto ml-md-0 mr-md-0 col-sm-6 card-margin">
                                     <figure class="card-overlay">
                                         <img class="img-fluid" src="assets/img/front-page.jpg" alt="front-page.jpg">
