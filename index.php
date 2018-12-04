@@ -90,7 +90,6 @@
                                     </form>
                                     <div class="mb-0 pb-2"><br> 
                                         <p>Before you can login, you must active your account with the link sent to your email address.
-
                                     </div>
                                 </div>                       
                                 <div class="col-xl-3 col-sm-4 "><br> 
@@ -158,9 +157,7 @@
                                     </form>
                                     <div class="mb-0 pb-2"><br> 
                                         <p>Before you can login, you must active your account with the link sent to your email address.
-
                                     </div>
-
                                 </div>
                                 <div class="col-lg-2 mx-auto"><br> 
                                     <form name="otp-teacher-form" id="otp-teacher-form" action="login.php">
