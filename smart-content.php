@@ -35,6 +35,15 @@
             </div>
         </div>
         <div class="container p-0">
+<!--            <p data-height="265" data-theme-id="0" data-slug-hash="Gtyrw" data-default-tab="js,result" data-user="olgundutkan" data-pen-title="jquery-paint" class="codepen">See the Pen <a href="https://codepen.io/olgundutkan/pen/Gtyrw/">jquery-paint</a> by olgundutkan (<a href="https://codepen.io/olgundutkan">@olgundutkan</a>) on <a href="https://codepen.io">CodePen</a>.</p>-->
+            
+            
+<!--
+            <iframe height='265' scrolling='no' title='jquery-paint' src='//codepen.io/olgundutkan/embed/Gtyrw/?height=265&theme-id=0&default-tab=js,result' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/olgundutkan/pen/Gtyrw/'>jquery-paint</a> by olgundutkan (<a href='https://codepen.io/olgundutkan'>@olgundutkan</a>) on <a href='https://codepen.io'>CodePen</a>.
+            </iframe>
+-->
+            
+<!--            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>-->
 <!--   <embed src="smart-content/samples/book/index.html" type="">-->
         <iframe src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
          </div>
