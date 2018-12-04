@@ -35,15 +35,8 @@
             </div>
         </div>
         <div class="container p-0">
-<!--
-            <section class="smart-content">
-                <embed src="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" style="height:80vh">
-            </section>  
-            <iframe src="assets/pdf/1_0Inner%20pages.pdf" type="application/pdf" width="100%" style="height:80vh">
-             </iframe>
--->
-          <object data="assets/pdf/Book-1/1_0Inner%20pages.pdf" type="application/pdf" width="100%" height="800">
- </object>
+<!--   <embed src="smart-content/samples/book/index.html" type="">-->
+        <iframe src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
          </div>
     </div>
     <!-- FOOTER START -->
