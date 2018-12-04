@@ -88,11 +88,11 @@ function loadApp() {
 		start: function(event, ui) {
 
 			if (!window._thumbPreview) {
-				_thumbPreview = $('<div />', {'class': 'thumbnail'}).html('<div></div>');
-				setPreview(ui.value);
+				_thumbPreview = $('<div />', {'class': ''}).html('');
+//				setPreview(ui.value);
 				_thumbPreview.appendTo($(ui.handle));
 			} else
-				setPreview(ui.value);
+//				setPreview(ui.value);
 
 			moveBar(false);
 
@@ -100,7 +100,7 @@ function loadApp() {
 
 		slide: function(event, ui) {
 
-			setPreview(ui.value);
+//			setPreview(ui.value);
 
 		},
 
