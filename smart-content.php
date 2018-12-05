@@ -34,7 +34,7 @@
     <!-- HEADER END -->
 
     <!-- CONTENT START -->
-    <div class="content pdt pb-0">
+    <div class="content pb-0">
        
         <div class="breadcrumb-wrap">
             <div class="container d-sm-flex justify-content-sm-between">
