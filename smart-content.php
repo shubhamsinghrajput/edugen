@@ -24,7 +24,7 @@
     <div class="content pdt pb-0">
         <div class="breadcrumb-wrap">
             <div class="container d-sm-flex justify-content-sm-between">
-                <ul class="breadcrumb ">
+                <ul class="breadcrumb">
                     <li><a href="student-dashboard.php">Dashboard</a></li>
                     <li><a href="student-content.php">Science</a></li>
                     <li><a href="student-content.php">Content</a></li>
