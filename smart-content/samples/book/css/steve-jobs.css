@@ -129,11 +129,11 @@ body, ul, table, form{
 	-o-transition: -webkit-box-shadow 0.5s;
 	-ms-transition: -ms-box-shadow 0.5s;
 
-	-webkit-box-shadow:0 0 10px #999;
-	-moz-box-shadow:0 0 10px #999;
-	-ms-box-shadow:0 0 10px #999;
-	-o-box-shadow:0 0 10px #999;
-	box-shadow:0 0 10px #999;
+	-webkit-box-shadow:0 0 10px #000;
+	-moz-box-shadow:0 0 10px #000;
+	-ms-box-shadow:0 0 10px #000;
+	-o-box-shadow:0 0 10px #000;
+	box-shadow:0 0 10px #000;
 }
 
 .sj-book .page{

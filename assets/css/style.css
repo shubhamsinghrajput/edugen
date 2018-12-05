@@ -2070,6 +2070,10 @@ register-left a {
   object-fit: cover;
 }
 
+.bg-blue {
+  background: #143c75;
+}
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================1024px====================*/
 @media all and (max-width: 1199px) {
