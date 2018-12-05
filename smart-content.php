@@ -45,7 +45,7 @@
             
 <!--            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>-->
 <!--   <embed src="smart-content/samples/book/index.html" type="">-->
-        <iframe src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
+        <iframe src="smart-content5/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
          </div>
     </div>
     <!-- FOOTER START -->
