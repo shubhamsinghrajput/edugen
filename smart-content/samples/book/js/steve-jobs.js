@@ -235,3 +235,10 @@ function isChrome() {
 	return navigator.userAgent.indexOf('Chrome')!=-1;
 
 }
+$(document).ready(function(){
+     $("img").wrap( "<div class='zoom-pic'></div>" );
+    $("button.a ").click(function(){ 
+      $("img").css({"transform":"scale(1.5, 1.5)","display":"inline"});
+        $(".book-content").css("overflow","auto");
+   }); 
+});
