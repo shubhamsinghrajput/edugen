@@ -155,7 +155,8 @@ form {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 999;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     
 }
 .zoom-pic img{
@@ -403,3 +404,21 @@ form {
 .sj-book .shadow{
             background: #fff !important;
         }*/
+
+
+/*---------------------------------------*/
+::-webkit-scrollbar {
+    width: 5px;
+    background: #fff;
+  }
+
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+      background: #333;
+  }

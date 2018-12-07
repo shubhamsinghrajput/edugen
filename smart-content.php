@@ -56,8 +56,15 @@
         </div>
         <canvas class="full-len" id="canvas" style="position:absolute;"></canvas>
         
-        <div id="wrap" class="container pdt">
-            <iframe style="position:relative; z-index:2;" src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
+        <div id="wrap" class="container-fluid my-auto pdt">
+            <div class="row">
+                <div class="col-md-10">
+                    <iframe style="position:relative; z-index:2;" src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
+                </div>
+                <div class="col-md-2">
+                    <h2>dklfjsldfj</h2>
+                </div>
+            </div>
         </div>
     </div>
  
