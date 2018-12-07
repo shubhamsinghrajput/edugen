@@ -1,0 +1,110 @@
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+body {
+	font-family: calibri, sans-serif;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+}
+
+#stage {
+	margin: 0 auto;
+	width: 524px;
+	text-align: center;
+}
+
+.flip {
+	-webkit-perspective: 800;
+	position: relative;
+	margin: 50px auto;
+	height: 220px;
+	width: 121px;
+	float: left;
+	margin: 5px;
+}
+
+.flip .card.flipped {
+	-webkit-transform: rotatey(-180deg);
+}
+
+.flip .card {
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: 0.5s;
+}
+
+.flip .card .face {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+	z-index: 2;
+}
+
+.flip .card .front {
+	position: absolute;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.flip .card .back {
+	-webkit-transform: rotatey(-180deg);
+	cursor: pointer;
+}
+
+.button {
+	text-align: center;
+	background-color: cadetblue;
+	font-size: 2.25em;
+	padding: 0.25em;
+	width: 220px;
+	margin: 0 auto;
+	margin-top: 30px;
+	color: white;
+	font-weight: bold;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.green {
+	background: lightgreen;
+	border: solid 5px  lightgreen;
+}
+
+.pink {
+	background: pink;
+	border: solid 5px  pink;
+}
+
+.blue {
+	background: skyblue;
+	border: solid 5px  skyblue;
+}
+
+.gray {
+	background: lightgray;
+	border: solid 5px  lightgray;
+}
+
+.red {
+	background: lightsalmon;
+	border: solid 5px  lightsalmon;
+}
+
+.purple {
+	background: thistle;
+	border: solid 5px  thistle;
+}
+
+.
