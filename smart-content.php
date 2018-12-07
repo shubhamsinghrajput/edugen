@@ -23,29 +23,41 @@
             background: hsl(235, 60%, 13%);
             /*#051a41;*/
         }
-        a.link,a.link:hover{
+
+       .list-unstyled a,
+        .list-unstyled a:hover {
             text-decoration: none;
-            background: rgba(255,255,255,1) ;
-            color: #000;
+            //background: #3c2727;
+            color: #fff;
             display: block;
             padding: 7px 15px;
             margin-bottom: 1px;
             font-weight: 500;
             text-align: center;
         }
-        #sidebar{
-            background:rgba(255,255,255,0.3) ;
-            color:#fff;
-             height:calc(100vh - 42px);
+        .list-unstyled li li a, .list-unstyled li li a:hover {
+            background:#fff;
+            color: #3c2727;
+            
+        }
+        #sidebar {
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            height: calc(100vh - 42px);
             overflow: auto;
             position: fixed;
             right: 0;
-            width: 250px;
+            width: 200px;
             top: 42px;
             padding: 15px;
         }
-        .list-unstyled{
+
+        .list-unstyled {
             margin: 0 -15px;
+        }
+
+        .book-wrapper {
+            width: calc(100% - 200px);
         }
     </style>
     <style>
@@ -55,7 +67,6 @@
     #frame { -ms-zoom: 0.7; -moz-transform: scale(0.7); -moz-transform-origin: 0px 0; -o-transform: scale(0.7); -o-transform-origin: 0 0; -webkit-transform: scale(0.7); -webkit-transform-origin: 0 0; }
 */
     </style>
-
 </head>
 
 <body class="content-page">
@@ -80,37 +91,58 @@
             </div>
         </div>
         <canvas class="full-len" id="canvas" style="position:absolute; min-height:calc(100vh + 80px);"></canvas>
-
         <div id="wrap" class="container-fluid my-auto ">
-            <div class="row">
-                <div class="col-md-10">
-                    <iframe style="position:relative; z-index:2;" src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
-                </div>
-                <div class="col-md-2">
-                    <div class="wrapper">
-                        <!-- Sidebar -->
-                        <nav id="sidebar">
-                            <div class="sidebar-header">
-                                <h3 class="mb-4">Bootstrap Sidebar</h3>
-                            </div>
-
-                            <ul class="list-unstyled components">
-                                 <li class="active">
-                                    <a class="link" href="#">Home</a>
-                                <li>
-                                    <a class="link" href="#">Portfolio</a>
-                                </li>
-                                <li>
-                                    <a class="link" href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </nav>
-
-                    </div>
-                </div>
+            <div class="book-wrapper">
+                <iframe style="position:relative; z-index:2;" src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
             </div>
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3 class="mb-4">Digi Links</h3>
+                </div>
+
+                <ul class="list-unstyled components pt-4">
+                     <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li>
+                                <a href="#">Home 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Home 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Home 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li>
+                                <a href="#">Page 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Page 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Page 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
         </div>
-    </div>
+     </div>
 
     <!-- Custom scripts for this template -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
