@@ -54,7 +54,7 @@
                 <a href="assets/video/class-one/index.html" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
             </div>
         </div>
-        <canvas class="full-len" id="canvas" style="position:absolute;"></canvas>
+        <canvas class="full-len" id="canvas" style="position:absolute; min-height:calc(100vh + 80px);"></canvas>
         
         <div id="wrap" class="container-fluid my-auto pdt">
             <div class="row">
