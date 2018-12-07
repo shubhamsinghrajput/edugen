@@ -33,11 +33,11 @@
             padding: 7px 15px;
             margin-bottom: 1px;
             font-weight: 500;
-            text-align: center;
-        }
+         }
         .list-unstyled li li a, .list-unstyled li li a:hover {
             background:#fff;
             color: #3c2727;
+            padding: 7px 30px;
             
         }
         #sidebar {
@@ -52,8 +52,11 @@
             padding: 15px;
         }
 
-        .list-unstyled {
+        .list-unstyled{
             margin: 0 -15px;
+        }
+        .list-unstyled ul{
+            margin: 0;
         }
 
         .book-wrapper {
