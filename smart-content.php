@@ -24,9 +24,11 @@
         
     </style>
     <style>
+/*
     #wrap { width: 1620px; height: 3500px; padding: 0; position:relative; left:-100px; top:0px; overflow: hidden; }
     #frame { width: 1620px; height: 3500px; position:relative; left:-65px; top:0px; }
     #frame { -ms-zoom: 0.7; -moz-transform: scale(0.7); -moz-transform-origin: 0px 0; -o-transform: scale(0.7); -o-transform-origin: 0 0; -webkit-transform: scale(0.7); -webkit-transform-origin: 0 0; }
+*/
 </style>
 
 </head>
@@ -55,7 +57,7 @@
         <canvas class="full-len" id="canvas" style="position:absolute;"></canvas>
         
         <div id="wrap" class="container pdt">
-            <iframe style="position:relative; z-index:2;" src="smart-content4/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
+            <iframe style="position:relative; z-index:2;" src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
         </div>
     </div>
  
