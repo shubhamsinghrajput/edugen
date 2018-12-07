@@ -156,8 +156,12 @@ form {
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 999;
     overflow: auto;
+    
 }
-
+.zoom-pic img{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
 .zoom-img {
     margin: -190px 48px;
     display: inline;

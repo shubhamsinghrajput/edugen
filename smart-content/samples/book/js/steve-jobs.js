@@ -235,10 +235,10 @@ function isChrome() {
 	return navigator.userAgent.indexOf('Chrome')!=-1;
 
 }
-$(document).ready(function(){
-     $("img").wrap( "<div class='zoom-pic'></div>" );
-    $("button.a ").click(function(){ 
-      $("img").css({"width":"145%","height":" 145%","max-width":"none"});
-        $(".book-content").css("overflow","auto");
-   }); 
-});
+//$(document).ready(function(){
+//     $("img").wrap( "<div class='zoom-pic'></div>" );
+//    $("button.a ").click(function(){ 
+//      $("img").css({"width":"145%","height":" 145%","max-width":"none"});
+//        $(".book-content").css("overflow","auto");
+//   }); 
+//});
