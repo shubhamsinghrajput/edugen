@@ -58,12 +58,14 @@
         .book-wrapper {
             width: calc(100% - 200px);
         }
-        .modal-open .modal.modal-center {
-            display: flex!important;
+        
+        .modal-open .modal.modal-center.show {
+            display: flex !important; 
             align-items: center!important;            
         }        
         .modal{
             padding: 0 !important;
+            display: none ;
         }
         .modal-dialog {
             max-width: 80% !important;
@@ -338,36 +340,23 @@
             </div>
         </div>
     </div>
-    <div class="modal fade modal-center" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade modal-center" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Fill in the blank</h5>
+                    <h5 class="modal-title" id="exampleModalLabel2">Fill in the blank</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
+                
                 <div class="modal-body">
                     <iframe src="memory-game/fill-blank/index.html" frameborder="0" width="800px" height="500px"></iframe>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade modal-center" id="myModal30" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Paint</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <iframe src="memory-game/paint/index.html" frameborder="0" width="800px" height="500px"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <!-- Custom scripts for this template -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
