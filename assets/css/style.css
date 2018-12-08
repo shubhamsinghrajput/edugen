@@ -2074,6 +2074,10 @@ register-left a {
   background: #143c75;
 }
 
+.modal-dialog {
+  margin: 0 auto;
+}
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================1024px====================*/
 @media all and (max-width: 1199px) {

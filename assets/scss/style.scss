@@ -1405,7 +1405,9 @@ register-left a {
 .bg-blue{
     background: #143c75;
 }
-
+.modal-dialog{
+    margin: 0 auto;
+}
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 
 @import "responsive.scss";

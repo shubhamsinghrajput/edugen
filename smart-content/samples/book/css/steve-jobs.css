@@ -132,11 +132,11 @@ form {
     -o-transition: -webkit-box-shadow 0.5s;
     -ms-transition: -ms-box-shadow 0.5s;
 
-    -webkit-box-shadow:inset 0 0 100px #fff;
-    -moz-box-shadow:inset 0 0 100px #fff;
-    -ms-box-shadow:inset 0 0 100px #fff;
-    -o-box-shadow:inset 0 0 100px #fff;
-    box-shadow:inset 0 0 100px #fff;
+    -webkit-box-shadow: inset 0 0 100px #fff;
+    -moz-box-shadow: inset 0 0 100px #fff;
+    -ms-box-shadow: inset 0 0 100px #fff;
+    -o-box-shadow: inset 0 0 100px #fff;
+    box-shadow: inset 0 0 100px #fff;
 }
 
 .sj-book .page {
@@ -157,12 +157,14 @@ form {
     z-index: 999;
     overflow-y: auto;
     overflow-x: hidden;
-    
+
 }
-.zoom-pic img{
+
+.zoom-pic img {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
+
 .zoom-img {
     margin: -190px 48px;
     display: inline;
@@ -407,18 +409,22 @@ form {
 
 
 /*---------------------------------------*/
+a.ui-slider-handle.ui-corner-all.ui-state-default {
+    z-index: 10000 !important;
+}
+
 ::-webkit-scrollbar {
     width: 5px;
     background: #000;
-  }
+}
 
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-  }
+}
 
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-      background: #fff;
-  }
+    background: #fff;
+}

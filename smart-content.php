@@ -72,14 +72,14 @@
             max-width: 80% !important;
             height: 80%;
             padding: 0;
-            margin: 0;
+            margin: 0 auto;
         }
 
         .modal-content {
             border-radius: 0 !important;
             height: 100%;
         }
-
+        
 
     </style>
 </head>
