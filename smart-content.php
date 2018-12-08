@@ -129,7 +129,6 @@
                             </li>
                         </ul>
                     </li>
-<!--
                     <li class="active">
                         <a href="#chap2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 2</a>
                         <ul class="collapse list-unstyled" id="chap2">
@@ -144,8 +143,6 @@
                             </li>
                         </ul>
                     </li>
--->
-<!--
                     <li class="active">
                         <a href="#chap3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 3</a>
                         <ul class="collapse list-unstyled" id="chap3">
@@ -160,7 +157,6 @@
                             </li>
                         </ul>
                     </li>
--->
 <!--
                     <li class="active">
                         <a href="#chap4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 4</a>

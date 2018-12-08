@@ -298,7 +298,6 @@
                                     </form>
                                     <div class="mb-0 pb-2"><br> 
                                         <p>Before you can login, you must active your account with the link sent to your email address.
-
                                     </div>
                                 </div>
                                 <div class="col-lg-2 mx-auto"><br> 
