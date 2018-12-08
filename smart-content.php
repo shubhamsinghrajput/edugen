@@ -58,13 +58,10 @@
         .book-wrapper {
             width: calc(100% - 200px);
         }
-        
         .modal-open .modal.modal-center {
             display: flex!important;
-            align-items: center!important;
-            
-        }
-        
+            align-items: center!important;            
+        }        
         .modal{
             padding: 0 !important;
         }
@@ -74,23 +71,18 @@
             padding: 0;
             margin: 0 auto;
         }
-
         .modal-content {
             border-radius: 0 !important;
             height: 100%;
-        }
-        
-
+        }  
     </style>
 </head>
 
 <body class="content-page">
     <!--    <canvas id='c' style="z-index:-1;"></canvas>-->
-
     <!-- HEADER START -->
     <!--    <?php include 'student-header.php' ?>-->
     <!-- HEADER END -->
-
     <!-- CONTENT START -->
     <div class="content pb-0" style="padding-top:25px;">
         <div class="breadcrumb-wrap">
@@ -108,23 +100,23 @@
         <canvas class="full-len" id="canvas" style="position:absolute; min-height:calc(100vh + 80px);"></canvas>
         <div class="container-fluid my-auto ">
             <div class="book-wrapper">
-                <iframe style="position:relative; z-index:2;" src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>                
+                <iframe style="position:relative; z-index:2;" src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
             </div>
             <nav id="sidebar">
                 <div class="sidebar-header">
                     <h3 class="mb-2">Digi Links</h3>
                 </div>
-
                 <ul class="list-unstyled components pt-2">
                     <li class="active">
-                        <a href="#" data-toggle="modal" data-target="#myModal">2</a>
+                        <a href="#" data-toggle="modal" data-target="#myModal">Match Game</a>
                     </li>
-                     <li class="active">
-                         <a href="#chap1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 1</a>
+                    <li class="active">
+                        <a href="#" data-toggle="modal" data-target="#myModal2">Fill in the blank</a>
+                    </li>
+                    <li class="active">
+                        <a href="#chap1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 1</a>
                         <ul class="collapse list-unstyled" id="chap1">
                             <li>
-                                
-                                
                                 <a href="#" data-toggle="modal" data-target="#myModal">2</a>
                             </li>
                             <li>
@@ -135,6 +127,7 @@
                             </li>
                         </ul>
                     </li>
+<!--
                     <li class="active">
                         <a href="#chap2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 2</a>
                         <ul class="collapse list-unstyled" id="chap2">
@@ -149,6 +142,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 3</a>
                         <ul class="collapse list-unstyled" id="chap3">
@@ -163,6 +158,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 4</a>
                         <ul class="collapse list-unstyled" id="chap4">
@@ -177,6 +174,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 5</a>
                         <ul class="collapse list-unstyled" id="chap5">
@@ -191,6 +190,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 6</a>
                         <ul class="collapse list-unstyled" id="chap6">
@@ -205,6 +206,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap7" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 7</a>
                         <ul class="collapse list-unstyled" id="chap7">
@@ -219,6 +222,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap8" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 8</a>
                         <ul class="collapse list-unstyled" id="chap8">
@@ -233,6 +238,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap9" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 9</a>
                         <ul class="collapse list-unstyled" id="chap9">
@@ -247,6 +254,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap10" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 10</a>
                         <ul class="collapse list-unstyled" id="chap10">
@@ -261,6 +270,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap11" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 11</a>
                         <ul class="collapse list-unstyled" id="chap11">
@@ -275,6 +286,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap12" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 12</a>
                         <ul class="collapse list-unstyled" id="chap12">
@@ -289,6 +302,8 @@
                             </li>
                         </ul>
                     </li>
+-->
+<!--
                     <li class="active">
                         <a href="#chap13" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 13</a>
                         <ul class="collapse list-unstyled" id="chap13">
@@ -303,58 +318,11 @@
                             </li>
                         </ul>
                     </li>
-<!--
-                    <li class="active">
-                        <a href="#chap1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 1</a>
-                        <ul class="collapse list-unstyled" id="chap1">
-                            <li>
-                                <a href="#">1</a>
-                            </li>
-                            <li>
-                                <a href="#">2</a>
-                            </li>
-                            <li>
-                                <a href="#">3</a>
-                            </li>
-                        </ul>
-                    </li>
--->
-<!--
-                    <li>
-                        <a href="#">About</a>
-                    </li>
--->
-<!--
-                    <li>
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 2</a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li>
-                                <a href="#">Page 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 3</a>
-                            </li>
-                        </ul>
-                    </li>
--->
-<!--
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
--->
-<!--
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
 -->
                 </ul>
             </nav>
-
         </div>
-     </div>
+    </div>
     <div class="modal fade modal-center" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -364,26 +332,47 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">                   
-                        <iframe src="memory-game/index.html" frameborder="0" width="800px" height="500px"></iframe>                   
+                <div class="modal-body">
+                    <iframe src="memory-game/game-1/index.html" frameborder="0" width="800px" height="500px"></iframe>
                 </div>
-<!--
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
--->
             </div>
         </div>
     </div>
-
+    <div class="modal fade modal-center" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Fill in the blank</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="memory-game/fill-blank/index.html" frameborder="0" width="800px" height="500px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-center" id="myModal30" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Paint</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="memory-game/paint/index.html" frameborder="0" width="800px" height="500px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Custom scripts for this template -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src='https://rawgit.com/akm2/simplex-noise.js/master/simplex-noise.js'></script>
     <script src="assets/js/bubble.js"></script>
     <script src="assets/js/site.js"></script>
-
 </body>
-
 </html>
