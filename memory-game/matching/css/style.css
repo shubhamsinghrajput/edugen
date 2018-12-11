@@ -2,7 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+*,*:after,*:before{
+    box-sizing: border-box;
+}
 html,
 body,
 div,
@@ -138,28 +140,23 @@ table {
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  ackground: #1D1F20;
+  background: #1D1F20;
   background: #1D1F20;
 }
 
-section {
-  /* position: relative;
-  top: 100px;
-  margin: 0 auto;
-  width: 960px;
-  height: 420px; */
-}
+
 
 ul {
   list-style: none;
-  /* width: 240px; */
+   width: 240px; 
   font-size: 0.75em;
-  position: absolute;
-  padding: 10px;
+/*  position: absolute;*/
+/*  padding: 10px;*/
 }
 
-ul#terms {
+ul#terms,ul#defs {
   /* left: 100px; */
+    width: 100%;
 }
 
 ul#defs {
@@ -168,11 +165,13 @@ ul#defs {
 
 ul#terms li {
   background: #808080;
+    width: 100%;
   color: #ffffff;
 }
 
 ul#defs li {
-  color: #808080
+  color: #808080;
+    width: 100%;
 }
 
 li {
@@ -181,7 +180,7 @@ li {
   width: 100px;
   margin: 10px;
   background: white;
-  text-align: center;
+/*  text-align: center;*/
   cursor: pointer;
   transition: all .2s ease-out;
   border-radius: 0;
@@ -201,6 +200,7 @@ li[data-selected] {
   outline: 4px solid #00A0DF;
 }
 
+/*
 div#counter {
   position: absolute;
   left: 600px;
@@ -208,14 +208,16 @@ div#counter {
   font-size: 3em;
   display: none;
 }
+*/
 
 ul li span {
-  width: 100px;
+  width: 100%;
   height: 100px;
-  display: table-cell;
+/*  display: table-cell;*/
+    display: block;
   vertical-align: middle;
-  text-align: center;
-  padding: 10px;
+/*  text-align: center;*/
+  padding: 5px;
   padding-top: 0;
   transform: none;
   transition: opacity 0.2s ease-out;
@@ -280,4 +282,10 @@ button:focus {
 .fadeOut li {
   transition: transform .5s ease-out;
   transform: rotateX(360deg);
+}
+.row{
+    width: 100%;
+}
+body{
+    position: relative;
 }
