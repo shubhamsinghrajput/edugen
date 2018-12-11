@@ -161,7 +161,7 @@ function zoomOut() {
 		completeTransition = function(e) {
 			$('#book-zoom').unbind(transitionEnd);
 			$('.sj-book').turn('disable', false);
-			$('body').css({'overflow': 'auto'});
+			$('body').css({'overflow-Y': 'auto'});
 			moveBar(false);
 		};
 
@@ -235,3 +235,10 @@ function isChrome() {
 	return navigator.userAgent.indexOf('Chrome')!=-1;
 
 }
+//$(document).ready(function(){
+//     $("img").wrap( "<div class='zoom-pic'></div>" );
+//    $("button.a ").click(function(){ 
+//      $("img").css({"width":"145%","height":" 145%","max-width":"none"});
+//        $(".book-content").css("overflow","auto");
+//   }); 
+//});
