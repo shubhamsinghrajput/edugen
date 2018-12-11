@@ -102,7 +102,7 @@
         <canvas class="full-len" id="canvas" style="position:absolute; min-height:calc(100vh + 80px);"></canvas>
         <div class="container-fluid my-auto ">
             <div class="book-wrapper">
-                <iframe style="position:relative; z-index:2;" src="smart-content+/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
+                <iframe style="position:relative; z-index:2;" src="smart-content/samples/book/index.html" frameborder="0" width="100%" height="700px"></iframe>
             </div>
             <nav id="sidebar">
                 <div class="sidebar-header">
