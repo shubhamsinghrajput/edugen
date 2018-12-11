@@ -66,6 +66,7 @@ form {
     font-family: "Stempel-Garamond-W01-Roman";
     font-size: 16px;
     margin: -15px -20px;
+/*    margin: 0;*/
 }
 
 .sj-book blockquote {
@@ -103,6 +104,10 @@ form {
 .sj-book .zoom-this:hover {
     opacity: 0.9;
     cursor: pointer;
+}
+.sj-book .zoom-this{
+    max-width: 92%  !important;
+    padding-top: 4% !important; 
 }
 
 .sj-book .book-content p {
