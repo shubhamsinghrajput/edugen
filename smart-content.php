@@ -116,6 +116,9 @@
                         <a href="#" data-toggle="modal" data-target="#myModal2">Fill in the blank</a>
                     </li>
                     <li class="active">
+                        <a href="#" data-toggle="modal" data-target="#myModal3">Matching</a>
+                    </li>
+                    <li class="active">
                         <a href="#chap1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 1</a>
                         <ul class="collapse list-unstyled" id="chap1">
                             <li>
@@ -348,6 +351,22 @@
                 
                 <div class="modal-body">
                     <iframe src="memory-game/fill-blank/index.html" frameborder="0" width="800px" height="500px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-center" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">Fill in the blank</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="memory-game/matching/index.html" frameborder="0" width="800px" height="500px"></iframe>
                 </div>
             </div>
         </div>
