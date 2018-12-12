@@ -115,9 +115,11 @@
                     <li class="active">
                         <a href="#" data-toggle="modal" data-target="#myModal2">Fill in the blank</a>
                     </li>
+<!--
                     <li class="active">
                         <a href="#" data-toggle="modal" data-target="#myModal3">Matching</a>
                     </li>
+-->
                     <li class="active">
                         <a href="#chap1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Chapter 1</a>
                         <ul class="collapse list-unstyled" id="chap1">
@@ -355,6 +357,7 @@
             </div>
         </div>
     </div>
+<!--
     <div class="modal fade modal-center" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -371,6 +374,7 @@
             </div>
         </div>
     </div>
+-->
    
     <!-- Custom scripts for this template -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
