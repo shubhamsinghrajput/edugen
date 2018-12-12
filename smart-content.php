@@ -94,7 +94,7 @@
                     <li><a href="student-content.php">Science</a></li>
                     <li><a href="student-content.php">Content</a></li>
                     <li><a href="student-content.php">Chapter 1</a></li>
-                    <li><a href="smart-content.php">Smart+ Content</a></li>
+                    <li><a href="smart-content.php">Smart Content</a></li>
                 </ul>
                 <a href="assets/video/class-one/index.html" class="digi-link mr-2 ml-sm-4 mt-2 mt-sm-0">Digi Content</a>
             </div>
