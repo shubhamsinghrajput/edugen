@@ -289,7 +289,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="col-md-12 col-12">
                                             <div class="offer offer-radius offer-warning">
                                                 <div class="shape">
