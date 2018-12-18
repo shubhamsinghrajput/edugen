@@ -65,8 +65,7 @@ form {
 .sj-book .book-content {
     font-family: "Stempel-Garamond-W01-Roman";
     font-size: 16px;
-    margin: -15px -20px;
-/*    margin: 0;*/
+    margin: 26px;
 }
 
 .sj-book blockquote {
@@ -105,9 +104,9 @@ form {
     opacity: 0.9;
     cursor: pointer;
 }
-.sj-book .zoom-this{
-    max-width: 92%  !important;
-    padding-top: 4% !important; 
+.sj-book .zoom-this {
+    max-width: 100% !important;
+    padding-top: 0% !important;
 }
 
 .sj-book .book-content p {
@@ -137,11 +136,11 @@ form {
     -o-transition: -webkit-box-shadow 0.5s;
     -ms-transition: -ms-box-shadow 0.5s;
 
-    -webkit-box-shadow: inset 0 0 100px #fff;
-    -moz-box-shadow: inset 0 0 100px #fff;
-    -ms-box-shadow: inset 0 0 100px #fff;
-    -o-box-shadow: inset 0 0 100px #fff;
-    box-shadow: inset 0 0 100px #fff;
+    -webkit-box-shadow: 0 0 10px #999;
+    -moz-box-shadow: 0 0 10px #999;
+    -ms-box-shadow: 0 0 10px #999;
+    -o-box-shadow: 0 0 10px #999;
+    box-shadow: 0 0 10px #999;
 }
 
 .sj-book .page {
@@ -190,16 +189,17 @@ form {
     -ms-box-shadow: 0 0 20px #999;
     box-shadow: 0 0 20px #999;
 }
+ 
 
 .sj-book .p1,
 .sj-book .p2,
 .sj-book .p3,
-.sj-book .p-s-last,
-.sj-book .p-last {
+.sj-book .p115,
+.sj-book .p116 {
     background-color: white;
     background-image: url(../pics/book-covers.jpg) !important;
 }
-
+ 
 .sj-book .p1 {
     background-position: 0 0;
 }
@@ -265,12 +265,12 @@ form {
     background-position: -1920px 0 !important;
 }
 
-.sj-book .p114 {
-    background: url(../pics/102.jpg);
+.sj-book .p115 {
+    background-position: -960px 0 !important;
 }
 
-.sj-book .p115 {
-    background: url(../pics/103.jpg);
+.sj-book .p116 {
+    background-position: -1440px 0 !important;
 }
 
 .sj-book .hard {
@@ -281,10 +281,6 @@ form {
     -moz-box-shadow: none;
     -ms-box-shadow: none;
     box-shadow: none;
-    /*
-    -webkit-background-size: contain;
-    background-size: contain ;
-*/
 }
 
 .sj-book .page-wrapper {
@@ -331,7 +327,7 @@ form {
 .sj-book .page-number {
     color: #999;
     width: 100%;
-    bottom: 0px;
+    bottom: 25px;
     position: absolute;
     display: block;
     text-align: center;
@@ -407,13 +403,6 @@ form {
     background-repeat: repeat-y;
 }
 
-/*
-.sj-book .shadow{
-            background: #fff !important;
-        }*/
-
-
-/*---------------------------------------*/
 a.ui-slider-handle.ui-corner-all.ui-state-default {
     z-index: 10000 !important;
 }
@@ -432,4 +421,7 @@ a.ui-slider-handle.ui-corner-all.ui-state-default {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
     background: #fff;
+}
+.p114 img{
+    display: none;
 }
