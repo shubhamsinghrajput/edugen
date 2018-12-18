@@ -24,8 +24,8 @@
 			<div depth="5" class="hard front-side"> <div class="depth"></div> </div>
 			<div class="own-size"></div>
 			<div class="own-size even"></div>
-			<div class="  fixed back-side p111"> <div class="depth"></div> </div>
-			<div class=" p112"></div>
+			<div class="fixed back-side p115"> <div class="depth"></div> </div>
+			<div class=" p116"> </div>
 		</div>
 	</div>
 	<div id="slider-bar" class="turnjs-slider">
@@ -85,38 +85,40 @@ function loadApp() {
 
 	// Slider
 
-	$( "#slider" ).slider({
-		min: 1,
-		max: 100,
+       $("#slider").slider({
+                min: 1,
+                max: 100,
 
-		start: function(event, ui) {
+                start: function(event, ui) {
 
-			if (!window._thumbPreview) {
-				_thumbPreview = $('<div />', {'class': 'thumbnail'}).html('<div></div>');
-				setPreview(ui.value);
-				_thumbPreview.appendTo($(ui.handle));
-			} else
-				setPreview(ui.value);
+                    if (!window._thumbPreview) {
+                        _thumbPreview = $('<div />', {
+                            'class': ''
+                        }).html('');
+                        //				setPreview(ui.value);
+                        _thumbPreview.appendTo($(ui.handle));
+                    } else
+                        //				setPreview(ui.value);
 
-			moveBar(false);
+                        moveBar(false);
 
-		},
+                },
 
-		slide: function(event, ui) {
+                slide: function(event, ui) {
 
-			setPreview(ui.value);
+                    //			setPreview(ui.value);
 
-		},
+                },
 
-		stop: function() {
+                stop: function() {
 
-			if (window._thumbPreview)
-				_thumbPreview.removeClass('show');
-			
-			$('.sj-book').turn('page', Math.max(1, $(this).slider('value')*2 - 2));
+                    if (window._thumbPreview)
+                        _thumbPreview.removeClass('show');
 
-		}
-	});
+                    $('.sj-book').turn('page', Math.max(1, $(this).slider('value') * 2 - 2));
+
+                }
+            });
 
 
 	// URIs
@@ -171,7 +173,7 @@ function loadApp() {
 		autoCenter: true,
 		gradients: true,
 		duration: 1000,
-		pages: 114,
+		pages: 115,
 		when: {
 			turning: function(e, page, view) {
 				
@@ -210,9 +212,9 @@ function loadApp() {
 					$('.sj-book .p2').removeClass('fixed');
 
 				if (page<book.turn('pages'))
-					$('.sj-book .p111').addClass('fixed');
+					$('.sj-book .p115').addClass('fixed');
 				else
-					$('.sj-book .p111').removeClass('fixed');
+					$('.sj-book .p115').removeClass('fixed');
 
 				Hash.go('page/'+page).update();
 					
