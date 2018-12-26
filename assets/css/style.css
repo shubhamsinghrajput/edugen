@@ -2089,6 +2089,25 @@ register-left a {
   margin: 0 auto;
 }
 
+.info-warning {
+  min-height: 200px;
+  border: 2px solid #fff;
+  background: #fff;
+  position: fixed;
+  text-align: center;
+  font-size: 22px;
+  padding: 50px 25px;
+  top: 50%;
+  left: 50%;
+  color: #333;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 /*===================1024px====================*/
 @media all and (max-width: 1199px) {

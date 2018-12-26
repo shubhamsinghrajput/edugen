@@ -1408,6 +1408,21 @@ register-left a {
 .modal-dialog{
     margin: 0 auto;
 }
+.info-warning{ 
+    min-height: 200px;
+    border: 2px solid #fff;
+    background: #fff;
+//    display: none;
+    position: fixed;
+    text-align: center;
+    font-size: 22px;
+    padding:50px 25px;
+    top: 50%;
+    left: 50%;
+    color: #333;
+    width: 80%;
+    @include transform(translate(-50% , -50%));
+}
 /*=============================IMPORT RESPONSIVE CSS===============================*/
 
 @import "responsive.scss";

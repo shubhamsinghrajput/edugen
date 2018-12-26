@@ -28,8 +28,8 @@
                 </div>
                 <div class="own-size"></div>
                 <div class="own-size even"></div>
-                <!--			<div class="hard fixed back-side p114"> <div class="depth"></div> </div>-->
-                <!--			<div class="hard p115"></div>-->
+                			<div class="hard fixed back-side p147"> <div class="depth"></div> </div>
+                			<div class="hard p148"></div>
             </div>
         </div>
         <div id="slider-bar" class="turnjs-slider">
@@ -179,7 +179,7 @@
                 autoCenter: true,
                 gradients: true,
                 duration: 1000,
-                pages: 145,
+                pages: 146,
                 when: {
                     turning: function(e, page, view) {
 
@@ -218,9 +218,9 @@
                             $('.sj-book .p2').removeClass('fixed');
 
                         if (page < book.turn('pages'))
-                            $('.sj-book .p111').addClass('fixed');
+                            $('.sj-book .p147').addClass('fixed');
                         else
-                            $('.sj-book .p111').removeClass('fixed');
+                            $('.sj-book .p147').removeClass('fixed');
 
                         Hash.go('page/' + page).update();
 
